@@ -4,6 +4,9 @@
     padding: 0;
     font-family: 'Bungee', cursive;
 }
+body{
+    overflow-x: hidden;
+}
 header.topo{
     display: flex;
     background-color: rgb(0, 110, 255);
@@ -123,6 +126,8 @@ div.foto img{
 
 main.meio{
     display: flex;
+    min-height: 100px;
+    
 }
 /*--APRESENTAÇÃO--*/
 div.apresentacao{
@@ -155,32 +160,61 @@ div.informacoes{
 }
 /*--INFO ESCOLARIDADE--*/
 div.escolaridade{
-    background-color: aqua;
+    background-color: rgba(211, 211, 211, 0.6);
     display: flex;
     align-items: center;
-    min-height: 100px;
+    min-height: 360px;
 }
 /*--TITULO DA AREA DE ESCOLARIDADE--*/
-div.escolaridade h1{
+div.escolaridade h1.titulo_escolaridade{
+    margin-top: -100px;
+}
+div.utilizo{
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+    width: 300px;
+    height: 350px;
     position: relative;
-    margin-left: 400px;
-    margin-top: -200px;
-    height: 50px;
-    text-align: center;
-    
+    left: 465px;
+    border-radius: 5px;
+}
+div.utilizo h1{
+    position: relative;
+    top: px;
+    left: px;
 }
 /*--INFO PROJETOS--*/
 div.projetos{
     background-color: blueviolet;
     display: flex;
     align-items: center;
-    min-height: 100px;
+    min-height: 360px;
 }
 /*--TITULO DA AREA DE PROJETOS--*/
 div.projetos h1{
     position: relative;
     margin-left: 433px;
-    margin-top: -200px;
+    margin-top: -300px;
     height: 50px;
     text-align: center;
+}
+div#TodosProjetos{
+    top: 40px;
+}
+div#carousel{
+    box-sizing: border-box;
+    align-items: center;
+   overflow: hidden;
+   width: 140px;
+   height: 140px;
+}
+div.itens{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+div.itens img{
+    object-fit: cover;
+    width: 140px;
+    height: 140px;
 }
