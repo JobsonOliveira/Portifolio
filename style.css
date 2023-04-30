@@ -1,0 +1,186 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bungee', cursive;
+}
+header.topo{
+    display: flex;
+    background-color: rgb(0, 110, 255);
+    text-align: center;
+    height: 185px;
+}
+header.topo h1.MeuNome{
+    position: relative;
+    left: 400px;
+    height: 60px;
+    
+}
+
+h1 span{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    overflow: hidden;
+    
+    -webkit-animation: bounce 0.9s ease infinite alternate;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgb(17, 0, 255);
+}
+
+h1 span:nth-child(2) {
+	-webkit-animation-delay: 0.2s;
+}
+	
+h1 span:nth-child(3) {
+	-webkit-animation-delay: 0.3s;
+}
+	
+h1 span:nth-child(4) {
+	-webkit-animation-delay: 0.6s;
+}
+	
+h1 span:nth-child(5) {
+	-webkit-animation-delay: 0.8s;
+}
+
+h1 span:nth-child(6) {
+	-webkit-animation-delay: 1.0s;
+}
+	
+h1 span:nth-child(7) {
+	-webkit-animation-delay: 1.2s;
+}
+	
+h1 span:nth-child(8) {
+	-webkit-animation-delay: 1.4s;
+}
+	
+h1 span:nth-child(9) {
+	-webkit-animation-delay: 1.6s;
+}
+	
+h1 span:nth-child(10) {
+	-webkit-animation-delay: 1.8s;
+}
+h1 span:nth-child(11) {
+	-webkit-animation-delay: 2.0s;
+}
+	
+h1 span:nth-child(12) {
+	-webkit-animation-delay: 2.2s;
+}
+	
+h1 span:nth-child(13) {
+	-webkit-animation-delay: 2.4s;
+}
+	
+h1 span:nth-child(14) {
+	-webkit-animation-delay: 2.6s;
+}
+
+h1 span:nth-child(15) {
+	-webkit-animation-delay: 2.8s;
+}
+	
+h1 span:nth-child(16) {
+	-webkit-animation-delay: 3.0s;
+}
+	
+h1 span:nth-child(17) {
+	-webkit-animation-delay: 3.2s;
+}
+@-webkit-keyframes bounce {
+	100%{
+	top: -20px;
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 	0 #ccc, 0 20px 10px rgb(0, 247, 255);
+	    }
+	}
+
+/*--CONTATOS--*/
+header.topo img{
+    width: 80px;
+    position: relative;
+    top: 100px;
+    left: -520px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+div.contato img.GitHub{
+    border-radius: 100%;
+}
+div.contato img.Instagram{
+    border-radius: 100%;
+}
+/*--MINHA FOTO--*/
+div.foto img{
+    position: relative;
+    left: 220px;
+    top: 3px;
+    width: 180px;
+    border-radius: 100%;
+}
+/*-----------------------------MEIO DO SITE-------------------*/
+
+main.meio{
+    display: flex;
+}
+/*--APRESENTAÇÃO--*/
+div.apresentacao{
+    background-color: #fffdfd;
+    position: relative;
+    display: grid;
+    max-width: 300px;
+    min-height: 500px;
+    border-top: 2px solid rgba(95, 94, 94, 0.2);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+div.apresentacao h1{
+    margin-left: 50px;
+}
+div.apresentacao p{
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+}
+/*--DIV ESCOLARIDADE--*/
+div.informacoes{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: grid;
+    width: 1050px;
+    min-height: 500px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+/*--INFO ESCOLARIDADE--*/
+div.escolaridade{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+}
+/*--TITULO DA AREA DE ESCOLARIDADE--*/
+div.escolaridade h1{
+    position: relative;
+    margin-left: 400px;
+    margin-top: -200px;
+    height: 50px;
+    text-align: center;
+    
+}
+/*--INFO PROJETOS--*/
+div.projetos{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+}
+/*--TITULO DA AREA DE PROJETOS--*/
+div.projetos h1{
+    position: relative;
+    margin-left: 433px;
+    margin-top: -200px;
+    height: 50px;
+    text-align: center;
+}
