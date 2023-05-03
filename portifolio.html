@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Roboto+Mono:wght@700&family=Vina+Sans&display=swap" rel="stylesheet">
+    <title>Portifólio de Jobson</title>
+    <style>
+    	*{
+   	margin: 0;
+    	padding: 0;
+    	font-family: 'Bungee', cursive;
+	}
+	body{
+    		/*overflow-x: hidden;*/
+	}
+	
+	/*--RESOLUÇÃO MÁXIMA (PC)--*/
+	@media (min-width: 1300px){
+	header.topo{
+  		display: flex;
+    		background-color: rgb(0, 110, 255);
+    		text-align: center;
+    		height: 185px;
+	}
+	header.topo h1.MeuNome{
+    		position: relative;
+    		left: 400px;
+    		height: 60px;
+    
+	}
+
+	h1 span{
+    		position: relative;
+    		top: 1px;
+    		display: inline-block;
+    		overflow: hidden;
+    
+    		-webkit-animation: bounce 0.9s ease infinite alternate;
+    		text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgb(17, 0, 255);
+	}
+
+	h1 span:nth-child(2) {
+		-webkit-animation-delay: 0.2s;
+	}
+	
+	h1 span:nth-child(3) {
+		-webkit-animation-delay: 0.3s;
+	}
+	
+	h1 span:nth-child(4) {
+		-webkit-animation-delay: 0.6s;
+	}
+	
+	h1 span:nth-child(5) {
+		-webkit-animation-delay: 0.8s;
+	}
+
+	h1 span:nth-child(6) {
+		-webkit-animation-delay: 1.0s;
+	}
+	
+	h1 span:nth-child(7) {
+	-webkit-animation-delay: 1.2s;
+	}
+	
+	h1 span:nth-child(8) {
+		-webkit-animation-delay: 1.4s;
+	}
+	
+	h1 span:nth-child(9) {
+		-webkit-animation-delay: 1.6s;
+	}
+	
+	h1 span:nth-child(10) {
+		-webkit-animation-delay: 1.8s;
+	}
+	h1 span:nth-child(11) {
+		-webkit-animation-delay: 2.0s;
+	}
+	
+	h1 span:nth-child(12) {
+		-webkit-animation-delay: 2.2s;
+	}
+	
+	h1 span:nth-child(13) {
+		-webkit-animation-delay: 2.4s;
+	}
+	
+	h1 span:nth-child(14) {
+		-webkit-animation-delay: 2.6s;
+	}
+
+	h1 span:nth-child(15) {
+		-webkit-animation-delay: 2.8s;
+	}
+	
+	h1 span:nth-child(16) {
+		-webkit-animation-delay: 3.0s;
+	}
+	
+	h1 span:nth-child(17) {
+		-webkit-animation-delay: 3.2s;
+	}
+	h1 span:nth-child(18) {
+		-webkit-animation-delay: 3.4s;
+	}
+	@-webkit-keyframes bounce {
+		100%{
+		top: -20px;
+		text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 	0 #ccc, 0 20px 10px rgb(0, 247, 255);
+	    	}
+	}
+
+	/*--CONTATOS--*/
+	header.topo img{
+   		width: 80px;
+    		position: relative;
+    		top: 100px;
+    		left: -520px;
+    		cursor: pointer;
+    		margin-left: 20px;
+	}
+	div.contato img.GitHub{
+    		border-radius: 100%;
+	}
+		div.contato img.Instagram{
+    		border-radius: 100%;
+	}
+	/*--MINHA FOTO--*/
+	div.foto img{
+    		position: relative;
+    		left: 220px;
+    		top: 3px;
+    		width: 180px;
+    		border-radius: 100%;
+	}
+/*-----------------------------MEIO DO SITE-------------------*/
+
+	main.meio{
+    		display: flex;
+    		min-height: 100px;
+    
+	}
+	/*--APRESENTAÇÃO--*/
+	div.apresentacao{
+    		background-color: #fffdfd;
+    		position: relative;
+    		display: grid;
+    		max-width: 300px;
+    		min-height: 500px;
+    		border-top: 2px solid rgba(95, 94, 94, 0.2);
+    		box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+	}
+	div.apresentacao h1{
+    		margin-left: 50px;
+	}
+	div.apresentacao p{
+    		font-size: 15px;
+    		font-family: 'Roboto Mono', monospace;
+    		padding-left: 5px;
+    		padding-right: 5px;
+    		text-align: left;
+	}
+	/*--DIV ESCOLARIDADE--*/
+	div.informacoes{
+    		background-color: rgb(255, 255, 255);
+    		position: relative;
+    		display: grid;
+   		width: 1050px;
+    		min-height: 500px;
+    		box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+	}
+	/*--INFO ESCOLARIDADE--*/
+	div.escolaridade{
+    		background-color: rgba(211, 211, 211, 0.6);
+    		display: flex;
+    		align-items: center;
+    		min-height: 360px;
+	}
+	/*--TITULO DA AREA DE ESCOLARIDADE--*/
+	div.escolaridade h1.titulo_escolaridade{
+    		margin-top: -100px;
+	}
+	div.utilizo{
+    		background-color: rgba(255, 255, 255, 0.6);
+    		box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+    		width: 300px;
+    		height: 350px;
+    		position: relative;
+    		left: 465px;
+    		border-radius: 5px;
+	}
+	div.utilizo h1{
+    		position: relative;
+   		top: px;
+    		left: px;
+	}
+	/*--INFO PROJETOS--*/
+	div.projetos{
+    		background-color: blueviolet;
+    		display: flex;
+    		align-items: center;
+    		min-height: 360px;
+	}
+	/*--TITULO DA AREA DE PROJETOS--*/
+	div.projetos h1{
+    		position: relative;
+    		margin-left: 433px;
+    		margin-top: -300px;
+    		height: 50px;
+    		text-align: center;
+	}
+	div#TodosProjetos{
+    		top: 40px;
+	}
+	div#carousel{
+    		box-sizing: border-box;
+    		align-items: center;
+   		overflow: hidden;
+   		width: 140px;
+   		height: 140px;
+	}
+	div.itens{
+    		display: flex;
+    		transition: transform 0.5s ease-in-out;
+    		transform: translateX(0);
+	}
+	div.itens img{
+    		object-fit: cover;
+    		width: 140px;
+    		height: 140px;
+	}
+}
+
+/*------------------------ESCALA PARA NOTEBOOK------------------------*/
+/*--RESOLUÇÃO MÁXIMA (PC)--*/
+	@media (min-width: 1200px){
+	header.topo{
+  		display: flex;
+    		background-color: #001573;
+    		text-align: center;
+    		height: 185px;
+	}
+	header.topo h1.MeuNome{
+    		position: relative;
+    		margin-top: 20px;
+    		left: 400px;
+    		height: 60px;
+    
+	}
+
+	h1 span{
+    		position: relative;
+    		top: 1px;
+    		display: inline-block;
+    		overflow: hidden;
+    
+    		-webkit-animation: bounce 0.9s ease infinite alternate;
+    		text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgb(17, 0, 255);
+	}
+
+	h1 span:nth-child(2) {
+		-webkit-animation-delay: 0.2s;
+	}
+	
+	h1 span:nth-child(3) {
+		-webkit-animation-delay: 0.3s;
+	}
+	
+	h1 span:nth-child(4) {
+		-webkit-animation-delay: 0.6s;
+	}
+	
+	h1 span:nth-child(5) {
+		-webkit-animation-delay: 0.8s;
+	}
+
+	h1 span:nth-child(6) {
+		-webkit-animation-delay: 1.0s;
+	}
+	
+	h1 span:nth-child(7) {
+		-webkit-animation-delay: 1.2s;
+	}
+	
+	h1 span:nth-child(8) {
+		-webkit-animation-delay: 1.4s;
+	}
+	
+	h1 span:nth-child(9) {
+		-webkit-animation-delay: 1.6s;
+	}
+	
+	h1 span:nth-child(10) {
+		-webkit-animation-delay: 1.8s;
+	}
+	h1 span:nth-child(11) {
+		-webkit-animation-delay: 2.0s;
+	}
+	
+	h1 span:nth-child(12) {
+		-webkit-animation-delay: 2.2s;
+	}
+	
+	h1 span:nth-child(13) {
+		-webkit-animation-delay: 2.4s;
+	}
+	
+	h1 span:nth-child(14) {
+		-webkit-animation-delay: 2.6s;
+	}
+
+	h1 span:nth-child(15) {
+		-webkit-animation-delay: 2.8s;
+	}
+	
+	h1 span:nth-child(16) {
+		-webkit-animation-delay: 3.0s;
+	}
+	
+	h1 span:nth-child(17) {
+		-webkit-animation-delay: 3.2s;
+	}
+	h1 span:nth-child(18) {
+		-webkit-animation-delay: 3.4s;
+	}
+	@-webkit-keyframes bounce {
+		100%{
+		top: -20px;
+		text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 	0 #ccc, 0 20px 10px rgba(255, 255, 255, 0);
+	    	}
+	}
+
+	/*--REDES SOCIÁIS--*/
+	header.topo img{ 
+   		width: 80px;
+    		position: relative;
+    		top: 100px;
+    		left: -520px;
+    		cursor: pointer;
+    		margin-left: 20px;
+	}
+	div.contato img.GitHub{
+    		border-radius: 100%;
+	}
+		div.contato img.Instagram{
+    		border-radius: 100%;
+	}
+	/*--MINHA FOTO--*/
+	div.foto img{
+    		position: relative;
+    		left: 100px;
+    		top: 3px;
+    		width: 180px;
+    		border-radius: 100%;
+	}
+/*-----------------------------MEIO DO SITE-------------------*/
+
+	main.meio{
+    		display: flex;
+    		min-height: 100px;
+    
+	}
+	/*--APRESENTAÇÃO--*/
+	div.apresentacao{
+    		background-color: #FFB600;
+    		position: relative;
+    		display: grid;
+    		max-width: 300px;
+    		min-height: 500px;
+    		border-top: 2px solid rgba(95, 94, 94, 0.2);
+    		box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+	}
+	div.apresentacao h1{
+    		margin-left: 50px;
+	}
+	div.apresentacao p{
+		margin-top: -250px;
+    		font-size: 15px;
+    		padding-left: 5px;
+    		padding-right: 5px;
+    		text-align: left;
+	}
+	/*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
+	div.informacoes{
+    		position: relative;
+    		display: grid;
+   		width: 1050px;
+    		min-height: 500px;
+	}
+	/*--INFO ESCOLARIDADE--*/
+	div.escolaridade{
+		box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+    		background-color: #FFB600;
+    		display: flex;
+    		min-height: 360px;
+	}
+	/*--TITULO DA AREA DE ESCOLARIDADE--*/
+	div.escolaridade h1.titulo_escolaridade{
+    		position: relative;
+    		left: 200px;
+	}
+	
+	/*--UTILIZO--*/
+	div.utilizo{
+    		background-color: #109EFF;
+    		box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+    		width: 300px;
+    		height: 350px;
+    		position: relative;
+    		top: 5px;
+    		left: 5px;
+    		border-radius: 5px;
+	}
+	div.utilizo h1{
+    		position: relative;
+    		left: 60px;
+	}
+	div.utilizo img{
+		position: flex;
+		width: 70px;
+		padding: 15px;
+	}
+	div.utilizo img.css,
+	div.utilizo img.js,
+	div.utilizo img.git{
+		position: flex;
+		width: 48px;
+	}
+	div.utilizo img.node,
+	div.utilizo img.sql{
+		position: flex;
+		width: 80px;
+	}
+	/*--INFO PROJETOS--*/
+	div.projetos{
+    		background-color: blueviolet;
+    		display: flex;
+    		align-items: center;
+    		min-height: 360px;
+	}
+	/*--TITULO DA AREA DE PROJETOS--*/
+	div.projetos h1{
+    		position: relative;
+    		margin-left: 433px;
+    		margin-top: -300px;
+    		height: 50px;
+    		text-align: center;
+	}
+	div#TodosProjetos{
+    		top: 40px;
+	}
+	div#carousel{
+    		box-sizing: border-box;
+    		align-items: center;
+   		overflow: hidden;
+   		width: 140px;
+   		height: 140px;
+	}
+	div.itens{
+    		display: flex;
+    		transition: transform 0.5s ease-in-out;
+    		transform: translateX(0);
+	}
+	div.itens img{
+    		object-fit: cover;
+    		width: 140px;
+    		height: 140px;
+	}
+	footer.rodape{
+		background-color: red;
+		display: flex;
+		height: 50px;
+		align-items: center;
+	}
+}
+
+    </style>
+    
+</head>
+<body class="pagina">
+    <header class="topo">
+        <h1 class="MeuNome">
+        	<span>J</span>
+		<span>O</span>
+		<span>B</span>
+		<span>S</span>
+		<span>O</span>
+		<span>N</span>
+		<span>-</span>
+		<span>D</span>
+		<span>E</span>
+		<span>-</span>
+        	<span>O</span>
+		<span>L</span>
+		<span>I</span>
+		<span>V</span>
+		<span>E</span>
+		<span>I</span>
+		<span>R</span>
+		<span>A</span>
+        </h1>
+        <!--IMAGENS DE REDES SOCIÁIS-->
+        <div class="contato">
+            <img src="GitHub2.png" class="GitHub" alt="Foto do GitHub">
+            <img src="linkedin.png" class="linkedin" alt="Foto do linkedin">
+            <img src="gmail.png" class="Gmail" alt="Foto do Gmail">
+            <img src="instagram2.png" class="Instagram" alt="Foto do Instagram">
+        </div>
+        <div class="foto">
+            <img src="minhafoto.png" alt="Foto de Jobson">
+        </div>
+    </header>
+    <main class="meio">
+         <!--INFORMAÇÕES-->
+         <div class="informacoes">
+            <!--escolaridade-->
+            <div class="escolaridade">
+                <div class="utilizo">
+                    <h1>UTILIZO:</h1>
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-java-2038875-1720088.png" alt="Logo do Java">
+                    <img src="html5.png" alt="Logo HTML5">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" class= "css" alt="Logo CSS3">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Javascript-shield.svg" class="js" alt="Logo JavaScript">
+                    <img src="https://upload.wikimedia.org/wikipedia/hy/a/a9/MySQL.png" class="sql" alt="Logo MySQL">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Node.js_logo_2015.svg" class="node" alt="Logo Node.js">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-git-225996.png" class="git" alt="Logo Git">
+                </div>
+                <h1 class="titulo_escolaridade">ESCOLARIDADE:</h1>
+            </div>
+            <!--projetos-->
+            <div class="projetos">
+                <div id="carousel">
+                   <div class="itens" id="img">
+                        <img src="TelaRegiste.png" alt="Foto de tela de registro">
+                        <img src="TelaLogin.png" alt="Foto de tela de Login">
+                        <img src="TelaPrincipal.png" alt="Foto da tela principal">
+                   </div>
+                </div>
+            </div>
+        </div>
+         <!--BREVE APRESENTAÇÃO-->
+         <div class="apresentacao">
+            <h1>Sobre mim:</h1>
+            <p>&nbsp;&nbsp; Sou um rapaz calmo, esforçado e amante da tecnologia, procuro sempre aplicar meus conhecimentos da melhor forma possível em tudo que faço, para poder fornecer o melhor resultado possível e superar até minhas próprias expectativas.<br><br> &nbsp;&nbsp;Conheci o mundo da programação durante o ensino médio, onde iniciei um curso de lógica de programação, em Janeiro de 2022 começei meus estudos de Análise e desenvolvimento de sistemas na UNIBRA-Centro Universitário Brasileiro, onde passei a amar ainda mais o mundo da programação.
+            </p>
+        </div>
+    </main>
+    <footer class="rodape">
+	<div>
+	<p>&#128512;
+Muito obrigado por vizualizar o meu portifólio &#128512;</p>
+	</div>
+    </footer>
+</body>
+</html>
