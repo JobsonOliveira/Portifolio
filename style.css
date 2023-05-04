@@ -1,220 +1,993 @@
-
 *{
     margin: 0;
-    padding: 0;
-    font-family: 'Bungee', cursive;
-}
-body{
-    overflow-x: hidden;
-}
-header.topo{
-    display: flex;
-    background-color: rgb(0, 110, 255);
-    text-align: center;
-    height: 185px;
-}
-header.topo h1.MeuNome{
+     padding: 0;
+     font-family: 'Bungee', cursive;
+ }
+ body{
+         /*overflow-x: hidden;*/
+ }
+ 
+ /*--DE 1350 A 1500 PÍXELS--*/
+ @media (min-width: 1350px) and (max-width: 1500px){
+    header.topo{
+          display: flex;
+          background-color: #001573;
+          text-align: center;
+          height: 185px;
+  }
+  header.topo h1.MeuNome{
+          position: relative;
+          margin-top: 20px;
+          left: 150px;
+          height: 60px;
+          color: #00eeff;
+  
+  }
+ 
+  h1 span{
+          position: relative;
+          top: 1px;
+          display: inline-block;
+          overflow: hidden;
+  
+          -webkit-animation: bounce 0.9s ease infinite alternate;
+          text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #FFB600;
+  }
+ 
+  h1 span:nth-child(2) {
+      -webkit-animation-delay: 0.2s;
+  }
+  
+  h1 span:nth-child(3) {
+      -webkit-animation-delay: 0.3s;
+  }
+  
+  h1 span:nth-child(4) {
+      -webkit-animation-delay: 0.6s;
+  }
+  
+  h1 span:nth-child(5) {
+      -webkit-animation-delay: 0.8s;
+  }
+ 
+  h1 span:nth-child(6) {
+      -webkit-animation-delay: 1.0s;
+  }
+  
+  h1 span:nth-child(7) {
+      -webkit-animation-delay: 1.2s;
+  }
+  
+  h1 span:nth-child(8) {
+      -webkit-animation-delay: 1.4s;
+  }
+  
+  h1 span:nth-child(9) {
+      -webkit-animation-delay: 1.6s;
+  }
+  
+  h1 span:nth-child(10) {
+      -webkit-animation-delay: 1.8s;
+  }
+  h1 span:nth-child(11) {
+      -webkit-animation-delay: 2.0s;
+  }
+  
+  h1 span:nth-child(12) {
+      -webkit-animation-delay: 2.2s;
+  }
+  
+  h1 span:nth-child(13) {
+      -webkit-animation-delay: 2.4s;
+  }
+  
+  h1 span:nth-child(14) {
+      -webkit-animation-delay: 2.6s;
+  }
+ 
+  h1 span:nth-child(15) {
+      -webkit-animation-delay: 2.8s;
+  }
+  
+  h1 span:nth-child(16) {
+      -webkit-animation-delay: 3.0s;
+  }
+  
+  h1 span:nth-child(17) {
+      -webkit-animation-delay: 3.2s;
+  }
+  h1 span:nth-child(18) {
+      -webkit-animation-delay: 3.4s;
+  }
+  @-webkit-keyframes bounce {
+      100%{
+      top: -20px;
+      text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #2978ee;
+          }
+  }
+ 
+  /*--REDES SOCIÁIS--*/
+  header.topo img{ 
+          width: 50px;
+          position: relative;
+          top: 130px;
+          left: 0px;
+          cursor: pointer;
+          margin-left: 20px;
+  }
+  div.contato img.GitHub{
+          border-radius: 100%;
+  }
+      div.contato img.Instagram{
+          border-radius: 100%;
+  }
+  /*--DIV QUE CONTEM A FOTO--*/
+  div.foto{
     position: relative;
-    left: 400px;
-    height: 60px;
-    
-}
-
-h1 span{
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    overflow: hidden;
-    
-    -webkit-animation: bounce 0.9s ease infinite alternate;
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgb(17, 0, 255);
-}
-
-h1 span:nth-child(2) {
-	-webkit-animation-delay: 0.2s;
-}
-	
-h1 span:nth-child(3) {
-	-webkit-animation-delay: 0.3s;
-}
-	
-h1 span:nth-child(4) {
-	-webkit-animation-delay: 0.6s;
-}
-	
-h1 span:nth-child(5) {
-	-webkit-animation-delay: 0.8s;
-}
-
-h1 span:nth-child(6) {
-	-webkit-animation-delay: 1.0s;
-}
-	
-h1 span:nth-child(7) {
-	-webkit-animation-delay: 1.2s;
-}
-	
-h1 span:nth-child(8) {
-	-webkit-animation-delay: 1.4s;
-}
-	
-h1 span:nth-child(9) {
-	-webkit-animation-delay: 1.6s;
-}
-	
-h1 span:nth-child(10) {
-	-webkit-animation-delay: 1.8s;
-}
-h1 span:nth-child(11) {
-	-webkit-animation-delay: 2.0s;
-}
-	
-h1 span:nth-child(12) {
-	-webkit-animation-delay: 2.2s;
-}
-	
-h1 span:nth-child(13) {
-	-webkit-animation-delay: 2.4s;
-}
-	
-h1 span:nth-child(14) {
-	-webkit-animation-delay: 2.6s;
-}
-
-h1 span:nth-child(15) {
-	-webkit-animation-delay: 2.8s;
-}
-	
-h1 span:nth-child(16) {
-	-webkit-animation-delay: 3.0s;
-}
-	
-h1 span:nth-child(17) {
-	-webkit-animation-delay: 3.2s;
-}
-@-webkit-keyframes bounce {
-	100%{
-	top: -20px;
-	text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 	0 #ccc, 0 20px 10px rgb(0, 247, 255);
-	    }
-	}
-
-/*--CONTATOS--*/
-header.topo img{
-    width: 80px;
-    position: relative;
-    top: 100px;
-    left: -520px;
-    cursor: pointer;
-    margin-left: 20px;
-}
-div.contato img.GitHub{
-    border-radius: 100%;
-}
-div.contato img.Instagram{
-    border-radius: 100%;
-}
-/*--MINHA FOTO--*/
-div.foto img{
-    position: relative;
-    left: 220px;
     top: 3px;
+    left: 300px;
     width: 180px;
+    height: 180px;
     border-radius: 100%;
+    
+  }
+  /*--A FOTO--*/
+  div.foto img{
+        position: relative;
+        margin-top: -130px;
+        margin-left: 0px;
+        width: 180px;
+        border-radius: 100%;
+  }
+ /*-----------------------------MEIO DO SITE-------------------*/
+ 
+  main.meio{
+          display: flex;
+          min-height: 100px;
+  
+  }
+  /*--APRESENTAÇÃO--*/
+  div.apresentacao{
+          background-color: #FFB600;
+          position: relative;
+          display: grid;
+          max-width: 300px;
+          height: 899px;
+          border-top: 2px solid rgba(95, 94, 94, 0.2);
+          box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+  }
+  div.apresentacao h1{
+          margin-left: 50px;
+          top: -3px;
+  }
+  div.apresentacao p{
+          font-size: 15px;
+          padding-left: 5px;
+          padding-right: 5px;
+          text-align: left;
+  }
+  /*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
+  div.informacoes{
+          position: relative;
+          display: grid;
+         width: 1050px;
+          min-height: 500px;
+  }
+  /*--INFO ESCOLARIDADE--*/
+  div.escolaridade{
+      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+          background-color: #FFB600;
+          display: flex;
+          height: 450px;
+  }
+  /*--TITULO DA AREA DE ESCOLARIDADE--*/
+  div.escolaridade h1.titulo_escolaridade{
+          position: relative;
+          left: 200px;
+  }
+  
+  /*--UTILIZO--*/
+  div.utilizo{
+          background-color: #00ffd5;
+          box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+          width: 300px;
+          height: 430px;
+          position: relative;
+          top: 10px;
+          left: 5px;
+          border-radius: 5px;
+  }
+  div.utilizo h1{
+          position: relative;
+          left: 60px;
+          top: -8px;
+  }
+  div.utilizo img{
+      position: flex;
+      width: 70px;
+      padding: 15px;
+  }
+  div.utilizo img.css,
+  div.utilizo img.js{
+      position: flex;
+      width: 48px;
+  }
+  div.utilizo img.node,
+  div.utilizo img.sql{
+      position: flex;
+      width: 100px;
+  }
+  div.utilizo img.java{
+      position: flex;
+      width: 80px;
+  }
+  div.utilizo img.git{
+    position: flex;
+    width: 60px;
+  }
+  /*--INFO PROJETOS--*/
+  div.projetos{
+          background-color: blueviolet;
+          display: flex;
+          align-items: center;
+          height: 450px;
+  }
+  /*--TITULO DA AREA DE PROJETOS--*/
+  div.projetos h1{
+          position: relative;
+          margin-left: 433px;
+          margin-top: -300px;
+          height: 50px;
+          text-align: center;
+  }
+  div#TodosProjetos{
+          top: 40px;
+  }
+  
+  div.itens{
+          display: flex;
+          
+  }
+  div.itens img{
+          object-fit: cover;
+          width: 140px;
+          height: 140px;
+  }
+  footer.rodape{
+      background-color: #001573;
+      display: flex;
+      font-size: 20px;
+      height: 50px;
+      align-items: center;
+  }
 }
+
+/*------------------------ESCALA PARA NOTEBOOK------------------------*/
+/*--DE 1050 A 1350 PÍXELS--*/
+ @media (min-width: 1050px) and (max-width: 1350px){
+ header.topo{
+       display: flex;
+         background-color: #001573;
+         background-color: #007319;
+         text-align: center;
+         height: 185px;
+ }
+ header.topo h1.MeuNome{
+         position: relative;
+         margin-top: 20px;
+         left: 400px;
+         height: 60px;
+ 
+ }
+
+ h1 span{
+         position: relative;
+         top: 1px;
+         display: inline-block;
+         overflow: hidden;
+ 
+         -webkit-animation: bounce 0.9s ease infinite alternate;
+         text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgb(17, 0, 255);
+ }
+
+ h1 span:nth-child(2) {
+     -webkit-animation-delay: 0.2s;
+ }
+ 
+ h1 span:nth-child(3) {
+     -webkit-animation-delay: 0.3s;
+ }
+ 
+ h1 span:nth-child(4) {
+     -webkit-animation-delay: 0.6s;
+ }
+ 
+ h1 span:nth-child(5) {
+     -webkit-animation-delay: 0.8s;
+ }
+
+ h1 span:nth-child(6) {
+     -webkit-animation-delay: 1.0s;
+ }
+ 
+ h1 span:nth-child(7) {
+     -webkit-animation-delay: 1.2s;
+ }
+ 
+ h1 span:nth-child(8) {
+     -webkit-animation-delay: 1.4s;
+ }
+ 
+ h1 span:nth-child(9) {
+     -webkit-animation-delay: 1.6s;
+ }
+ 
+ h1 span:nth-child(10) {
+     -webkit-animation-delay: 1.8s;
+ }
+ h1 span:nth-child(11) {
+     -webkit-animation-delay: 2.0s;
+ }
+ 
+ h1 span:nth-child(12) {
+     -webkit-animation-delay: 2.2s;
+ }
+ 
+ h1 span:nth-child(13) {
+     -webkit-animation-delay: 2.4s;
+ }
+ 
+ h1 span:nth-child(14) {
+     -webkit-animation-delay: 2.6s;
+ }
+
+ h1 span:nth-child(15) {
+     -webkit-animation-delay: 2.8s;
+ }
+ 
+ h1 span:nth-child(16) {
+     -webkit-animation-delay: 3.0s;
+ }
+ 
+ h1 span:nth-child(17) {
+     -webkit-animation-delay: 3.2s;
+ }
+ h1 span:nth-child(18) {
+     -webkit-animation-delay: 3.4s;
+ }
+ @-webkit-keyframes bounce {
+     100%{
+     top: -20px;
+     text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 	0 #ccc, 0 20px 10px rgba(255, 255, 255, 0);
+         }
+ }
+
+ /*--REDES SOCIÁIS--*/
+ header.topo img{ 
+        width: 80px;
+         position: relative;
+         top: 100px;
+         left: -520px;
+         cursor: pointer;
+         margin-left: 20px;
+ }
+ div.contato img.GitHub{
+         border-radius: 100%;
+ }
+     div.contato img.Instagram{
+         border-radius: 100%;
+ }
+ /*--MINHA FOTO--*/
+ div.foto img{
+         position: relative;
+         left: 100px;
+         top: 3px;
+         width: 180px;
+         border-radius: 100%;
+ }
 /*-----------------------------MEIO DO SITE-------------------*/
 
-main.meio{
-    display: flex;
-    min-height: 100px;
+ main.meio{
+         display: flex;
+         min-height: 100px;
+ 
+ }
+ /*--APRESENTAÇÃO--*/
+ div.apresentacao{
+         background-color: #FFB600;
+         position: relative;
+         display: grid;
+         max-width: 300px;
+         min-height: 500px;
+         border-top: 2px solid rgba(95, 94, 94, 0.2);
+         box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+ }
+ div.apresentacao h1{
+         margin-left: 50px;
+ }
+ div.apresentacao p{
+     margin-top: -250px;
+         font-size: 15px;
+         padding-left: 5px;
+         padding-right: 5px;
+         text-align: left;
+ }
+ /*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
+ div.informacoes{
+         position: relative;
+         display: grid;
+        width: 1050px;
+         min-height: 500px;
+ }
+ /*--INFO ESCOLARIDADE--*/
+ div.escolaridade{
+     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+         background-color: #FFB600;
+         display: flex;
+         min-height: 360px;
+ }
+ /*--TITULO DA AREA DE ESCOLARIDADE--*/
+ div.escolaridade h1.titulo_escolaridade{
+         position: relative;
+         left: 200px;
+ }
+ 
+ /*--UTILIZO--*/
+ div.utilizo{
+         background-color: #109EFF;
+         box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+         width: 300px;
+         height: 350px;
+         position: relative;
+         top: 5px;
+         left: 5px;
+         border-radius: 5px;
+ }
+ div.utilizo h1{
+         position: relative;
+         left: 60px;
+ }
+ div.utilizo img{
+     position: flex;
+     width: 70px;
+     padding: 15px;
+ }
+ div.utilizo img.css,
+ div.utilizo img.js,
+ div.utilizo img.git{
+     position: flex;
+     width: 48px;
+ }
+ div.utilizo img.node,
+ div.utilizo img.sql{
+     position: flex;
+     width: 80px;
+ }
+ /*--INFO PROJETOS--*/
+ div.projetos{
+         background-color: blueviolet;
+         display: flex;
+         align-items: center;
+         min-height: 360px;
+ }
+ /*--TITULO DA AREA DE PROJETOS--*/
+ div.projetos h1{
+         position: relative;
+         margin-left: 433px;
+         margin-top: -300px;
+         height: 50px;
+         text-align: center;
+ }
+ div#TodosProjetos{
+         top: 40px;
+ }
+ div#carousel{
+         box-sizing: border-box;
+         align-items: center;
+        overflow: hidden;
+        width: 140px;
+        height: 140px;
+ }
+ div.itens{
+         display: flex;
+         transition: transform 0.5s ease-in-out;
+         transform: translateX(0);
+ }
+ div.itens img{
+         object-fit: cover;
+         width: 140px;
+         height: 140px;
+ }
+ footer.rodape{
+     background-color: red;
+     display: flex;
+     height: 50px;
+     align-items: center;
+ }
+}
+
+/*--DE 750 A 1050 PÍXELS--*/
+@media (min-width: 750px) and (max-width: 1050px){
+    header.topo{
+          display: flex;
+            background-color: #001573;
+            background-color: #730000;
+            text-align: center;
+            height: 185px;
+    }
+    header.topo h1.MeuNome{
+            position: relative;
+            margin-top: 20px;
+            left: 400px;
+            height: 60px;
     
-}
-/*--APRESENTAÇÃO--*/
-div.apresentacao{
-    background-color: #fffdfd;
-    position: relative;
-    display: grid;
-    max-width: 300px;
-    min-height: 500px;
-    border-top: 2px solid rgba(95, 94, 94, 0.2);
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-}
-div.apresentacao h1{
-    margin-left: 50px;
-}
-div.apresentacao p{
-    font-size: 15px;
-    font-family: 'Roboto Mono', monospace;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: left;
-}
-/*--DIV ESCOLARIDADE--*/
-div.informacoes{
-    background-color: rgb(255, 255, 255);
-    position: relative;
-    display: grid;
-    width: 1050px;
-    min-height: 500px;
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-}
-/*--INFO ESCOLARIDADE--*/
-div.escolaridade{
-    background-color: rgba(211, 211, 211, 0.6);
-    display: flex;
-    align-items: center;
-    min-height: 360px;
-}
-/*--TITULO DA AREA DE ESCOLARIDADE--*/
-div.escolaridade h1.titulo_escolaridade{
-    margin-top: -100px;
-}
-div.utilizo{
-    background-color: rgba(255, 255, 255, 0.6);
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-    width: 300px;
-    height: 350px;
-    position: relative;
-    left: 465px;
-    border-radius: 5px;
-}
-div.utilizo h1{
-    position: relative;
-    top: px;
-    left: px;
-}
-/*--INFO PROJETOS--*/
-div.projetos{
-    background-color: blueviolet;
-    display: flex;
-    align-items: center;
-    min-height: 360px;
-}
-/*--TITULO DA AREA DE PROJETOS--*/
-div.projetos h1{
-    position: relative;
-    margin-left: 433px;
-    margin-top: -300px;
-    height: 50px;
-    text-align: center;
-}
-div#TodosProjetos{
-    top: 40px;
-}
-div#carousel{
-    box-sizing: border-box;
-    align-items: center;
-   overflow: hidden;
-   width: 140px;
-   height: 140px;
-}
-div.itens{
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    transform: translateX(0);
-}
-div.itens img{
-    object-fit: cover;
-    width: 140px;
-    height: 140px;
-}
+    }
+   
+    h1 span{
+            position: relative;
+            top: 1px;
+            display: inline-block;
+            overflow: hidden;
+    
+            -webkit-animation: bounce 0.9s ease infinite alternate;
+            text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgb(17, 0, 255);
+    }
+   
+    h1 span:nth-child(2) {
+        -webkit-animation-delay: 0.2s;
+    }
+    
+    h1 span:nth-child(3) {
+        -webkit-animation-delay: 0.3s;
+    }
+    
+    h1 span:nth-child(4) {
+        -webkit-animation-delay: 0.6s;
+    }
+    
+    h1 span:nth-child(5) {
+        -webkit-animation-delay: 0.8s;
+    }
+   
+    h1 span:nth-child(6) {
+        -webkit-animation-delay: 1.0s;
+    }
+    
+    h1 span:nth-child(7) {
+        -webkit-animation-delay: 1.2s;
+    }
+    
+    h1 span:nth-child(8) {
+        -webkit-animation-delay: 1.4s;
+    }
+    
+    h1 span:nth-child(9) {
+        -webkit-animation-delay: 1.6s;
+    }
+    
+    h1 span:nth-child(10) {
+        -webkit-animation-delay: 1.8s;
+    }
+    h1 span:nth-child(11) {
+        -webkit-animation-delay: 2.0s;
+    }
+    
+    h1 span:nth-child(12) {
+        -webkit-animation-delay: 2.2s;
+    }
+    
+    h1 span:nth-child(13) {
+        -webkit-animation-delay: 2.4s;
+    }
+    
+    h1 span:nth-child(14) {
+        -webkit-animation-delay: 2.6s;
+    }
+   
+    h1 span:nth-child(15) {
+        -webkit-animation-delay: 2.8s;
+    }
+    
+    h1 span:nth-child(16) {
+        -webkit-animation-delay: 3.0s;
+    }
+    
+    h1 span:nth-child(17) {
+        -webkit-animation-delay: 3.2s;
+    }
+    h1 span:nth-child(18) {
+        -webkit-animation-delay: 3.4s;
+    }
+    @-webkit-keyframes bounce {
+        100%{
+        top: -20px;
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 	0 #ccc, 0 20px 10px rgba(255, 255, 255, 0);
+            }
+    }
+   
+    /*--REDES SOCIÁIS--*/
+    header.topo img{ 
+           width: 80px;
+            position: relative;
+            top: 100px;
+            left: -520px;
+            cursor: pointer;
+            margin-left: 20px;
+    }
+    div.contato img.GitHub{
+            border-radius: 100%;
+    }
+        div.contato img.Instagram{
+            border-radius: 100%;
+    }
+    /*--MINHA FOTO--*/
+    div.foto img{
+            position: relative;
+            left: 100px;
+            top: 3px;
+            width: 180px;
+            border-radius: 100%;
+    }
+   /*-----------------------------MEIO DO SITE-------------------*/
+   
+    main.meio{
+            display: flex;
+            min-height: 100px;
+    
+    }
+    /*--APRESENTAÇÃO--*/
+    div.apresentacao{
+            background-color: #FFB600;
+            position: relative;
+            display: grid;
+            max-width: 300px;
+            min-height: 500px;
+            border-top: 2px solid rgba(95, 94, 94, 0.2);
+            box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+    div.apresentacao h1{
+            margin-left: 50px;
+    }
+    div.apresentacao p{
+        margin-top: -250px;
+            font-size: 15px;
+            padding-left: 5px;
+            padding-right: 5px;
+            text-align: left;
+    }
+    /*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
+    div.informacoes{
+            position: relative;
+            display: grid;
+           width: 1050px;
+            min-height: 500px;
+    }
+    /*--INFO ESCOLARIDADE--*/
+    div.escolaridade{
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+            background-color: #FFB600;
+            display: flex;
+            min-height: 360px;
+    }
+    /*--TITULO DA AREA DE ESCOLARIDADE--*/
+    div.escolaridade h1.titulo_escolaridade{
+            position: relative;
+            left: 200px;
+    }
+    
+    /*--UTILIZO--*/
+    div.utilizo{
+            background-color: #109EFF;
+            box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+            width: 300px;
+            height: 350px;
+            position: relative;
+            top: 5px;
+            left: 5px;
+            border-radius: 5px;
+    }
+    div.utilizo h1{
+            position: relative;
+            left: 60px;
+    }
+    div.utilizo img{
+        position: flex;
+        width: 70px;
+        padding: 15px;
+    }
+    div.utilizo img.css,
+    div.utilizo img.js,
+    div.utilizo img.git{
+        position: flex;
+        width: 48px;
+    }
+    div.utilizo img.node,
+    div.utilizo img.sql{
+        position: flex;
+        width: 80px;
+    }
+    /*--INFO PROJETOS--*/
+    div.projetos{
+            background-color: blueviolet;
+            display: flex;
+            align-items: center;
+            min-height: 360px;
+    }
+    /*--TITULO DA AREA DE PROJETOS--*/
+    div.projetos h1{
+            position: relative;
+            margin-left: 433px;
+            margin-top: -300px;
+            height: 50px;
+            text-align: center;
+    }
+    div#TodosProjetos{
+            top: 40px;
+    }
+    div#carousel{
+            box-sizing: border-box;
+            align-items: center;
+           overflow: hidden;
+           width: 140px;
+           height: 140px;
+    }
+    div.itens{
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            transform: translateX(0);
+    }
+    div.itens img{
+            object-fit: cover;
+            width: 140px;
+            height: 140px;
+    }
+    footer.rodape{
+        background-color: red;
+        display: flex;
+        height: 50px;
+        align-items: center;
+    }
+   }
+
+/*--DE 300 A 750 PÍXELS--*/
+@media (min-width: 300px) and (max-width: 750px){
+    header.topo{
+          display: flex;
+            background-color: #001573;
+            background-color: #fffb00;
+            text-align: center;
+            height: 185px;
+    }
+    header.topo h1.MeuNome{
+            position: relative;
+            margin-top: 20px;
+            left: 400px;
+            height: 60px;
+    
+    }
+   
+    h1 span{
+            position: relative;
+            top: 1px;
+            display: inline-block;
+            overflow: hidden;
+    
+            -webkit-animation: bounce 0.9s ease infinite alternate;
+            text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgb(17, 0, 255);
+    }
+   
+    h1 span:nth-child(2) {
+        -webkit-animation-delay: 0.2s;
+    }
+    
+    h1 span:nth-child(3) {
+        -webkit-animation-delay: 0.3s;
+    }
+    
+    h1 span:nth-child(4) {
+        -webkit-animation-delay: 0.6s;
+    }
+    
+    h1 span:nth-child(5) {
+        -webkit-animation-delay: 0.8s;
+    }
+   
+    h1 span:nth-child(6) {
+        -webkit-animation-delay: 1.0s;
+    }
+    
+    h1 span:nth-child(7) {
+        -webkit-animation-delay: 1.2s;
+    }
+    
+    h1 span:nth-child(8) {
+        -webkit-animation-delay: 1.4s;
+    }
+    
+    h1 span:nth-child(9) {
+        -webkit-animation-delay: 1.6s;
+    }
+    
+    h1 span:nth-child(10) {
+        -webkit-animation-delay: 1.8s;
+    }
+    h1 span:nth-child(11) {
+        -webkit-animation-delay: 2.0s;
+    }
+    
+    h1 span:nth-child(12) {
+        -webkit-animation-delay: 2.2s;
+    }
+    
+    h1 span:nth-child(13) {
+        -webkit-animation-delay: 2.4s;
+    }
+    
+    h1 span:nth-child(14) {
+        -webkit-animation-delay: 2.6s;
+    }
+   
+    h1 span:nth-child(15) {
+        -webkit-animation-delay: 2.8s;
+    }
+    
+    h1 span:nth-child(16) {
+        -webkit-animation-delay: 3.0s;
+    }
+    
+    h1 span:nth-child(17) {
+        -webkit-animation-delay: 3.2s;
+    }
+    h1 span:nth-child(18) {
+        -webkit-animation-delay: 3.4s;
+    }
+    @-webkit-keyframes bounce {
+        100%{
+        top: -20px;
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 	0 #ccc, 0 20px 10px rgba(255, 255, 255, 0);
+            }
+    }
+   
+    /*--REDES SOCIÁIS--*/
+    header.topo img{ 
+           width: 80px;
+            position: relative;
+            top: 100px;
+            left: -520px;
+            cursor: pointer;
+            margin-left: 20px;
+    }
+    div.contato img.GitHub{
+            border-radius: 100%;
+    }
+        div.contato img.Instagram{
+            border-radius: 100%;
+    }
+    /*--MINHA FOTO--*/
+    div.foto img{
+            position: relative;
+            left: 100px;
+            top: 3px;
+            width: 180px;
+            border-radius: 100%;
+    }
+   /*-----------------------------MEIO DO SITE-------------------*/
+   
+    main.meio{
+            display: flex;
+            min-height: 100px;
+    
+    }
+    /*--APRESENTAÇÃO--*/
+    div.apresentacao{
+            background-color: #FFB600;
+            position: relative;
+            display: grid;
+            max-width: 300px;
+            min-height: 500px;
+            border-top: 2px solid rgba(95, 94, 94, 0.2);
+            box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+    div.apresentacao h1{
+            margin-left: 50px;
+    }
+    div.apresentacao p{
+        margin-top: -250px;
+            font-size: 15px;
+            padding-left: 5px;
+            padding-right: 5px;
+            text-align: left;
+    }
+    /*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
+    div.informacoes{
+            position: relative;
+            display: grid;
+           width: 1050px;
+            min-height: 500px;
+    }
+    /*--INFO ESCOLARIDADE--*/
+    div.escolaridade{
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+            background-color: #FFB600;
+            display: flex;
+            min-height: 360px;
+    }
+    /*--TITULO DA AREA DE ESCOLARIDADE--*/
+    div.escolaridade h1.titulo_escolaridade{
+            position: relative;
+            left: 200px;
+    }
+    
+    /*--UTILIZO--*/
+    div.utilizo{
+            background-color: #109EFF;
+            box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+            width: 300px;
+            height: 350px;
+            position: relative;
+            top: 5px;
+            left: 5px;
+            border-radius: 5px;
+    }
+    div.utilizo h1{
+            position: relative;
+            left: 60px;
+    }
+    div.utilizo img{
+        position: flex;
+        width: 70px;
+        padding: 15px;
+    }
+    div.utilizo img.css,
+    div.utilizo img.js,
+    div.utilizo img.git{
+        position: flex;
+        width: 48px;
+    }
+    div.utilizo img.node,
+    div.utilizo img.sql{
+        position: flex;
+        width: 80px;
+    }
+    /*--INFO PROJETOS--*/
+    div.projetos{
+            background-color: blueviolet;
+            display: flex;
+            align-items: center;
+            min-height: 360px;
+    }
+    /*--TITULO DA AREA DE PROJETOS--*/
+    div.projetos h1{
+            position: relative;
+            margin-left: 433px;
+            margin-top: -300px;
+            height: 50px;
+            text-align: center;
+    }
+    div#TodosProjetos{
+            top: 40px;
+    }
+    div#carousel{
+            box-sizing: border-box;
+            align-items: center;
+           overflow: hidden;
+           width: 140px;
+           height: 140px;
+    }
+    div.itens{
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            transform: translateX(0);
+    }
+    div.itens img{
+            object-fit: cover;
+            width: 140px;
+            height: 140px;
+    }
+    footer.rodape{
+        background-color: red;
+        display: flex;
+        height: 50px;
+        align-items: center;
+    }
+   }
