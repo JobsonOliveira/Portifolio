@@ -18,21 +18,13 @@ setInterval(carrossel, 1800);
 //CARROUSEL//
 
 const controls = document.querySelectorAll('.control');
-<<<<<<< HEAD
-		let currentItem = 0
-=======
-		let currentItem = 0;
->>>>>>> Branch_de_código_inicial
 		const items = document.querySelectorAll('.item');
 		const maxItems = items.length;
 		
 		controls.forEach((control) => {
 			control.addEventListener("click", () => {
 				const isLeft = control.classList.contains("arrow-left");
-<<<<<<< HEAD
 				
-=======
->>>>>>> Branch_de_código_inicial
 				if (isLeft){
 					currentItem -= 1;
 				}else{
