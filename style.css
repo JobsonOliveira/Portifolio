@@ -112,15 +112,19 @@ h1 span:nth-child(18) {
 
 /*--REDES SOCIÁIS--*/
 header.topo img{ 
-        width: 50px;
-        position: relative;
-        top: 130px;
-        left: 0px;
-        cursor: pointer;
-        margin-left: 20px;
+    width: 45px;
+    position: relative;
+    top: 130px;
+    left: 0vw;
+    cursor: pointer;
+    margin-left: 20px;
 }
 div.contato img.GitHub{
-        border-radius: 100%;
+    width: 48px;
+    border-radius: 100%;
+}div.contato img.linkedin{
+    width: 48px;
+    border-radius: 100%;
 }
     div.contato img.Instagram{
         border-radius: 100%;
@@ -202,7 +206,6 @@ div.escolaridade{
         height: 450px;
 }
 div.Titulo_Escolaridade{
-    background-color: #00eeff;
     	text-align: left;
     	position: sticky;
     	width: 38vw;
@@ -529,15 +532,19 @@ h1 span:nth-child(18) {
 
 /*--REDES SOCIÁIS--*/
 header.topo img{ 
-        width: 50px;
-        position: relative;
-        top: 130px;
-        left: 0px;
-        cursor: pointer;
-        margin-left: 20px;
+    width: 45px;
+    position: relative;
+    top: 130px;
+    left: 0vw;
+    cursor: pointer;
+    margin-left: 20px;
 }
 div.contato img.GitHub{
-        border-radius: 100%;
+    width: 48px;
+    border-radius: 100%;
+}div.contato img.linkedin{
+    width: 48px;
+    border-radius: 100%;
 }
     div.contato img.Instagram{
         border-radius: 100%;
@@ -619,7 +626,6 @@ div.escolaridade{
         height: 450px;
 }
 div.Titulo_Escolaridade{
-    background-color: #00eeff;
     	text-align: left;
     	position: sticky;
     	width: 38vw;
@@ -842,5 +848,4 @@ div.agradecimento{
 
 /*--DE 750 A 1050 PÍXELS--*/
 @media (min-width: 750px) and (max-width: 1050px){
-    
-   }
+}

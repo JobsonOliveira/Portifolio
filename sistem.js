@@ -18,6 +18,7 @@ setInterval(carrossel, 1800);
 //CARROUSEL//
 
 const controls = document.querySelectorAll('.control');
+		let currentItem = 0
 		const items = document.querySelectorAll('.item');
 		const maxItems = items.length;
 		
