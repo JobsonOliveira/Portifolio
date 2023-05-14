@@ -2,9 +2,10 @@
     margin: 0;
      padding: 0;
      font-family: 'Bungee', cursive;
+     box-sizing: border-box;
  }
  body{
-         
+         overflow-x: hidden;
  }
  
  /*--DE 1350 A 1500 PÍXELS--*/
@@ -14,6 +15,7 @@
         background-color: #001573;
         text-align: center;
         height: 185px;
+        width: 98.9vw;
 }
 div.nome{
 	position: absolute;
@@ -162,8 +164,8 @@ div.apresentacao{
         position: absolute;
         left: 75.3vw;
         display: grid;
-        max-width: 350px;
-        height: 899px;
+        width: 23.6vw;
+        height: 901px;
         border-top: 2px solid rgba(95, 94, 94, 0.2);
         box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
 }
@@ -229,7 +231,7 @@ div.sobre_a_escolaridade{
 	padding: 2px;
 }
 div.sobre_a_escolaridade p{
-	height: 390px;
+	height: 370px;
 	word-break: break-all;
 	font-size: 14px;
 	padding-left: 5px;
@@ -260,28 +262,24 @@ position: sticky;
 /*--PARA TODAS AS IMAGENS DE COISAS QUE EU UTILIZO--*/
 div.utilizo img{
     position: flex;
-    width: 6.2vw;
+    width: 7.6vw;
     padding: 15px;
 }
 /*--PARA A LOGO DO CSS E DO JAVASCRIPT--*/
 div.utilizo img.css,
 div.utilizo img.js{
-    position: flex;
-    width: 4.5vw;
+    width: 6vw;
 }
 /*--PARA A LOGO DO NODE E DO MYSQL--*/
 div.utilizo img.node,
 div.utilizo img.sql{
-    position: flex;
-    width: 6vw;
+    width: 9vw;
 }
 div.utilizo img.java{
-    position: flex;
-    width: 6vw;
+    width: 8vw;
 }
 div.utilizo img.git{
-  position: flex;
-  width: 4.5vw;
+  width: 6.3vw;
 }
 div.foto_e_texto_proj{
     display: flex;
@@ -298,6 +296,7 @@ div.foto_e_texto_proj{
         height: 335px;
     }
     div.sobre_o_projeto{
+        
         position: relative;
         top: 20px;
         height: 338px;
@@ -306,7 +305,7 @@ div.foto_e_texto_proj{
         padding-top: 0px;  
     }
     div.sobre_o_projeto p{
-        font-size: 0.8vw;
+        font-size: 0.9vw;
         
     }
 /*--INFO PROJETOS--*/
@@ -368,7 +367,7 @@ button.arrow-right{
     font-size: 20px;
     line-height: 250px;
     width: 20px;
-    height: 304px;
+    height: 300px;
     text-align: center;
     color: #000;
     font-weight: bold;
@@ -380,8 +379,7 @@ button.arrow-right{
 }
 /*--BOTÃO DIREITO--*/
 button.arrow-right{
-    position: absolute;
-    left: 515px;
+    left: 484px;
     right: 0;
     background: linear-gradient(to right, rgba(255, 255, 255, 0));
 }
@@ -396,7 +394,7 @@ button.arrow-right{
   }
   
   .item{
-      width: 500px;
+      width: 474px;
       height: 300px;
       flex-shrink: 0;
       border: 2px solid transparent;
@@ -416,6 +414,7 @@ button.arrow-right{
     display: flex;
     background-color: #001573;
     height: 65px;
+    width: 98.9vw;
 }
 div.agradecimento{
     position: sticky;
@@ -434,6 +433,7 @@ div.agradecimento{
         background-color: #001573;
         text-align: center;
         height: 185px;
+        width: 98.8vw;
 }
 div.nome{
 	position: absolute;
@@ -583,7 +583,7 @@ div.apresentacao{
         left: 75.3vw;
         display: grid;
         max-width: 350px;
-        height: 899px;
+        height: 901px;
         border-top: 2px solid rgba(95, 94, 94, 0.2);
         box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
 }
@@ -649,7 +649,7 @@ div.sobre_a_escolaridade{
 	padding: 2px;
 }
 div.sobre_a_escolaridade p{
-	height: 390px;
+	height: 370px;
 	word-break: break-all;
 	font-size: 14px;
 	padding-left: 5px;
@@ -680,28 +680,24 @@ position: sticky;
 /*--PARA TODAS AS IMAGENS DE COISAS QUE EU UTILIZO--*/
 div.utilizo img{
     position: flex;
-    width: 6.2vw;
+    width: 7.6vw;
     padding: 15px;
 }
 /*--PARA A LOGO DO CSS E DO JAVASCRIPT--*/
 div.utilizo img.css,
 div.utilizo img.js{
-    position: flex;
-    width: 4.5vw;
+    width: 6vw;
 }
 /*--PARA A LOGO DO NODE E DO MYSQL--*/
 div.utilizo img.node,
 div.utilizo img.sql{
-    position: flex;
-    width: 6vw;
+    width: 9vw;
 }
 div.utilizo img.java{
-    position: flex;
-    width: 6vw;
+    width: 8vw;
 }
 div.utilizo img.git{
-  position: flex;
-  width: 4.5vw;
+  width: 6.3vw;
 }
 div.foto_e_texto_proj{
     display: flex;
@@ -726,7 +722,7 @@ div.foto_e_texto_proj{
         padding-top: 0px;  
     }
     div.sobre_o_projeto p{
-        font-size: 0.8vw;
+        font-size: 0.9vw;
         
     }
 /*--INFO PROJETOS--*/
@@ -788,7 +784,7 @@ button.arrow-right{
     font-size: 20px;
     line-height: 250px;
     width: 20px;
-    height: 304px;
+    height: 300px;
     text-align: center;
     color: #000;
     font-weight: bold;
@@ -800,8 +796,7 @@ button.arrow-right{
 }
 /*--BOTÃO DIREITO--*/
 button.arrow-right{
-    position: absolute;
-    left: 515px;
+    left: 484px;
     right: 0;
     background: linear-gradient(to right, rgba(255, 255, 255, 0));
 }
@@ -816,7 +811,7 @@ button.arrow-right{
   }
   
   .item{
-      width: 500px;
+      width: 474px;
       height: 300px;
       flex-shrink: 0;
       border: 2px solid transparent;
@@ -836,6 +831,7 @@ button.arrow-right{
     display: flex;
     background-color: #001573;
     height: 65px;
+    width: 98.8vw;
 }
 div.agradecimento{
     position: sticky;
