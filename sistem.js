@@ -51,3 +51,15 @@ const controls = document.querySelectorAll('.control');
 
 			});
 		});
+function openGithub(){
+	const win = window.open("https://github.com/JobsonOliveira")
+}
+function openLinkedin(){
+	const win = window.open("https://www.linkedin.com/in/jobson-de-oliveira-coutinho-5882b9251")
+}
+function openGmail(){
+	const win = window.open("https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRzCpGdFlnfgqJsPvXtDdjjGnMqSpSMrhJBZHFNkFwJQJQqwJPcvSQJrwcGCJkFcLkhhDLbW")
+}
+function openInstagram(){
+	const win = window.open("https://instagram.com/jobson_oliveira44?igshid=OTk0YzhjMDVlZA==")
+}
