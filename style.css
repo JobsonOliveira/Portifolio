@@ -4,10 +4,6 @@
      font-family: 'Bungee', cursive;
      box-sizing: border-box;
  }
- body{
-    overflow-x: hidden;
- }
- 
  /*--DE 1350 A 1500 PÍXELS--*/
  @media (min-width: 1351px) and (max-width: 1500px){
     header.topo{
@@ -197,7 +193,7 @@ div.texto p{
 div.informacoes{
         position: relative;
         display: grid;
-       width: 1050px;
+       width: 98vw;
         min-height: 500px;
         
 }
@@ -614,7 +610,7 @@ div.texto p{
 div.informacoes{
         position: relative;
         display: grid;
-       width: 1050px;
+       width: 98vw;
         min-height: 500px;
 }
 /*--INFO ESCOLARIDADE--*/
@@ -1031,7 +1027,7 @@ div.texto p{
 div.informacoes{
         position: relative;
         display: grid;
-       width: 1050px;
+       width: 98vw;
         min-height: 500px;
 }
 /*--INFO ESCOLARIDADE--*/
@@ -1040,7 +1036,7 @@ div.escolaridade{
     	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         background-color: #FFB600;
         display: flex;
-        min-width: 1000px;
+        width: 791px;
         height: 450px;
 }
 div.Titulo_Escolaridade{
@@ -1143,7 +1139,7 @@ div.projetos{
         background-color: #FFB600;
         display: flex;
         height: 451px;
-        min-width: 1000px;
+        width: 791px;
 }
 /*--TITULO DA AREA DE PROJETOS--*/
 div.Titulo_Proj{
@@ -1257,12 +1253,13 @@ div.agradecimento{
 }
 }
 @media (min-width: 775px) and (max-width: 909px){
+    
     header.topo{
         display: flex;
         background-color: #001573;
         text-align: center;
         height: 185px;
-        width: 98.8vw;
+        width: 98vw;
 }
 div.nome{
 	position: absolute;
@@ -1442,7 +1439,7 @@ div.texto p{
 div.informacoes{
         position: relative;
         display: grid;
-       width: 1050px;
+       width: 98.1vw;
         min-height: 500px;
 }
 /*--INFO ESCOLARIDADE--*/
@@ -1451,7 +1448,7 @@ div.escolaridade{
     	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         background-color: #FFB600;
         display: flex;
-        min-width: 1000px;
+        width: 98.1vw;
         height: 450px;
 }
 div.Titulo_Escolaridade{
@@ -1465,18 +1462,20 @@ div.info_escolaridade{
 	margin-left: 24.5vw;
 	display: grid;
 	height: 449px;
-	width: 655px;
+	width: 73.5vw;
 	text-align: top;
   	align-items: top;
 }
 div.sobre_a_escolaridade{
 	height: 370px;
+    max-width: 73.5vw;
 	margin-top: 5px;
 	text-align: left;
 	align-items: left;
 	padding: 2px;
 }
 div.sobre_a_escolaridade p{
+    
 	height: 370px;
 	word-break: break-all;
 	font-size: 1.8vw;
@@ -1552,7 +1551,7 @@ div.projetos{
         background-color: #FFB600;
         display: flex;
         height: 451px;
-        min-width: 1000px;
+        width: 98.1vw;
         z-index: 2;
 }
 /*--TITULO DA AREA DE PROJETOS--*/
@@ -1569,7 +1568,6 @@ div.projetos h1{
 
 div.itens{
         display: flex;
-        
 }
 div.itens img{
         object-fit: cover;
@@ -1656,7 +1654,7 @@ button.arrow-right{
     display: flex;
     background-color: #001573;
     height: 65px;
-    width: 98.8vw;
+    width: 98;
 }
 div.agradecimento{
     position: sticky;
@@ -1852,7 +1850,7 @@ div.texto p{
 div.informacoes{
         position: relative;
         display: grid;
-       width: 757px;
+        width: 98vw;
         min-height: 500px;
 }
 /*--INFO ESCOLARIDADE--*/
@@ -1873,7 +1871,7 @@ div.Titulo_Escolaridade{
 div.info_escolaridade{
 	display: grid;
 	height: 449px;
-	width: 757px;
+	width: 97.8vw;
 	text-align: top;
   	align-items: top;
 }
@@ -1882,7 +1880,7 @@ div.sobre_a_escolaridade{
 	margin-top: 5px;
 	text-align: left;
 	align-items: left;
-    width: 757px;
+    width: 97.8vw;
 	padding: 2px;
     text-align: center;
 }
@@ -1892,9 +1890,7 @@ div.sobre_a_escolaridade p{
 	font-size: 2vw;
 	padding-left: 5px;
     padding-right: 15px;
-    max-width: 99vw;
-        
-        
+    width: 97.8vw;
 }
 /*--DIV COMPLETA DO "UTILIZO"--*/
 div.utilizo{
@@ -2259,7 +2255,7 @@ div.texto p{
 div.informacoes{
         position: relative;
         display: grid;
-       width: 757px;
+       width: 98vw;
         min-height: 500px;
 }
 /*--INFO ESCOLARIDADE--*/
@@ -2280,7 +2276,7 @@ div.Titulo_Escolaridade{
 div.info_escolaridade{
 	display: grid;
 	height: 449px;
-	width: 757px;
+	width: 97.8vw;
 	text-align: top;
   	align-items: top;
 }
@@ -2289,7 +2285,7 @@ div.sobre_a_escolaridade{
 	margin-top: 5px;
 	text-align: left;
 	align-items: left;
-    width: 757px;
+    width: 97.8vw;
 	padding: 2px;
     text-align: center;
 }
@@ -2486,7 +2482,7 @@ div.agradecimento{
 @media (min-width: 300px) and (max-width: 543px){
     header.topo{
         display: flex;
-        background-color: #001573;
+        background-color: #f5f7ff;
         text-align: center;
         height: 250px;
         width: 97.9vw;
@@ -2668,7 +2664,7 @@ div.texto p{
 div.informacoes{
         position: relative;
         display: grid;
-       width: 757px;
+       width: 98vw;
         min-height: 500px;
 }
 /*--INFO ESCOLARIDADE--*/
@@ -2689,7 +2685,7 @@ div.Titulo_Escolaridade{
 div.info_escolaridade{
 	display: grid;
 	height: 449px;
-	width: 757px;
+	width: 97.8vw;
 	text-align: top;
   	align-items: top;
 }
@@ -2698,7 +2694,7 @@ div.sobre_a_escolaridade{
 	margin-top: 5px;
 	text-align: left;
 	align-items: left;
-    width: 757px;
+    width: 97.8vw;
 	padding: 2px;
     text-align: center;
 }
