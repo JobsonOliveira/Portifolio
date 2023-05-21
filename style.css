@@ -2764,20 +2764,20 @@ div.foto_e_texto_proj{
     div.sobre_o_projeto{
         position: relative;
         top: 20px;
-        height: 270px;
+        min-height: 270px;
         width: 98vw;
         padding: 5px;
         padding-top: 0px;  
     }
     div.sobre_o_projeto p{
-        font-size: 12px;
+        font-size: 2vh;
     }
 /*--INFO PROJETOS--*/
 div.projetos{
       box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         background-color: #FFB600;
         display: grid;
-        height: 680px;
+        min-height: 680px;
         width: 100vw;
         z-index: 2;
 }
