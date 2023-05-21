@@ -4,7 +4,7 @@
      font-family: 'Bungee', cursive;
      box-sizing: border-box;
  }
- /*--DE 1350 A 1500 PÍXELS--*/
+
  @media (min-width: 1351px) and (max-width: 1500px){
     header.topo{
         display: flex;
@@ -423,7 +423,6 @@ div.agradecimento{
 }
 }
 
-/*--DE 1050 A 1350 PÍXELS--*/
  @media (min-width: 1051px) and (max-width: 1350px){
     header.topo{
         display: flex;
@@ -837,7 +836,6 @@ div.agradecimento{
 }
 }
 
-/*--DE 750 A 1050 PÍXELS--*/
 @media (min-width: 910px) and (max-width: 1050px){
     header.topo{
         display: flex;
@@ -1252,6 +1250,7 @@ div.agradecimento{
     color: #00eeff;
 }
 }
+
 @media (min-width: 775px) and (max-width: 909px){
     
     header.topo{
@@ -1664,6 +1663,7 @@ div.agradecimento{
     color: #00eeff;
 }
 }
+
 @media (min-width: 629px) and (max-width: 774px){
     header.topo{
         display: flex;
@@ -2071,6 +2071,7 @@ div.agradecimento{
     color: #00eeff; 
 }
 }
+
 @media (min-width: 544px) and (max-width: 628px){
     header.topo{
         display: flex;
@@ -2479,19 +2480,21 @@ div.agradecimento{
     color: #00eeff; 
 }
 }
+
 @media (min-width: 300px) and (max-width: 543px){
-    header.topo{
-        display: flex;
-        background-color: #001573;
-        text-align: center;
-        height: 250px;
-        width: 97.9vw;
+header.topo{
+    display: flex;
+    background-color: #001573;
+    text-align: center;
+    height: 250px;
+    width: 97.9vw;
 }
 div.nome{
 	position: absolute;
 	text-align: center;
-	height: 70px;
+	height: 60px;
 	width: 97.7vw;
+    margin-top: 2vh;
 }
 header.topo h1.MeuNome{
         color: #00eeff;
