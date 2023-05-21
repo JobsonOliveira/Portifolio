@@ -1264,8 +1264,8 @@ div.nome{
 	position: absolute;
 	margin-top: 20px;
 	text-align: right;
-	height: 50px;
-	width: 70vw;
+	height: 80px;
+	width: 70vw;background-color: red;
 	padding-top: 17px;
 }
 header.topo h1.MeuNome{
@@ -1675,8 +1675,9 @@ div.agradecimento{
 div.nome{
 	position: absolute;
 	text-align: center;
-	height: 65px;
+	height: 63px;
 	width: 97.7vw;
+    margin-top: 2vh;
 }
 header.topo h1.MeuNome{
         color: #00eeff;
@@ -1792,17 +1793,17 @@ div.contato{
 /*--DIV QUE CONTEM A FOTO--*/
 div.foto{
   position: sticky;
-  top: 65px;
+  top: 80px;
   left: 68vw;
-  width: 185px;
-  height: 185px;
+  width: 170px;
+  height: 170px;
   border-radius: 100%;
 }
 /*--A FOTO--*/
 div.foto img{
       position: relative;
       margin-left: 0px;
-      width: 180px;
+      width: 170px;
       border-radius: 100%;
 }
 /*-----------------------------MEIO DO SITE-------------------*/
@@ -2083,8 +2084,9 @@ div.agradecimento{
 div.nome{
 	position: absolute;
 	text-align: center;
-	height: 70px;
+	height: 65px;
 	width: 97.7vw;
+    margin-top: 2vh;
 }
 header.topo h1.MeuNome{
         color: #00eeff;
@@ -2487,7 +2489,7 @@ header.topo{
     background-color: #001573;
     text-align: center;
     height: 250px;
-    width: 97.9vw;
+    width: 99vw;
 }
 div.nome{
 	position: absolute;
@@ -2627,7 +2629,6 @@ div.foto img{
 main.meio{
         display: grid;
         min-height: 100px;
-        max-width: 755px;
 }
 /*--APRESENTAÇÃO--*/
 div.apresentacao{
@@ -2635,7 +2636,7 @@ div.apresentacao{
     align-items: top;
         background-color: #FFB600;
         display: grid;
-        width: 98vw;
+        width: 99vw;
         height: 350px;
         border-top: 2px solid rgba(95, 94, 94, 0.2);
         box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
@@ -2676,7 +2677,7 @@ div.escolaridade{
     	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         background-color: #FFB600;
         display: grid;
-        width: 98vw;
+        width: 99vw;
         height: 700px;
 }
 div.Titulo_Escolaridade{
@@ -2778,7 +2779,7 @@ div.projetos{
         background-color: #FFB600;
         display: grid;
         height: 680px;
-        width: 98vw;
+        width: 99vw;
         z-index: 2;
 }
 /*--TITULO DA AREA DE PROJETOS--*/
@@ -2881,7 +2882,7 @@ button.arrow-right{
     display: flex;
     background-color: #001573;
     height: 85px;
-    width: 98vw;
+    width: 99vw;
 }
 div.agradecimento{
     position: sticky;
