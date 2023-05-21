@@ -2805,15 +2805,15 @@ div.itens img{
 div.soProjetos{
     position: sticky;
     left: 6vw;
-    width: 84.5vw;
-    padding-top: 5px;
-    height: 45vw;
+    width: 66vh;
+    padding-top: 5px;background-color: red;
+    height: 37vh;
 }
 /*--DIV COMPLETA--*/
 div.container{
   padding: 15px;
-  max-width: 90vw;
-  max-height: 80vw;
+  max-width: 90vh;
+  max-height: 80vh;
 
 }
 /*--DIV APENS PARA OVERFLOW--*/
@@ -2838,7 +2838,7 @@ button.arrow-right{
     font-size: 20px;
     line-height: 250px;
     width: 20px;
-    height: 39.4vw;
+    height: 30.4vh;
     text-align: center;
     color: #000;
     font-weight: bold;
@@ -2850,7 +2850,7 @@ button.arrow-right{
 }
 /*--BOTÃO DIREITO--*/
 button.arrow-right{
-    left: 81.5vw;
+    left: 81vw;
     right: 0;
     background: linear-gradient(to right, rgba(255, 255, 255, 0));
 }
@@ -2865,8 +2865,8 @@ button.arrow-right{
   }
   
   .item{
-      width: 80.1vw;
-      height: 40.1vw;
+      width: 62vh;
+      height: 31vh;
       flex-shrink: 0;
       border: 2px solid transparent;
       transition: all 600ms ease-in-out; 
