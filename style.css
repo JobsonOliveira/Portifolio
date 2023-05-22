@@ -2503,7 +2503,7 @@ div.nome{
 	text-align: center;
 	height: 60px;
 	width: 97.7vw;
-    margin-top: 2vh;
+    top: 1em;
 }
 header.topo h1.MeuNome{
         color: #00eeff;
