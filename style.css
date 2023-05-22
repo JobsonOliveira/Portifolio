@@ -17,13 +17,13 @@ div.nome{
 	position: absolute;
 	margin-top: 20px;
 	text-align: right;
-	height: 50px;
+	height: 95px;
 	width: 70vw;
 	padding-top: 17px;
 }
-header.topo h1.MeuNome{
-        position: sticky;
+h1.MeuNome{
         color: #00eeff;
+        font-size: 6vh;
 }
 
 h1 span{
@@ -109,10 +109,10 @@ h1 span:nth-child(18) {
 }
 
 /*--REDES SOCIÁIS--*/
-div.contato img{ 
+div.contato img{
     width: 45px;
-    cursor: pointer;
     margin-left: 20px;
+    cursor: pointer;
 }
 div.contato{
     width: 300px;
@@ -185,7 +185,7 @@ div.texto{
   height: 829px;
 }
 div.texto p{
-        font-size: 13.5px;
+        font-size: 2.5vh;
         padding: 5px;
         height: 814px;
 }
@@ -233,7 +233,7 @@ div.sobre_a_escolaridade{
 div.sobre_a_escolaridade p{
 	height: 370px;
 	word-break: break-all;
-	font-size: 14px;
+	font-size: 2.5vh;
 	padding-left: 5px;
         padding-right: 15px;
         max-width: 49.3vw;
@@ -270,8 +270,7 @@ div.utilizo img.css,
 div.utilizo img.js{
     width: 6.4vw;
 }
-/*--PARA A LOGO DO NODE E DO MYSQL--*/
-div.utilizo img.node,
+/*--PARA A LOGO DO MYSQL--*/
 div.utilizo img.sql{
     width: 9.4vw;
 }
@@ -421,6 +420,9 @@ div.agradecimento{
     height: 50px;
     color: #00eeff;
 }
+div.agradecimento{
+    font-size: 3.5vh;
+}
 }
 
  @media (min-width: 1051px) and (max-width: 1350px){
@@ -435,13 +437,14 @@ div.nome{
 	position: absolute;
 	margin-top: 20px;
 	text-align: right;
-	height: 50px;
+	height: 95px;
 	width: 70vw;
 	padding-top: 17px;
 }
 header.topo h1.MeuNome{
         position: sticky;
         color: #00eeff;
+        font-size: 6vh
 }
 
 h1 span{
@@ -684,8 +687,7 @@ div.utilizo img.css,
 div.utilizo img.js{
     width: 6.4vw;
 }
-/*--PARA A LOGO DO NODE E DO MYSQL--*/
-div.utilizo img.node,
+/*--PARA A LOGO DO MYSQL--*/
 div.utilizo img.sql{
     width: 9.4vw;
 }
@@ -848,13 +850,14 @@ div.nome{
 	position: absolute;
 	margin-top: 20px;
 	text-align: right;
-	height: 50px;
+	height: 95px;
 	width: 70vw;
 	padding-top: 17px;
 }
 header.topo h1.MeuNome{
         position: sticky;
         color: #00eeff;
+        font-size: 6vh;
 }
 
 h1 span{
@@ -1100,8 +1103,7 @@ div.utilizo img.css,
 div.utilizo img.js{
     width: 7vw;
 }
-/*--PARA A LOGO DO NODE E DO MYSQL--*/
-div.utilizo img.node,
+/*--PARA A LOGO DO MYSQL--*/
 div.utilizo img.sql{
     width: 10vw;
 }
@@ -1264,13 +1266,14 @@ div.nome{
 	position: absolute;
 	margin-top: 20px;
 	text-align: right;
-	height: 80px;
-	width: 70vw;background-color: red;
+	height: 90px;
+	width: 70vw;
 	padding-top: 17px;
 }
 header.topo h1.MeuNome{
         position: sticky;
         color: #00eeff;
+        font-size: 5vh;
 }
 
 h1 span{
@@ -1430,7 +1433,7 @@ div.texto{
   height: 829px;
 }
 div.texto p{
-        font-size: 12.5px;
+        font-size: 1.9vh;
         padding: 5px;
         height: 814px;
 }
@@ -1477,7 +1480,7 @@ div.sobre_a_escolaridade p{
     
 	height: 370px;
 	word-break: break-all;
-	font-size: 1.8vw;
+	font-size: 2.3vh;
 	padding-left: 5px;
     padding-right: 15px;
     max-width: 72vw;
@@ -1514,8 +1517,7 @@ div.utilizo img.css,
 div.utilizo img.js{
     width: 8vw;
 }
-/*--PARA A LOGO DO NODE E DO MYSQL--*/
-div.utilizo img.node,
+/*--PARA A LOGO DO MYSQL--*/
 div.utilizo img.sql{
     width: 11.3vw;
 }
@@ -1542,7 +1544,7 @@ div.foto_e_texto_proj{
         padding-top: 0px;  
     }
     div.sobre_o_projeto p{
-        font-size: 1.3vw;
+        font-size: 1.6vh;
     }
 /*--INFO PROJETOS--*/
 div.projetos{
@@ -1662,6 +1664,9 @@ div.agradecimento{
     height: 50px;
     color: #00eeff;
 }
+div.agradecimento{
+    font-size: 3vh;
+}
 }
 
 @media (min-width: 629px) and (max-width: 774px){
@@ -1675,13 +1680,14 @@ div.agradecimento{
 div.nome{
 	position: absolute;
 	text-align: center;
-	height: 63px;
+	height: 67px;
 	width: 97.7vw;
     margin-top: 2vh;
 }
 header.topo h1.MeuNome{
         color: #00eeff;
         height: 65px;
+        font-size: 5.5vh;
 }
 
 h1 span{
@@ -1843,7 +1849,7 @@ div.texto{
   height: 829px;
 }
 div.texto p{
-        font-size: 1.6vw;
+        font-size: 2vh;
         padding: 5px;
         height: 814px;
 }
@@ -1888,7 +1894,7 @@ div.sobre_a_escolaridade{
 div.sobre_a_escolaridade p{
 	height: 370px;
 	word-break: break-all;
-	font-size: 2vw;
+	font-size: 2.4vh;
 	padding-left: 5px;
     padding-right: 15px;
     width: 97.8vw;
@@ -1925,8 +1931,7 @@ div.utilizo img.css,
 div.utilizo img.js{
     width: 8.6vw;
 }
-/*--PARA A LOGO DO NODE E DO MYSQL--*/
-div.utilizo img.node,
+/*--PARA A LOGO DO MYSQL--*/
 div.utilizo img.sql{
     width: 11.9vw;
 }
@@ -1951,7 +1956,7 @@ div.foto_e_texto_proj{
         padding-top: 0px;  
     }
     div.sobre_o_projeto p{
-        font-size: 1.7vw;
+        font-size: 1.9vh;
     }
 /*--INFO PROJETOS--*/
 div.projetos{
@@ -2071,8 +2076,10 @@ div.agradecimento{
     height: 50px;
     color: #00eeff; 
 }
+div.agradecimento p{
+    font-size: 2.7vh;
 }
-
+}
 @media (min-width: 544px) and (max-width: 628px){
     header.topo{
         display: flex;
@@ -2080,7 +2087,7 @@ div.agradecimento{
         text-align: center;
         height: 250px;
         width: 97.9vw;
-}
+    }
 div.nome{
 	position: absolute;
 	text-align: center;
@@ -2250,7 +2257,7 @@ div.texto{
   height: 829px;
 }
 div.texto p{
-        font-size: 1.9vh;
+        font-size: 1.77vh;
         padding: 5px;
         height: 814px;
 }
@@ -2295,12 +2302,10 @@ div.sobre_a_escolaridade{
 div.sobre_a_escolaridade p{
 	height: 370px;
 	word-break: break-all;
-	font-size: 2.4vh;
+	font-size: 2.22vh;
 	padding-left: 5px;
     padding-right: 15px;
     max-width: 99vw;
-        
-        
 }
 /*--DIV COMPLETA DO "UTILIZO"--*/
 div.utilizo{
@@ -2335,8 +2340,7 @@ div.utilizo img.css,
 div.utilizo img.js{
     width: 10.6vw;
 }
-/*--PARA A LOGO DO NODE E DO MYSQL--*/
-div.utilizo img.node,
+/*--PARA A LOGO DO MYSQL--*/
 div.utilizo img.sql{
     width: 15.9vw;
 }
@@ -2361,7 +2365,7 @@ div.foto_e_texto_proj{
         padding-top: 0px;  
     }
     div.sobre_o_projeto p{
-        font-size: 79%;
+        font-size: 1.82vh;
     }
 /*--INFO PROJETOS--*/
 div.projetos{
@@ -2482,7 +2486,7 @@ div.agradecimento{
     color: #00eeff; 
 }
 div.agradecimento p{
-    font-size: 2.7vh;
+    font-size: 2.4vh;
 }
 }
 
@@ -2747,8 +2751,7 @@ div.utilizo img.css,
 div.utilizo img.js{
     width: 14.6vw;
 }
-/*--PARA A LOGO DO NODE E DO MYSQL--*/
-div.utilizo img.node,
+/*--PARA A LOGO DO MYSQL--*/
 div.utilizo img.sql{
     width: 22.9vw;
 }
