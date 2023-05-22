@@ -3,7 +3,7 @@
      padding: 0;
      font-family: 'Bungee', cursive;
      box-sizing: border-box;
- }
+}
 
  @media (min-width: 1351px) and (max-width: 1500px){
     header.topo{
@@ -107,19 +107,18 @@ h1 span:nth-child(18) {
     text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #001573;
         }
 }
-
-/*--REDES SOCIÁIS--*/
-div.contato img{
-    width: 45px;
-    margin-left: 20px;
-    cursor: pointer;
-}
 div.contato{
     width: 300px;
     height: 50px;
     position: relative;
     top: 130px;
     left: 0vw;
+}
+/*--REDES SOCIÁIS--*/
+div.contato img{
+    width: 45px;
+    margin-left: 20px;
+    cursor: pointer;
 }
 div.contato img.GitHub{
     width: 48px;
@@ -185,7 +184,7 @@ div.texto{
   height: 829px;
 }
 div.texto p{
-        font-size: 2.5vh;
+        font-size: 2.4vh;
         padding: 5px;
         height: 814px;
 }
@@ -1020,7 +1019,7 @@ div.texto{
   height: 829px;
 }
 div.texto p{
-        font-size: 12.5px;
+        font-size: 2vh;
         padding: 5px;
         height: 814px;
 }
@@ -1130,8 +1129,7 @@ div.foto_e_texto_proj{
         padding-top: 0px;  
     }
     div.sobre_o_projeto p{
-        font-size: 1vw;
-        
+        font-size: 1.4vh;
     }
 /*--INFO PROJETOS--*/
 div.projetos{

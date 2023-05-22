@@ -15,7 +15,6 @@ function carrossel(){
 
 setInterval(carrossel, 1800);
 
-//CARROUSEL//
 
 const controls = document.querySelectorAll('.control');
 		let currentItem = 0
