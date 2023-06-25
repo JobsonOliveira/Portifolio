@@ -1463,7 +1463,8 @@ div.projetos{
       box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         background-color: #FFB600;
         display: grid;
-        height: 1250px;
+        gap: 5vh;
+        height: 1320px;
         width: 98.1vw;
         z-index: 2;
 }
@@ -2236,6 +2237,7 @@ div.projetos{
       box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         background-color: #FFB600;
         display: grid;
+        gap: 1vh;
         height: 1250px;
         width: 97.9vw;
         z-index: 2;
@@ -2641,6 +2643,7 @@ div.projetos{
       box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         background-color: #FFB600;
         display: grid;
+        gap: 8vh;
         min-height: 1250px;
         width: 100vw;
         z-index: 2;
