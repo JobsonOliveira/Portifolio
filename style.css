@@ -4,6 +4,9 @@
      font-family: 'Bungee', cursive;
      box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 
  @media (min-width: 1351px) and (max-width: 1500px){
     header.topo{
@@ -24,6 +27,7 @@ div.nome{
 h1.MeuNome{
         color: #00eeff;
         font-size: 6vh;
+        height: 75px;
 }
 
 h1 span{
@@ -145,7 +149,7 @@ div.foto img{
       width: 180px;
       border-radius: 100%;
 }
-/*-----------------------------MEIO DO SITE-------------------*/
+/*---------------------MEIO DO SITE-------------------*/
 
 main.meio{
         display: flex;
@@ -155,15 +159,13 @@ main.meio{
 div.apresentacao{
     text-align: top;
     align-items: top;
-        background-color: #FFB600;
-        position: absolute;
-        left: 75.3vw;
-        display: grid;
-        width: 23.6vw;
-        min-height: 901px;
-        border-top: 2px solid rgba(95, 94, 94, 0.2);
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        z-index: 1;
+    background-color: #FFB600;
+    left: 75.3vw;
+    width: 23.6vw;
+    min-height: 200%;
+    border-top: 2px solid rgba(95, 94, 94, 0.2);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
 div.Titulo{
     display: flex;
@@ -183,7 +185,7 @@ div.texto{
   height: 829px;
 }
 div.texto p{
-        font-size: 2.4vh;
+        font-size: 2.7vh;
         padding: 5px;
         height: 814px;
 }
@@ -191,9 +193,8 @@ div.texto p{
 div.informacoes{
         position: relative;
         display: grid;
-       width: 98vw;
+        width: 75.5vw;
         min-height: 500px;
-        
 }
 /*--INFO ESCOLARIDADE--*/
 div.escolaridade{
@@ -201,9 +202,8 @@ div.escolaridade{
     	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         background-color: #FFB600;
         display: flex;
-        max-width: 1029px;
+        width: 1034px;
         height: 450px;
-       
 }
 div.Titulo_Escolaridade{
     	text-align: left;
@@ -278,134 +278,113 @@ div.utilizo img.java{
 div.utilizo img.git{
   width: 6.9vw;
 }
-div.foto_e_texto_proj{
-    display: flex;
-    min-width: 75vw;
-    height: 370px;
-    position: relative;
-    top: 80px;
-    left: -44.7vw;
-    }
-    div.soProjetos{
-        position: sticky;
-        width: 535px;
-        padding-top: 5px;
-        height: 335px;
-    }
-    div.sobre_o_projeto{
-        
-        position: relative;
-        top: 20px;
-        height: 338px;
-        width: 35.8vw;
-        padding: 5px;
-        padding-top: 0px;  
-    }
-    div.sobre_o_projeto p{
-        font-size: 0.9vw;
-        
-    }
 /*--INFO PROJETOS--*/
 div.projetos{
-      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         background-color: #FFB600;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        min-height: 451px;
-        max-width: 1029px;
+        height: 820px;
+        max-width: 100%;
 }
 /*--TITULO DA AREA DE PROJETOS--*/
 div.Titulo_Proj{
     position: sticky;
-    text-align: left;
-    min-width: 44.8vw;
+    text-align: center;
+    width: 75.5vw;
     max-height: 70px;
-    left: 30.3vw;
 }
 div.projetos h1{
         position: relative;
 }
-
-div.itens{
-        display: flex;
-        
+/*------------------PROJETO 1---------------------*/
+div.foto_e_texto_proj1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75.4vw;
+    height: 370px;
+    position: relative;
+    }
+#container1{
+    display: flex;
+    width: 100%;
+    height: 56.3vh;
 }
-div.itens img{
-        object-fit: cover;
-        width: 140px;
-        height: 140px;
-}
-
-/*--DIV COMPLETA--*/
-div.container{
-  padding: 15px;
-  max-width: 504px;
-  max-height: 300px;
-
-}
-/*--DIV APENS PARA OVERFLOW--*/
-div.gallery-wrapper{
-  overflow-x: auto;
-}
-/*--DIV COM AS FOTOS--*/
-div.gallery{
-  display: flex;
-  flex-flow: row nowrap;
-  gap: 15px;
-}
-
-/*--BOTÕES PARA MUDAR AS FOTOS--*/ 
-button.arrow-left,
-button.arrow-right{
-    position: absolute;
-    top: 20px;
-    left: 0;
-    right: auto;
-    bottom: 15px;
-    font-size: 20px;
-    line-height: 250px;
-    width: 20px;
-    height: 300px;
-    text-align: center;
-    color: #000;
-    font-weight: bold;
-    cursor: pointer;
+#ImgAntP1{
+    width: 5vh;
+    background: linear-gradient(to left, #5e4609, #FFB600);
     border: none;
-    background: linear-gradient(to left, transparent 0%, rgba(255, 255, 255, 0));
-    opacity: 0.4;
-    transition: all 100ms ease-in-out;
+    font-size: 4vh;
+    border-radius: 15px 0px 0px 15px;
 }
-/*--BOTÃO DIREITO--*/
-button.arrow-right{
-    left: 484px;
-    right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0));
+#ImgAntP1:hover{
+    border: 1px solid #000;
 }
-   /*--QUANDO CLICAR NOS BOTÕES--*/
-   button.arrow-left:hover{
-      opacity: 1;
-      background: linear-gradient(to right, #FFB600, rgba(0, 0, 0, 0.6));
-  }
-  button.arrow-right:hover{
-      opacity: 1;
-      background: linear-gradient(to left, #FFB600, rgba(0, 0, 0, 0.6));
-  }
-  
-  .item{
-      width: 474px;
-      height: 300px;
-      flex-shrink: 0;
-      border: 2px solid transparent;
-      transition: all 600ms ease-in-out; 
-  }
-
-  .gallery-wrapper::-webkit-scrollbar {
-       display: none;
-  }
-  .gallery-wrapper {
-        -ms-overflow-style: none; /* IE and Edge */
-        scrollbar-width: none; /* Firefox */
-  }
+#ProxImgP1{
+    width: 5vh;
+    background: linear-gradient(to right, #5e4609, #FFB600);
+    border: none;
+    font-size: 5vh;
+    border-radius: 0px 15px 15px 0px;
+}
+#ProxImgP1:hover{
+    border: 1px solid #000;
+}
+div.sobre_o_projeto1{
+    position: relative;
+    height: 370px;
+    width: 37.5vw;
+    padding: 5px;
+    padding-top: 0px;  
+}
+div.sobre_o_projeto1 p{
+    font-size: 1.73vh;
+}
+/*------------------PROJETO 2---------------------*/
+/*aonde fica o container e o texto sobre o projeto*/
+div.foto_e_texto_proj2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75.2vw;
+    height: 370px;
+    position: relative;
+}
+/*local aonde fica a imagem e os botões*/
+#container2{
+    display: flex;
+    width: 100;
+    height: 56.3vh;
+}
+/*botões para as imagens do projeto 2*/
+#ImgAntP2{
+    width: 5vh;
+    background: linear-gradient(to left, #5e4609, #FFB600);
+    border: none;
+    font-size: 5vh;
+    border-radius: 15px 0px 0px 15px;
+}
+#ImgAntP2:hover{
+    border: 1px solid #000;
+}
+#ProxImgP2{
+    width: 5vh;
+    background: linear-gradient(to right, #5e4609, #FFB600);
+    border: none;
+    font-size: 5vh;
+    border-radius: 0px 15px 15px 0px;
+}
+#ProxImgP2:hover{
+    border: 1px solid #000;
+}
+div.sobre_o_projeto2{
+    position: relative;
+    height: 370px;
+    width: 37.4vw;
+    padding: 5px; 
+}
+div.sobre_o_projeto2 p{
+    font-size: 1.9vh;
+}
+/*-------------------PARTE INFERIOR DO SITE-----------------*/
   footer.rodape{
     display: flex;
     background-color: #001573;
@@ -417,7 +396,7 @@ div.agradecimento{
     text-align: center;
     width: 1344px;
     height: 50px;
-    color: #00eeff;
+    color: #000;
 }
 div.agradecimento{
     font-size: 3.5vh;
@@ -443,7 +422,8 @@ div.nome{
 header.topo h1.MeuNome{
         position: sticky;
         color: #00eeff;
-        font-size: 6vh
+        font-size: 6vh;
+        height: 75px;
 }
 
 h1 span{
@@ -575,15 +555,13 @@ main.meio{
 div.apresentacao{
     text-align: top;
     align-items: top;
-        background-color: #FFB600;
-        position: absolute;
-        left: 75.3vw;
-        display: grid;
-        max-width: 350px;
-        height: 901px;
-        border-top: 2px solid rgba(95, 94, 94, 0.2);
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        z-index: 1;
+    background-color: #FFB600;
+    left: 75.3vw;
+    max-width: 350px;
+    height: 1291px;
+    border-top: 2px solid rgba(95, 94, 94, 0.2);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
 div.Titulo{
     display: flex;
@@ -603,7 +581,7 @@ div.texto{
   height: 829px;
 }
 div.texto p{
-        font-size: 13.5px;
+        font-size: 2.6vh;
         padding: 5px;
         height: 814px;
 }
@@ -696,132 +674,109 @@ div.utilizo img.java{
 div.utilizo img.git{
   width: 6.9vw;
 }
-div.foto_e_texto_proj{
-    display: flex;
-    min-width: 75vw;
-    height: 370px;
-    position: relative;
-    top: 80px;
-    left: -44.7vw;
-    }
-    div.soProjetos{
-        position: sticky;
-        width: 535px;
-        padding-top: 5px;
-        height: 335px;
-    }
-    div.sobre_o_projeto{
-        position: relative;
-        top: 20px;
-        height: 338px;
-        width: 35.8vw;
-        padding: 5px;
-        padding-top: 0px;  
-    }
-    div.sobre_o_projeto p{
-        font-size: 0.9vw;
-        
-    }
 /*--INFO PROJETOS--*/
 div.projetos{
       box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         background-color: #FFB600;
-        display: flex;
-        height: 451px;
-        min-width: 1000px;
+        display: grid;
+        height: 840px;
+        max-width: 100%;
+        
 }
 /*--TITULO DA AREA DE PROJETOS--*/
 div.Titulo_Proj{
     position: sticky;
-    text-align: left;
-    min-width: 44.8vw;
+    text-align: center;
+    width: 76vw;
     max-height: 70px;
-    left: 30.3vw;
 }
 div.projetos h1{
         position: relative;
 }
-
-div.itens{
+div.foto_e_texto_proj1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75vw;
+    height: 370px;
+}
+    #container1{
         display: flex;
+        width: 100%;
+        height: 97.4%;
+    }
+    #ImgAntP1{
+        width: 5vh;
+        background: linear-gradient(to left, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 15px 0px 0px 15px;
+    }
+    #ImgAntP1:hover{
+        border: 1px solid #000;
+    }
+    #ProxImgP1{
+        width: 5vh;
+        background: linear-gradient(to right, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 0px 15px 15px 0px;
+    }
+    #ProxImgP1:hover{
+        border: 1px solid #000;
+    }
+
+    div.sobre_o_projeto1{
+        height: 370px;
+        width: 38vw;
+        padding: 5px;
+    }
+    div.sobre_o_projeto1 p{
+        font-size: 1.58vh;
+    }
+/*--------------------PROJETO 2-------------------*/
+div.foto_e_texto_proj2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75vw;
+    height: 370px;
+}
+    #container2{
+        display: flex;
+        width: 100%;
+        height: 97.4%;
+    }
+    #ImgAntP2{
+        width: 5vh;
+        background: linear-gradient(to left, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 15px 0px 0px 15px;
+    }
+    #ImgAntP2:hover{
+        border: 1px solid #000;
+    }
+    #ProxImgP2{
+        width: 5vh;
+        background: linear-gradient(to right, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 0px 15px 15px 0px;
+    }
+    #ProxImgP2:hover{
+        border: 1px solid #000;
+    }
+
+    div.sobre_o_projeto2{
+        height: 370px;
+        width: 38vw;
+        padding: 5px;
+    }
+    div.sobre_o_projeto2 p{
+        font-size: 1.7vh;
         
-}
-div.itens img{
-        object-fit: cover;
-        width: 140px;
-        height: 140px;
-}
+    }
 
-/*--DIV COMPLETA--*/
-div.container{
-  padding: 15px;
-  max-width: 504px;
-  max-height: 300px;
-
-}
-/*--DIV APENS PARA OVERFLOW--*/
-div.gallery-wrapper{
-  overflow-x: auto;
-}
-/*--DIV COM AS FOTOS--*/
-div.gallery{
-  display: flex;
-  flex-flow: row nowrap;
-  gap: 15px;
-}
-
-/*--BOTÕES PARA MUDAR AS FOTOS--*/ 
-button.arrow-left,
-button.arrow-right{
-    position: absolute;
-    top: 20px;
-    left: 0;
-    right: auto;
-    bottom: 15px;
-    font-size: 20px;
-    line-height: 250px;
-    width: 20px;
-    height: 300px;
-    text-align: center;
-    color: #000;
-    font-weight: bold;
-    cursor: pointer;
-    border: none;
-    background: linear-gradient(to left, transparent 0%, rgba(255, 255, 255, 0));
-    opacity: 0.4;
-    transition: all 100ms ease-in-out;
-}
-/*--BOTÃO DIREITO--*/
-button.arrow-right{
-    left: 484px;
-    right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0));
-}
-   /*--QUANDO CLICAR NOS BOTÕES--*/
-   button.arrow-left:hover{
-      opacity: 1;
-      background: linear-gradient(to right, #FFB600, rgba(0, 0, 0, 0.6));
-  }
-  button.arrow-right:hover{
-      opacity: 1;
-      background: linear-gradient(to left, #FFB600, rgba(0, 0, 0, 0.6));
-  }
-  
-  .item{
-      width: 474px;
-      height: 300px;
-      flex-shrink: 0;
-      border: 2px solid transparent;
-      transition: all 600ms ease-in-out; 
-  }
-  
-  .gallery-wrapper::-webkit-scrollbar {
-       display: none;
-  }
-  .gallery-wrapper {
-        -ms-overflow-style: none; /* IE and Edge */
-        scrollbar-width: none; /* Firefox */
-  }
+/*PARTE INFERIOR DO SITE*/
   footer.rodape{
     display: flex;
     background-color: #001573;
@@ -833,7 +788,7 @@ div.agradecimento{
     text-align: center;
     width: 1344px;
     height: 50px;
-    color: #00eeff;
+    color: #000;
 }
 }
 
@@ -843,7 +798,7 @@ div.agradecimento{
         background-color: #001573;
         text-align: center;
         height: 185px;
-        width: 98.8vw;
+        width: 1037px;
 }
 div.nome{
 	position: absolute;
@@ -990,15 +945,14 @@ main.meio{
 div.apresentacao{
     text-align: top;
     align-items: top;
-        background-color: #FFB600;
-        position: absolute;
-        left: 75.3vw;
-        display: grid;
-        max-width: 350px;
-        height: 901px;
-        border-top: 2px solid rgba(95, 94, 94, 0.2);
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        z-index: 1;
+    background-color: #FFB600;
+    left: 75.3vw;
+    display: grid;
+    max-width: 350px;
+    height: 1291px;
+    border-top: 2px solid rgba(95, 94, 94, 0.2);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
 div.Titulo{
     display: flex;
@@ -1036,7 +990,7 @@ div.escolaridade{
     	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         background-color: #FFB600;
         display: flex;
-        width: 791px;
+        width: 822px;
         height: 450px;
 }
 div.Titulo_Escolaridade{
@@ -1051,12 +1005,13 @@ div.info_escolaridade{
 	margin-left: 24.5vw;
 	display: grid;
 	height: 449px;
-	width: 655px;
+	width: 535px;
 	text-align: top;
   	align-items: top;
 }
 div.sobre_a_escolaridade{
 	height: 370px;
+    width: 534px;
 	margin-top: 5px;
 	text-align: left;
 	align-items: left;
@@ -1112,142 +1067,119 @@ div.utilizo img.java{
 div.utilizo img.git{
   width: 8.3vw;
 }
-div.foto_e_texto_proj{
-    display: flex;
-    min-width: 75vw;
-    height: 370px;
-    position: relative;
-    top: 80px;
-    left: -44.7vw;
-    }
-    div.sobre_o_projeto{
-        position: relative;
-        top: 20px;
-        height: 338px;
-        width: 35.8vw;
-        padding: 5px;
-        padding-top: 0px;  
-    }
-    div.sobre_o_projeto p{
-        font-size: 1.4vh;
-    }
 /*--INFO PROJETOS--*/
 div.projetos{
-      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        background-color: #FFB600;
-        display: flex;
-        height: 451px;
-        width: 791px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+    background-color: #FFB600;
+    display: grid;
+    height: 840px;
+    width: 822px;
 }
 /*--TITULO DA AREA DE PROJETOS--*/
 div.Titulo_Proj{
-    position: sticky;
-    text-align: left;
-    min-width: 44.8vw;
-    max-height: 70px;
-    left: 30.3vw;
+  position: sticky;
+  text-align: center;
+  min-width: 44.8vw;
+  max-height: 70px;
+  left: 30.3vw;
 }
 div.projetos h1{
-        position: relative;
+      position: relative;
 }
-
-div.itens{
+div.foto_e_texto_proj1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75vw;
+    height: 370px;
+}
+    #container1{
         display: flex;
+        width: 100%;
+        height: 97.4%;
+    }
+    #ImgAntP1{
+        width: 5vh;
+        background: linear-gradient(to left, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 15px 0px 0px 15px;
+    }
+    #ImgAntP1:hover{
+        border: 1px solid #000;
+    }
+    #ProxImgP1{
+        width: 5vh;
+        background: linear-gradient(to right, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 0px 15px 15px 0px;
+    }
+    #ProxImgP1:hover{
+        border: 1px solid #000;
+    }
+
+    div.sobre_o_projeto1{
+        height: 370px;
+        width: 38vw;
+        padding: 5px;
+    }
+    div.sobre_o_projeto1 p{
+        font-size: 1.58vh;
+    }
+/*--------------------PROJETO 2-------------------*/
+div.foto_e_texto_proj2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75vw;
+    height: 370px;
+}
+    #container2{
+        display: flex;
+        width: 100%;
+        height: 97.4%;
+    }
+    #ImgAntP2{
+        width: 5vh;
+        background: linear-gradient(to left, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 15px 0px 0px 15px;
+    }
+    #ImgAntP2:hover{
+        border: 1px solid #000;
+    }
+    #ProxImgP2{
+        width: 5vh;
+        background: linear-gradient(to right, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 0px 15px 15px 0px;
+    }
+    #ProxImgP2:hover{
+        border: 1px solid #000;
+    }
+
+    div.sobre_o_projeto2{
+        height: 370px;
+        width: 38vw;
+        padding: 5px;
+    }
+    div.sobre_o_projeto2 p{
+        font-size: 1.7vh;
         
-}
-div.itens img{
-        object-fit: cover;
-        width: 140px;
-        height: 140px;
-}
-div.soProjetos{
-    position: sticky;
-    width: 425px;
-    padding-top: 5px;
-    height: 290px;
-}
-/*--DIV COMPLETA--*/
-div.container{
-  padding: 15px;
-  max-width: 504px;
-  max-height: 300px;
-
-}
-/*--DIV APENS PARA OVERFLOW--*/
-div.gallery-wrapper{
-  overflow-x: auto;
-}
-/*--DIV COM AS FOTOS--*/
-div.gallery{
-  display: flex;
-  flex-flow: row nowrap;
-  gap: 15px;
-}
-
-/*--BOTÕES PARA MUDAR AS FOTOS--*/ 
-button.arrow-left,
-button.arrow-right{
-    position: absolute;
-    top: 20px;
-    left: 0;
-    right: auto;
-    bottom: 15px;
-    font-size: 20px;
-    line-height: 250px;
-    width: 20px;
-    height: 250px;
-    text-align: center;
-    color: #000;
-    font-weight: bold;
-    cursor: pointer;
-    border: none;
-    background: linear-gradient(to left, transparent 0%, rgba(255, 255, 255, 0));
-    opacity: 0.4;
-    transition: all 100ms ease-in-out;
-}
-/*--BOTÃO DIREITO--*/
-button.arrow-right{
-    left: 405px;
-    right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0));
-}
-   /*--QUANDO CLICAR NOS BOTÕES--*/
-   button.arrow-left:hover{
-      opacity: 1;
-      background: linear-gradient(to right, #FFB600, rgba(0, 0, 0, 0.6));
-  }
-  button.arrow-right:hover{
-      opacity: 1;
-      background: linear-gradient(to left, #FFB600, rgba(0, 0, 0, 0.6));
-  }
-  
-  .item{
-      width: 395px;
-      height: 250px;
-      flex-shrink: 0;
-      border: 2px solid transparent;
-      transition: all 600ms ease-in-out; 
-  }
-  
-  .gallery-wrapper::-webkit-scrollbar {
-       display: none;
-  }
-  .gallery-wrapper {
-        -ms-overflow-style: none; /* IE and Edge */
-        scrollbar-width: none; /* Firefox */
-  }
+    }
   footer.rodape{
     display: flex;
     background-color: #001573;
     height: 65px;
-    width: 98.8vw;
+    width: 1037px;
 }
 div.agradecimento{
     position: sticky;
     text-align: center;
     width: 1344px;
     height: 50px;
-    color: #00eeff;
+    color: #000;
 }
 }
 
@@ -1272,6 +1204,7 @@ header.topo h1.MeuNome{
         position: sticky;
         color: #00eeff;
         font-size: 5vh;
+        height: 75px;
 }
 
 h1 span{
@@ -1525,130 +1458,104 @@ div.utilizo img.java{
 div.utilizo img.git{
   width: 9.8vw;
 }
-div.foto_e_texto_proj{
-    display: flex;
-    min-width: 98vw;
-    height: 370px;
-    position: relative;
-    top: 80px;
-    left: -44.7vw;
-    }
-    div.sobre_o_projeto{
-        position: relative;
-        top: 20px;
-        height: 338px;
-        width: 50vw;
-        padding: 5px;
-        padding-top: 0px;  
-    }
-    div.sobre_o_projeto p{
-        font-size: 1.6vh;
-    }
 /*--INFO PROJETOS--*/
 div.projetos{
       box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         background-color: #FFB600;
-        display: flex;
-        height: 451px;
+        display: grid;
+        height: 1250px;
         width: 98.1vw;
         z-index: 2;
 }
 /*--TITULO DA AREA DE PROJETOS--*/
 div.Titulo_Proj{
     position: sticky;
-    text-align: left;
+    text-align: center;
     min-width: 44.8vw;
     max-height: 70px;
     left: 30.3vw;
 }
-div.projetos h1{
-        position: relative;
+div.foto_e_texto_proj1{
+    display: grid;
+    width: 98vw;
+    height: 550px;
 }
-
-div.itens{
+    #container1{
         display: flex;
-}
-div.itens img{
-        object-fit: cover;
-        width: 140px;
-        height: 140px;
-}
-div.soProjetos{
-    position: sticky;
-    width: 425px;
-    padding-top: 5px;
-    height: 290px;
-}
-/*--DIV COMPLETA--*/
-div.container{
-  padding: 15px;
-  max-width: 504px;
-  max-height: 300px;
+        width: 100%;
+        height: 97.4%;
+    }
+    #ImgAntP1{
+        width: 5vh;
+        background: linear-gradient(to left, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 15px 0px 0px 15px;
+    }
+    #ImgAntP1:hover{
+        border: 1px solid #000;
+    }
+    #ProxImgP1{
+        width: 5vh;
+        background: linear-gradient(to right, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 0px 15px 15px 0px;
+    }
+    #ProxImgP1:hover{
+        border: 1px solid #000;
+    }
 
+    div.sobre_o_projeto1{
+        width: 98vw;
+        height: 185px;
+        padding: 5px;
+    }
+    div.sobre_o_projeto1 p{
+        font-size: 1.58vh;
+    }
+/*--------------------PROJETO 2-------------------*/
+div.foto_e_texto_proj2{
+    display: grid;
+    width: 98vw;
+    height: 560px;
 }
-/*--DIV APENS PARA OVERFLOW--*/
-div.gallery-wrapper{
-  overflow-x: auto;
-}
-/*--DIV COM AS FOTOS--*/
-div.gallery{
-  display: flex;
-  flex-flow: row nowrap;
-  gap: 15px;
-}
+    #container2{
+        display: flex;
+        width: 100%;
+        height: 97.4%;
+    }
+    #ImgAntP2{
+        width: 5vh;
+        background: linear-gradient(to left, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 15px 0px 0px 15px;
+    }
+    #ImgAntP2:hover{
+        border: 1px solid #000;
+    }
+    #ProxImgP2{
+        width: 5vh;
+        background: linear-gradient(to right, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 0px 15px 15px 0px;
+    }
+    #ProxImgP2:hover{
+        border: 1px solid #000;
+    }
 
-/*--BOTÕES PARA MUDAR AS FOTOS--*/ 
-button.arrow-left,
-button.arrow-right{
-    position: absolute;
-    top: 20px;
-    left: 0;
-    right: auto;
-    bottom: 15px;
-    font-size: 20px;
-    line-height: 250px;
-    width: 20px;
-    height: 250px;
-    text-align: center;
-    color: #000;
-    font-weight: bold;
-    cursor: pointer;
-    border: none;
-    background: linear-gradient(to left, transparent 0%, rgba(255, 255, 255, 0));
-    opacity: 0.4;
-    transition: all 100ms ease-in-out;
-}
-/*--BOTÃO DIREITO--*/
-button.arrow-right{
-    left: 405px;
-    right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0));
-}
-   /*--QUANDO CLICAR NOS BOTÕES--*/
-   button.arrow-left:hover{
-      opacity: 1;
-      background: linear-gradient(to right, #FFB600, rgba(0, 0, 0, 0.6));
-  }
-  button.arrow-right:hover{
-      opacity: 1;
-      background: linear-gradient(to left, #FFB600, rgba(0, 0, 0, 0.6));
-  }
-  
-  .item{
-      width: 395px;
-      height: 250px;
-      flex-shrink: 0;
-      border: 2px solid transparent;
-      transition: all 600ms ease-in-out; 
-  }
-  
-  .gallery-wrapper::-webkit-scrollbar {
-       display: none;
-  }
-  .gallery-wrapper {
-        -ms-overflow-style: none; /* IE and Edge */
-        scrollbar-width: none; /* Firefox */
-  }
+    div.sobre_o_projeto2{
+        height: 200px;
+        width: 98vw;                    
+        padding: 5px;
+    }
+    div.sobre_o_projeto2 p{
+        font-size: 1.7vh;
+        
+    }
+
   footer.rodape{
     display: flex;
     background-color: #001573;
@@ -1660,7 +1567,7 @@ div.agradecimento{
     text-align: center;
     width: 1344px;
     height: 50px;
-    color: #00eeff;
+    color: #000;
 }
 div.agradecimento{
     font-size: 3vh;
@@ -1939,29 +1846,12 @@ div.utilizo img.java{
 div.utilizo img.git{
   width: 10vw;
 }
-div.foto_e_texto_proj{
-    display: grid;
-    min-width: 98vw;
-    height: 600px;
-    position: relative;
-    }
-    div.sobre_o_projeto{
-        position: relative;
-        top: 20px;
-        height: 270px;
-        width: 98vw;
-        padding: 5px;
-        padding-top: 0px;  
-    }
-    div.sobre_o_projeto p{
-        font-size: 1.9vh;
-    }
 /*--INFO PROJETOS--*/
 div.projetos{
       box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         background-color: #FFB600;
         display: grid;
-        height: 680px;
+        height: 1250px;
         width: 97.9vw;
         z-index: 2;
 }
@@ -1975,92 +1865,85 @@ div.Titulo_Proj{
 div.projetos h1{
         position: relative;
 }
-
-div.itens{
+div.foto_e_texto_proj1{
+    display: grid;
+    width: 98vw;
+    height: 550px;
+}
+    #container1{
         display: flex;
-        
-}
-div.itens img{
-        object-fit: cover;
-        width: 140px;
-        height: 140px;
-}
-div.soProjetos{
-    position: sticky;
-    left: 7vw;
-    width: 84.5vw;
-    padding-top: 5px;
-    height: 45vw;
-}
-/*--DIV COMPLETA--*/
-div.container{
-  padding: 15px;
-  max-width: 90vw;
-  max-height: 80vw;
+        width: 100%;
+        height: 97.4%;
+    }
+    #ImgAntP1{
+        width: 5vh;
+        background: linear-gradient(to left, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 15px 0px 0px 15px;
+    }
+    #ImgAntP1:hover{
+        border: 1px solid #000;
+    }
+    #ProxImgP1{
+        width: 5vh;
+        background: linear-gradient(to right, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 0px 15px 15px 0px;
+    }
+    #ProxImgP1:hover{
+        border: 1px solid #000;
+    }
 
+    div.sobre_o_projeto1{
+        width: 98vw;
+        height: 185px;
+        padding: 5px;
+    }
+    div.sobre_o_projeto1 p{
+        font-size: 1.58vh;
+    }
+/*--------------------PROJETO 2-------------------*/
+div.foto_e_texto_proj2{
+    display: grid;
+    width: 98vw;
+    height: 560px;
 }
-/*--DIV APENS PARA OVERFLOW--*/
-div.gallery-wrapper{
-  overflow-x: auto;
-}
-/*--DIV COM AS FOTOS--*/
-div.gallery{
-  display: flex;
-  flex-flow: row nowrap;
-  gap: 15px;
-}
+    #container2{
+        display: flex;
+        width: 100%;
+        height: 97.4%;
+    }
+    #ImgAntP2{
+        width: 5vh;
+        background: linear-gradient(to left, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 15px 0px 0px 15px;
+    }
+    #ImgAntP2:hover{
+        border: 1px solid #000;
+    }
+    #ProxImgP2{
+        width: 5vh;
+        background: linear-gradient(to right, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 0px 15px 15px 0px;
+    }
+    #ProxImgP2:hover{
+        border: 1px solid #000;
+    }
 
-/*--BOTÕES PARA MUDAR AS FOTOS--*/ 
-button.arrow-left,
-button.arrow-right{
-    position: absolute;
-    top: 20px;
-    left: 0;
-    right: auto;
-    bottom: 15px;
-    font-size: 20px;
-    line-height: 250px;
-    width: 20px;
-    height: 40.1vw;
-    text-align: center;
-    color: #000;
-    font-weight: bold;
-    cursor: pointer;
-    border: none;
-    background: linear-gradient(to left, transparent 0%, rgba(255, 255, 255, 0));
-    opacity: 0.4;
-    transition: all 100ms ease-in-out;
-}
-/*--BOTÃO DIREITO--*/
-button.arrow-right{
-    left: 81.5vw;
-    right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0));
-}
-   /*--QUANDO CLICAR NOS BOTÕES--*/
-   button.arrow-left:hover{
-      opacity: 1;
-      background: linear-gradient(to right, #FFB600, rgba(0, 0, 0, 0.6));
-  }
-  button.arrow-right:hover{
-      opacity: 1;
-      background: linear-gradient(to left, #FFB600, rgba(0, 0, 0, 0.6));
-  }
-  
-  .item{
-      width: 80.1vw;
-      height: 40.1vw;
-      flex-shrink: 0;
-      border: 2px solid transparent;
-      transition: all 600ms ease-in-out; 
-  }
-  .gallery-wrapper::-webkit-scrollbar {
-       display: none;
-  }
-  .gallery-wrapper {
-        -ms-overflow-style: none; /* IE and Edge */
-        scrollbar-width: none; /* Firefox */
-  }
+    div.sobre_o_projeto2{
+        height: 200px;
+        width: 98vw;                    
+        padding: 5px;
+    }
+    div.sobre_o_projeto2 p{
+        font-size: 1.7vh;
+    }
   footer.rodape{
     display: flex;
     background-color: #001573;
@@ -2072,7 +1955,7 @@ div.agradecimento{
     text-align: center;
     width: 97.8vw;
     height: 50px;
-    color: #00eeff; 
+    color: #000; 
 }
 div.agradecimento p{
     font-size: 2.7vh;
@@ -2348,29 +2231,12 @@ div.utilizo img.java{
 div.utilizo img.git{
   width: 13vw;
 }
-div.foto_e_texto_proj{
-    display: grid;
-    min-width: 98vw;
-    height: 600px;
-    position: relative;
-    }
-    div.sobre_o_projeto{
-        position: relative;
-        top: 20px;
-        height: 270px;
-        width: 98vw;
-        padding: 5px;
-        padding-top: 0px;  
-    }
-    div.sobre_o_projeto p{
-        font-size: 1.82vh;
-    }
 /*--INFO PROJETOS--*/
 div.projetos{
       box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         background-color: #FFB600;
         display: grid;
-        height: 680px;
+        height: 1250px;
         width: 97.9vw;
         z-index: 2;
 }
@@ -2384,92 +2250,86 @@ div.Titulo_Proj{
 div.projetos h1{
         position: relative;
 }
-
-div.itens{
+div.foto_e_texto_proj1{
+    display: grid;
+    width: 98vw;
+    height: 550px;
+}
+    #container1{
         display: flex;
+        width: 100%;
+        height: 97.4%;
+    }
+    #ImgAntP1{
+        width: 5vh;
+        background: linear-gradient(to left, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 15px 0px 0px 15px;
+    }
+    #ImgAntP1:hover{
+        border: 1px solid #000;
+    }
+    #ProxImgP1{
+        width: 5vh;
+        background: linear-gradient(to right, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 0px 15px 15px 0px;
+    }
+    #ProxImgP1:hover{
+        border: 1px solid #000;
+    }
+
+    div.sobre_o_projeto1{
+        width: 98vw;
+        height: 185px;
+        padding: 5px;
+    }
+    div.sobre_o_projeto1 p{
+        font-size: 1.58vh;
+    }
+/*--------------------PROJETO 2-------------------*/
+div.foto_e_texto_proj2{
+    display: grid;
+    width: 98vw;
+    height: 560px;
+}
+    #container2{
+        display: flex;
+        width: 100%;
+        height: 97.4%;
+    }
+    #ImgAntP2{
+        width: 5vh;
+        background: linear-gradient(to left, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 15px 0px 0px 15px;
+    }
+    #ImgAntP2:hover{
+        border: 1px solid #000;
+    }
+    #ProxImgP2{
+        width: 5vh;
+        background: linear-gradient(to right, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 0px 15px 15px 0px;
+    }
+    #ProxImgP2:hover{
+        border: 1px solid #000;
+    }
+
+    div.sobre_o_projeto2{
+        height: 200px;
+        width: 98vw;                    
+        padding: 5px;
+    }
+    div.sobre_o_projeto2 p{
+        font-size: 1.7vh;
         
-}
-div.itens img{
-        object-fit: cover;
-        width: 140px;
-        height: 140px;
-}
-div.soProjetos{
-    position: sticky;
-    left: 6vw;
-    width: 84.5vw;
-    padding-top: 5px;
-    height: 45vw;
-}
-/*--DIV COMPLETA--*/
-div.container{
-  padding: 15px;
-  max-width: 90vw;
-  max-height: 80vw;
-
-}
-/*--DIV APENS PARA OVERFLOW--*/
-div.gallery-wrapper{
-  overflow-x: auto;
-}
-/*--DIV COM AS FOTOS--*/
-div.gallery{
-  display: flex;
-  flex-flow: row nowrap;
-  gap: 15px;
-}
-
-/*--BOTÕES PARA MUDAR AS FOTOS--*/ 
-button.arrow-left,
-button.arrow-right{
-    position: absolute;
-    top: 22px;
-    left: 0;
-    right: auto;
-    bottom: 15px;
-    font-size: 20px;
-    line-height: 250px;
-    width: 20px;
-    height: 39.4vw;
-    text-align: center;
-    color: #000;
-    font-weight: bold;
-    cursor: pointer;
-    border: none;
-    background: linear-gradient(to left, transparent 0%, rgba(255, 255, 255, 0));
-    opacity: 0.4;
-    transition: all 100ms ease-in-out;
-}
-/*--BOTÃO DIREITO--*/
-button.arrow-right{
-    left: 81.5vw;
-    right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0));
-}
-   /*--QUANDO CLICAR NOS BOTÕES--*/
-   button.arrow-left:hover{
-      opacity: 1;
-      background: linear-gradient(to right, #FFB600, rgba(0, 0, 0, 0.6));
-  }
-  button.arrow-right:hover{
-      opacity: 1;
-      background: linear-gradient(to left, #FFB600, rgba(0, 0, 0, 0.6));
-  }
-  
-  .item{
-      width: 80.1vw;
-      height: 40.1vw;
-      flex-shrink: 0;
-      border: 2px solid transparent;
-      transition: all 600ms ease-in-out; 
-  }
-  .gallery-wrapper::-webkit-scrollbar {
-       display: none;
-  }
-  .gallery-wrapper {
-        -ms-overflow-style: none; /* IE and Edge */
-        scrollbar-width: none; /* Firefox */
-  }
+    }
   footer.rodape{
     display: flex;
     background-color: #001573;
@@ -2481,7 +2341,7 @@ div.agradecimento{
     text-align: center;
     width: 97.8vw;
     height: 50px;
-    color: #00eeff; 
+    color: #000; 
 }
 div.agradecimento p{
     font-size: 2.4vh;
@@ -2781,7 +2641,7 @@ div.projetos{
       box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         background-color: #FFB600;
         display: grid;
-        min-height: 680px;
+        min-height: 1250px;
         width: 100vw;
         z-index: 2;
 }
@@ -2796,92 +2656,86 @@ div.Titulo_Proj{
 div.projetos h1{
         position: relative;
 }
-
-div.itens{
+div.foto_e_texto_proj1{
+    display: grid;
+    width: 98vw;
+    height: 550px;
+}
+    #container1{
         display: flex;
+        width: 100%;
+        height: 97.4%;
+    }
+    #ImgAntP1{
+        width: 5vh;
+        background: linear-gradient(to left, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 15px 0px 0px 15px;
+    }
+    #ImgAntP1:hover{
+        border: 1px solid #000;
+    }
+    #ProxImgP1{
+        width: 5vh;
+        background: linear-gradient(to right, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 0px 15px 15px 0px;
+    }
+    #ProxImgP1:hover{
+        border: 1px solid #000;
+    }
+
+    div.sobre_o_projeto1{
+        width: 98vw;
+        height: 185px;
+        padding: 5px;
+    }
+    div.sobre_o_projeto1 p{
+        font-size: 1.58vh;
+    }
+/*--------------------PROJETO 2-------------------*/
+div.foto_e_texto_proj2{
+    display: grid;
+    width: 98vw;
+    height: 560px;
+}
+    #container2{
+        display: flex;
+        width: 100%;
+        height: 97.4%;
+    }
+    #ImgAntP2{
+        width: 5vh;
+        background: linear-gradient(to left, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 15px 0px 0px 15px;
+    }
+    #ImgAntP2:hover{
+        border: 1px solid #000;
+    }
+    #ProxImgP2{
+        width: 5vh;
+        background: linear-gradient(to right, #5e4609, #FFB600);
+        border: none;
+        font-size: 5vh;
+        border-radius: 0px 15px 15px 0px;
+    }
+    #ProxImgP2:hover{
+        border: 1px solid #000;
+    }
+
+    div.sobre_o_projeto2{
+        height: 200px;
+        width: 98vw;                    
+        padding: 5px;
+    }
+    div.sobre_o_projeto2 p{
+        font-size: 1.7vh;
         
-}
-div.itens img{
-        object-fit: cover;
-        width: 140px;
-        height: 140px;
-}
-div.soProjetos{
-    position: sticky;
-    left: 6vw;
-    width: 84.5vw;
-    padding-top: 5px;
-    height: 45vw;
-}
-/*--DIV COMPLETA--*/
-div.container{
-  padding: 15px;
-  max-width: 90vw;
-  max-height: 80vw;
-
-}
-/*--DIV APENS PARA OVERFLOW--*/
-div.gallery-wrapper{
-  overflow-x: auto;
-}
-/*--DIV COM AS FOTOS--*/
-div.gallery{
-  display: flex;
-  flex-flow: row nowrap;
-  gap: 15px;
-}
-
-/*--BOTÕES PARA MUDAR AS FOTOS--*/ 
-button.arrow-left,
-button.arrow-right{
-    position: absolute;
-    top: 22px;
-    left: 0;
-    right: auto;
-    bottom: 15px;
-    font-size: 20px;
-    line-height: 250px;
-    width: 20px;
-    height: 39.4vw;
-    text-align: center;
-    color: #000;
-    font-weight: bold;
-    cursor: pointer;
-    border: none;
-    background: linear-gradient(to left, transparent 0%, rgba(255, 255, 255, 0));
-    opacity: 0.4;
-    transition: all 100ms ease-in-out;
-}
-/*--BOTÃO DIREITO--*/
-button.arrow-right{
-    left: 81.5vw;
-    right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0));
-}
-   /*--QUANDO CLICAR NOS BOTÕES--*/
-   button.arrow-left:hover{
-      opacity: 1;
-      background: linear-gradient(to right, #FFB600, rgba(0, 0, 0, 0.6));
-  }
-  button.arrow-right:hover{
-      opacity: 1;
-      background: linear-gradient(to left, #FFB600, rgba(0, 0, 0, 0.6));
-  }
-  
-  .item{
-      width: 80.1vw;
-      height: 40.1vw;
-      flex-shrink: 0;
-      border: 2px solid transparent;
-      transition: all 600ms ease-in-out; 
-  }
-  .gallery-wrapper::-webkit-scrollbar {
-       display: none;
-  }
-  .gallery-wrapper {
-        -ms-overflow-style: none; /* IE and Edge */
-        scrollbar-width: none; /* Firefox */
-  }
+    }
   footer.rodape{
     display: flex;
     background-color: #001573;
@@ -2893,7 +2747,7 @@ div.agradecimento{
     text-align: center;
     width: 98vw;
     height: 50px;
-    color: #00eeff; 
+    color: #000; 
 }
 div.agradecimento p{
     font-size: 2.5vh;
