@@ -396,7 +396,7 @@ div.agradecimento{
     text-align: center;
     width: 1344px;
     height: 50px;
-    color: #000;
+    text-shadow: 1px 1px #fff;
 }
 div.agradecimento{
     font-size: 3.5vh;
