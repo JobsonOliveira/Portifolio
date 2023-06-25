@@ -789,6 +789,7 @@ div.agradecimento{
     width: 1344px;
     height: 50px;
     color: #000;
+    text-shadow: 1px 1px #fff;
 }
 }
 
@@ -1180,6 +1181,7 @@ div.agradecimento{
     width: 1344px;
     height: 50px;
     color: #000;
+    text-shadow: 1px 1px #fff;
 }
 }
 
@@ -1569,6 +1571,7 @@ div.agradecimento{
     width: 1344px;
     height: 50px;
     color: #000;
+    text-shadow: 1px 1px #fff;
 }
 div.agradecimento{
     font-size: 3vh;
@@ -1956,7 +1959,8 @@ div.agradecimento{
     text-align: center;
     width: 97.8vw;
     height: 50px;
-    color: #000; 
+    color: #000;
+    text-shadow: 1px 1px #fff;
 }
 div.agradecimento p{
     font-size: 2.7vh;
@@ -2343,7 +2347,8 @@ div.agradecimento{
     text-align: center;
     width: 97.8vw;
     height: 50px;
-    color: #000; 
+    color: #000;
+    text-shadow: 1px 1px #fff;
 }
 div.agradecimento p{
     font-size: 2.4vh;
@@ -2750,7 +2755,8 @@ div.agradecimento{
     text-align: center;
     width: 98vw;
     height: 50px;
-    color: #000; 
+    color: #000;
+    text-shadow: 1px 1px #fff;
 }
 div.agradecimento p{
     font-size: 2.5vh;
