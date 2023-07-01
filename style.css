@@ -185,9 +185,11 @@ div.texto{
   height: 829px;
 }
 div.texto p{
-        font-size: 2.7vh;
+        font-size: 90%;
         padding: 5px;
         height: 814px;
+        text-align: justify;
+        text-indent: 2vh;
 }
 /*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
 div.informacoes{
@@ -231,10 +233,10 @@ div.sobre_a_escolaridade{
 div.sobre_a_escolaridade p{
 	height: 370px;
 	word-break: break-all;
-	font-size: 2.5vh;
+	font-size: 100%;
 	padding-left: 5px;
-        padding-right: 15px;
-        max-width: 49.3vw;
+    padding-right: 15px;
+    max-width: 49.3vw;
         
         
 }
@@ -290,8 +292,9 @@ div.projetos{
 div.Titulo_Proj{
     position: sticky;
     text-align: center;
+    height: 10vh;
     width: 75.5vw;
-    max-height: 70px;
+    margin-top: 1%;
 }
 div.projetos h1{
         position: relative;
@@ -337,7 +340,12 @@ div.sobre_o_projeto1{
     padding-top: 0px;  
 }
 div.sobre_o_projeto1 p{
-    font-size: 1.73vh;
+    font-size: 79%;
+    text-align: justify;
+}
+/*LINHA HORIZONTAL*/
+hr{
+    border-color: #000;
 }
 /*------------------PROJETO 2---------------------*/
 /*aonde fica o container e o texto sobre o projeto*/
@@ -351,7 +359,6 @@ div.foto_e_texto_proj2{
 /*local aonde fica a imagem e os botões*/
 #container2{
     display: flex;
-    width: 100;
     height: 56.3vh;
 }
 /*botões para as imagens do projeto 2*/
@@ -382,7 +389,8 @@ div.sobre_o_projeto2{
     padding: 5px; 
 }
 div.sobre_o_projeto2 p{
-    font-size: 1.9vh;
+    font-size: 79%;
+    text-align: justify;
 }
 /*-------------------PARTE INFERIOR DO SITE-----------------*/
   footer.rodape{
@@ -396,9 +404,10 @@ div.agradecimento{
     text-align: center;
     width: 1344px;
     height: 50px;
-    text-shadow: 1px 1px #fff;
 }
-div.agradecimento{
+div.agradecimento p{
+    text-shadow: 1px 1px #000;
+    color: #00eeff;
     font-size: 3.5vh;
 }
 }
@@ -581,7 +590,7 @@ div.texto{
   height: 829px;
 }
 div.texto p{
-        font-size: 2.6vh;
+        font-size: 90%;
         padding: 5px;
         height: 814px;
 }
@@ -620,19 +629,17 @@ div.info_escolaridade{
 div.sobre_a_escolaridade{
 	height: 370px;
 	margin-top: 5px;
-	text-align: left;
 	align-items: left;
 	padding: 2px;
 }
 div.sobre_a_escolaridade p{
 	height: 370px;
 	word-break: break-all;
-	font-size: 14px;
+	font-size: 90%;
 	padding-left: 5px;
-        padding-right: 15px;
-        max-width: 49.3vw;
-        
-        
+    padding-right: 15px;
+    max-width: 49.3vw;
+    text-align: center;
 }
 /*--DIV COMPLETA DO "UTILIZO"--*/
 div.utilizo{
@@ -731,8 +738,14 @@ div.foto_e_texto_proj1{
         padding: 5px;
     }
     div.sobre_o_projeto1 p{
-        font-size: 1.58vh;
+        font-size: 70%;
+        text-align: justify;
     }
+    /*LINHA HORIZONTAL*/
+hr{
+    border-color: #000;
+    height: 0px;
+}
 /*--------------------PROJETO 2-------------------*/
 div.foto_e_texto_proj2{
     display: grid;
@@ -772,8 +785,8 @@ div.foto_e_texto_proj2{
         padding: 5px;
     }
     div.sobre_o_projeto2 p{
-        font-size: 1.7vh;
-        
+        font-size: 70%;
+        text-align: justify;
     }
 
 /*PARTE INFERIOR DO SITE*/
@@ -788,8 +801,11 @@ div.agradecimento{
     text-align: center;
     width: 1344px;
     height: 50px;
-    color: #000;
-    text-shadow: 1px 1px #fff;
+}
+div.agradecimento p{
+    color: #00eeff;
+    text-shadow: 1px 1px #000;
+    font-size: 150%;
 }
 }
 
@@ -948,7 +964,6 @@ div.apresentacao{
     align-items: top;
     background-color: #FFB600;
     left: 75.3vw;
-    display: grid;
     max-width: 350px;
     height: 1291px;
     border-top: 2px solid rgba(95, 94, 94, 0.2);
@@ -974,9 +989,10 @@ div.texto{
   height: 829px;
 }
 div.texto p{
-        font-size: 2vh;
+        font-size: 90%;
         padding: 5px;
         height: 814px;
+        text-align: justify;
 }
 /*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
 div.informacoes{
@@ -1014,19 +1030,17 @@ div.sobre_a_escolaridade{
 	height: 370px;
     width: 534px;
 	margin-top: 5px;
-	text-align: left;
 	align-items: left;
 	padding: 2px;
 }
 div.sobre_a_escolaridade p{
 	height: 370px;
 	word-break: break-all;
-	font-size: 12px;
+	font-size: 80%;
 	padding-left: 5px;
     padding-right: 15px;
     max-width: 49.3vw;
-        
-        
+    text-align: center;
 }
 /*--DIV COMPLETA DO "UTILIZO"--*/
 div.utilizo{
@@ -1125,7 +1139,12 @@ div.foto_e_texto_proj1{
         padding: 5px;
     }
     div.sobre_o_projeto1 p{
-        font-size: 1.58vh;
+        font-size: 65%;
+        text-align: justify;
+    }
+    hr{
+        border-color: #000;
+        height: 0px;
     }
 /*--------------------PROJETO 2-------------------*/
 div.foto_e_texto_proj2{
@@ -1166,8 +1185,8 @@ div.foto_e_texto_proj2{
         padding: 5px;
     }
     div.sobre_o_projeto2 p{
-        font-size: 1.7vh;
-        
+        font-size: 65%;
+        text-align: justify;
     }
   footer.rodape{
     display: flex;
@@ -1180,8 +1199,11 @@ div.agradecimento{
     text-align: center;
     width: 1344px;
     height: 50px;
-    color: #000;
-    text-shadow: 1px 1px #fff;
+}
+div.agradecimento p{
+    color: #00eeff;
+    text-shadow: 1px 1px #000;
+    font-size: 150%;
 }
 }
 
@@ -1366,9 +1388,10 @@ div.texto{
   height: 829px;
 }
 div.texto p{
-        font-size: 1.9vh;
+        font-size: 78%;
         padding: 5px;
         height: 814px;
+        text-align: justify;
 }
 /*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
 div.informacoes{
@@ -1405,20 +1428,17 @@ div.sobre_a_escolaridade{
 	height: 370px;
     max-width: 73.5vw;
 	margin-top: 5px;
-	text-align: left;
 	align-items: left;
 	padding: 2px;
 }
 div.sobre_a_escolaridade p{
-    
 	height: 370px;
 	word-break: break-all;
-	font-size: 2.3vh;
+	font-size: 94%;
 	padding-left: 5px;
     padding-right: 15px;
     max-width: 72vw;
-        
-        
+    text-align: center;
 }
 /*--DIV COMPLETA DO "UTILIZO"--*/
 div.utilizo{
@@ -1515,8 +1535,14 @@ div.foto_e_texto_proj1{
         padding: 5px;
     }
     div.sobre_o_projeto1 p{
-        font-size: 1.58vh;
+        font-size: 60%;
+        text-align: justify;
     }
+    /*LINHA HORIZONTAL*/
+hr{
+    border-color: #000;
+    height: 0px;
+}
 /*--------------------PROJETO 2-------------------*/
 div.foto_e_texto_proj2{
     display: grid;
@@ -1555,8 +1581,8 @@ div.foto_e_texto_proj2{
         padding: 5px;
     }
     div.sobre_o_projeto2 p{
-        font-size: 1.7vh;
-        
+        font-size: 60%;
+        text-align: justify;
     }
 
   footer.rodape{
@@ -1570,11 +1596,11 @@ div.agradecimento{
     text-align: center;
     width: 1344px;
     height: 50px;
-    color: #000;
-    text-shadow: 1px 1px #fff;
 }
 div.agradecimento{
-    font-size: 3vh;
+    color: #00eeff;
+    text-shadow: 1px 1px #000;
+    font-size: 150%;
 }
 }
 
@@ -1758,9 +1784,11 @@ div.texto{
   height: 829px;
 }
 div.texto p{
-        font-size: 2vh;
+        font-size: 80%;
         padding: 5px;
         height: 814px;
+        text-align: justify;
+        text-indent: 5px;
 }
 /*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
 div.informacoes{
@@ -1803,7 +1831,7 @@ div.sobre_a_escolaridade{
 div.sobre_a_escolaridade p{
 	height: 370px;
 	word-break: break-all;
-	font-size: 2.4vh;
+	font-size: 100%;
 	padding-left: 5px;
     padding-right: 15px;
     width: 97.8vw;
@@ -1906,8 +1934,14 @@ div.foto_e_texto_proj1{
         padding: 5px;
     }
     div.sobre_o_projeto1 p{
-        font-size: 1.58vh;
+        font-size: 69%;
+        text-align: justify;
     }
+    /*LINHA HORIZONTAL*/
+hr{
+    border-color: #000;
+  height: 0px;
+  }
 /*--------------------PROJETO 2-------------------*/
 div.foto_e_texto_proj2{
     display: grid;
@@ -1946,7 +1980,8 @@ div.foto_e_texto_proj2{
         padding: 5px;
     }
     div.sobre_o_projeto2 p{
-        font-size: 1.7vh;
+        font-size: 69%;
+        text-align: justify;
     }
   footer.rodape{
     display: flex;
@@ -1959,11 +1994,11 @@ div.agradecimento{
     text-align: center;
     width: 97.8vw;
     height: 50px;
-    color: #000;
-    text-shadow: 1px 1px #fff;
 }
 div.agradecimento p{
-    font-size: 2.7vh;
+    color: #00eeff;
+    text-shadow: 1px 1px #000;
+    font-size: 120%;
 }
 }
 @media (min-width: 544px) and (max-width: 628px){
@@ -2143,7 +2178,7 @@ div.texto{
   height: 829px;
 }
 div.texto p{
-        font-size: 1.77vh;
+        font-size: 74%;
         padding: 5px;
         height: 814px;
 }
@@ -2188,7 +2223,7 @@ div.sobre_a_escolaridade{
 div.sobre_a_escolaridade p{
 	height: 370px;
 	word-break: break-all;
-	font-size: 2.22vh;
+	font-size: 93%;
 	padding-left: 5px;
     padding-right: 15px;
     max-width: 99vw;
@@ -2293,8 +2328,14 @@ div.foto_e_texto_proj1{
         padding: 5px;
     }
     div.sobre_o_projeto1 p{
-        font-size: 1.58vh;
+        font-size: 70%;
+        text-align: justify;
     }
+    /*LINHA HORIZONTAL*/
+hr{
+    border-color: #000;
+    height: 0px;
+  }
 /*--------------------PROJETO 2-------------------*/
 div.foto_e_texto_proj2{
     display: grid;
@@ -2333,8 +2374,8 @@ div.foto_e_texto_proj2{
         padding: 5px;
     }
     div.sobre_o_projeto2 p{
-        font-size: 1.7vh;
-        
+        font-size: 71%;
+        text-align: justify;
     }
   footer.rodape{
     display: flex;
@@ -2347,11 +2388,11 @@ div.agradecimento{
     text-align: center;
     width: 97.8vw;
     height: 50px;
-    color: #000;
-    text-shadow: 1px 1px #fff;
 }
 div.agradecimento p{
-    font-size: 2.4vh;
+    color: #00eeff;
+    text-shadow: 1px 1px #000;
+    font-size: 110%;
 }
 }
 
@@ -2532,7 +2573,7 @@ div.texto{
   height: 829px;
 }
 div.texto p{
-        font-size: 1.7vh;
+        font-size: 74%;
         padding: 5px;
         height: 814px;
 }
@@ -2578,7 +2619,7 @@ div.sobre_a_escolaridade{
 div.sobre_a_escolaridade p{
 	height: 370px;
 	word-break: break-all;
-	font-size: 2.1vh;
+	font-size: 82%;
 	padding-left: 5px;
     padding-right: 15px;
     max-width: 99vw;
@@ -2626,23 +2667,7 @@ div.utilizo img.java{
 div.utilizo img.git{
   width: 17vw;
 }
-div.foto_e_texto_proj{
-    display: grid;
-    min-width: 98vw;
-    height: 600px;
-    position: relative;
-    }
-    div.sobre_o_projeto{
-        position: relative;
-        top: 20px;
-        min-height: 270px;
-        width: 98vw;
-        padding: 5px;
-        padding-top: 0px;  
-    }
-    div.sobre_o_projeto p{
-        font-size: 1.8vh;
-    }
+
 /*--INFO PROJETOS--*/
 div.projetos{
       box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
@@ -2659,7 +2684,7 @@ div.Titulo_Proj{
     text-align: center;
     width: 98vw;
     max-height: 70px;
-    margin-top: 5px;
+    margin-top: 1vh;
 }
 div.projetos h1{
         position: relative;
@@ -2701,8 +2726,13 @@ div.foto_e_texto_proj1{
         padding: 5px;
     }
     div.sobre_o_projeto1 p{
-        font-size: 1.58vh;
+        font-size: 67%;
+        text-align: justify;
     }
+    /*LINHA HORIZONTAL*/
+    hr{
+        border-color: #000;
+      }
 /*--------------------PROJETO 2-------------------*/
 div.foto_e_texto_proj2{
     display: grid;
@@ -2741,8 +2771,8 @@ div.foto_e_texto_proj2{
         padding: 5px;
     }
     div.sobre_o_projeto2 p{
-        font-size: 1.7vh;
-        
+        font-size: 70%;
+        text-align: justify;
     }
   footer.rodape{
     display: flex;
@@ -2755,10 +2785,10 @@ div.agradecimento{
     text-align: center;
     width: 98vw;
     height: 50px;
-    color: #000;
-    text-shadow: 1px 1px #fff;
 }
 div.agradecimento p{
-    font-size: 2.5vh;
+    font-size: 100%;
+    color: #00eeff;
+    text-shadow: 1px 1px #000;
 }
 }
