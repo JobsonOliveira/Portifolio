@@ -396,10 +396,11 @@ div.agradecimento{
     text-align: center;
     width: 1344px;
     height: 50px;
-    color: #000;
 }
-div.agradecimento{
+div.agradecimento p{
     font-size: 3.5vh;
+    color: #00eeff;
+    text-shadow: 1px 1px #000;
 }
 }
 
@@ -788,7 +789,11 @@ div.agradecimento{
     text-align: center;
     width: 1344px;
     height: 50px;
-    color: #000;
+}
+div.agradecimento p{
+    font-size: 4vh;
+    color: #00eeff;
+    text-shadow: 1px 1px #000;
 }
 }
 
@@ -1179,7 +1184,11 @@ div.agradecimento{
     text-align: center;
     width: 1344px;
     height: 50px;
-    color: #000;
+}
+div.agradecimento p{
+    font-size: 4vh;
+    color: #00eeff;
+    text-shadow: 1px 1px #000;
 }
 }
 
@@ -1567,10 +1576,11 @@ div.agradecimento{
     text-align: center;
     width: 1344px;
     height: 50px;
-    color: #000;
 }
 div.agradecimento{
     font-size: 3vh;
+    color: #00eeff;
+    text-shadow: 1px 1px #000;
 }
 }
 
@@ -1955,10 +1965,11 @@ div.agradecimento{
     text-align: center;
     width: 97.8vw;
     height: 50px;
-    color: #000; 
 }
 div.agradecimento p{
     font-size: 2.7vh;
+    color: #00eeff;
+    text-shadow: 1px 1px #000;
 }
 }
 @media (min-width: 544px) and (max-width: 628px){
@@ -2341,10 +2352,11 @@ div.agradecimento{
     text-align: center;
     width: 97.8vw;
     height: 50px;
-    color: #000; 
 }
 div.agradecimento p{
     font-size: 2.4vh;
+    color: #00eeff;
+    text-shadow: 1px 1px #000;
 }
 }
 
@@ -2648,13 +2660,13 @@ div.projetos{
 /*--TITULO DA AREA DE PROJETOS--*/
 div.Titulo_Proj{
     position: sticky;
-    text-align: center;
     width: 98vw;
     max-height: 70px;
-    margin-top: 5px;
+    margin-top: 1vh;
 }
 div.projetos h1{
-        position: relative;
+    text-align: center;
+    position: relative;
 }
 div.foto_e_texto_proj1{
     display: grid;
@@ -2747,9 +2759,10 @@ div.agradecimento{
     text-align: center;
     width: 98vw;
     height: 50px;
-    color: #000; 
 }
 div.agradecimento p{
     font-size: 2.5vh;
+    color: #00eeff;
+    text-shadow: 1px 1px #000;
 }
 }
