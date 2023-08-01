@@ -228,6 +228,93 @@ btnProxP2.addEventListener('click', ()=>{
     }
 });
 
+//-----------INICIA A PÁGINA COM A PRIMEIRA IMAGEM DO PROJETO 3 E O TAMANHO DELA----------
+//PROJETO 3
+document.querySelector('#imagensP3').innerHTML =  "<img id='imgP3' src='imagens/Register_Client/Capa.png' alt='Capa do projeto 3 (Site para registro de clientes no banco de dados)'>"
+document.querySelector('#imgP3').style.width = '100%';
+document.querySelector('#imgP3').style.height = '100%';
+//--------------BOTÔES PARA AS IMAGENS DO PROJETO 3------------
+//BOTÕES DO PROJETO 3
+let btnAntP3 = document.querySelector('#ImgAntP3');
+let btnProxP3 = document.querySelector('#ProxImgP3');
+//CONTADOR DAS IMAGENS DO PROJETO 3
+let contImgProj3 = 1;
+//PARA MUDAR PARA A IMAGEM ANTERIOR DO PROJETO 3
+btnAntP3.addEventListener('click', ()=>{
+	switch (contImgProj3) { 
+                //CASO ESTEJA NA capa_my_calculator, VAI PARA A calculadoraImg5
+        case 1:
+            contImgProj3 = 4;
+            document.querySelector('#imgP3').remove();
+            document.querySelector('#imagensP3').innerHTML =  "<img id='imgP3' src='imagens/Register_Client/Banco_de_dados.png' alt=''>"
+            document.querySelector('#imgP3').style.width = '100%';
+            document.querySelector('#imgP3').style.height = '100%';
+            break;
+        case 4:
+            contImgProj3 = 3;
+            document.querySelector('#imgP3').remove();
+            document.querySelector('#imagensP3').innerHTML =  "<img id='imgP3' src='imagens/Register_Client/Tela_Usuarios_Registrados.png' alt=''>"
+            document.querySelector('#imgP3').style.width = '100%';
+            document.querySelector('#imgP3').style.height = '100%';
+            break;     //CASO ESTEJA NA calculadoraImg1, VAI PARA A capa_my_calculator
+            //CASO ESTEJA NA calculadoraImg2, VAI PARA A calculadoraImg1
+        case 3:
+            contImgProj3 = 2;
+            document.querySelector('#imgP3').remove();
+            document.querySelector('#imagensP3').innerHTML =  "<img id='imgP3' src='imagens/Register_Client/Tela_Login.png' alt=''>"
+            document.querySelector('#imgP3').style.width = '100%';
+            document.querySelector('#imgP3').style.height = '100%';
+            break;
+        case 2:
+            contImgProj3 = 1;
+            document.querySelector('#imgP3').remove();
+            document.querySelector('#imagensP3').innerHTML =  "<img id='imgP3' src='imagens/Register_Client/Capa.png' alt=''>"
+            document.querySelector('#imgP3').style.width = '100%';
+            document.querySelector('#imgP3').style.height = '100%';
+            break;
+        default:
+            break;
+    }
+});
+
+//PARA MUDAR PARA A PRÓXIMA IMAGEM DO PROJETO 3
+btnProxP3.addEventListener('click', ()=>{
+	switch (contImgProj3) { 
+                //CASO ESTEJA NA capa_my_calculator, VAI PARA A calculadoraImg5
+        case 1:
+            contImgProj3 = 2;
+            document.querySelector('#imgP3').remove();
+            document.querySelector('#imagensP3').innerHTML =  "<img id='imgP3' src='imagens/Register_Client/Tela_Login.png' alt=''>"
+            document.querySelector('#imgP3').style.width = '100%';
+            document.querySelector('#imgP3').style.height = '100%';
+            break;
+        case 2:
+            contImgProj3 = 3;
+            document.querySelector('#imgP3').remove();
+            document.querySelector('#imagensP3').innerHTML =  "<img id='imgP3' src='imagens/Register_Client/Tela_Usuarios_Registrados.png' alt=''>"
+            document.querySelector('#imgP3').style.width = '100%';
+            document.querySelector('#imgP3').style.height = '100%';
+            break;     //CASO ESTEJA NA calculadoraImg1, VAI PARA A capa_my_calculator
+            //CASO ESTEJA NA calculadoraImg2, VAI PARA A calculadoraImg1
+        case 3:
+            contImgProj3 = 4;
+            document.querySelector('#imgP3').remove();
+            document.querySelector('#imagensP3').innerHTML =  "<img id='imgP3' src='imagens/Register_Client/Banco_de_dados.png' alt=''>"
+            document.querySelector('#imgP3').style.width = '100%';
+            document.querySelector('#imgP3').style.height = '100%';
+            break;
+        case 4:
+            contImgProj3 = 1;
+            document.querySelector('#imgP3').remove();
+            document.querySelector('#imagensP3').innerHTML =  "<img id='imgP3' src='imagens/Register_Client/Capa.png' alt=''>"
+            document.querySelector('#imgP3').style.width = '100%';
+            document.querySelector('#imgP3').style.height = '100%';
+            break;
+        default:
+            break;
+    }
+});
+
 //----------------FUNÇÕES PARA ENCAMINHAS PARA OS MEIOS DE COMUNICAÇÃO-----------------
 //ENCAMINHA PARA O GITHUB
 let btnGitHub = document.querySelector('#GitHub').addEventListener('click', ()=>{
