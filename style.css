@@ -2747,7 +2747,6 @@ div#mensagem p a{
         top: 1px;
         display: inline-block;
         overflow: hidden;
-    
         -webkit-animation: bounce 0.9s ease infinite alternate;
         text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
     }
@@ -2905,7 +2904,6 @@ div#mensagem p a{
     div#escolaridade{
         display: grid;
         gap: 10px;
-        
     }
     /*-------------DIV COM APENAS OS DADOS DA FACULDADE*/
     div#dadosFormacao{
