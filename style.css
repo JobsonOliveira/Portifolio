@@ -394,7 +394,7 @@ div#mensagem p a{
 }
 }
 
-@media (min-width: 1056px) and (max-width: 1359px){
+@media (min-width: 1056px) and (max-width: 1360px){
 
     header.topo{
         display: flex;
@@ -784,7 +784,7 @@ div#mensagem p a{
 
 }
 
-@media (min-width: 1027px) and (max-width: 1055px){
+@media (min-width: 1027px) and (max-width: 1056px){
 
     header.topo{
         display: flex;
@@ -1180,7 +1180,7 @@ div#mensagem p a{
 
 }
 
-@media (min-width: 910px) and (max-width: 1026px){
+@media (min-width: 910px) and (max-width: 1027px){
 
     header.topo{
         display: flex;
@@ -1956,7 +1956,7 @@ div#mensagem p a{
 
 }
 
-@media (min-width: 682px) and (max-width: 806px){
+@media (min-width: 682px) and (max-width: 807px){
 
     header.topo{
         display: flex;
@@ -2340,7 +2340,7 @@ div#mensagem p a{
 
 }
 
-@media (min-width: 500px) and (max-width: 681px){
+@media (min-width: 500px) and (max-width: 682px){
 
     header.topo{
         display: flex;
@@ -2721,7 +2721,7 @@ div#mensagem p a{
 
 }
 
-@media (min-width: 10px) and (max-width: 499px){
+@media (min-width: 1px) and (max-width: 500px){
 
     header.topo{
         display: grid;
