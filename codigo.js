@@ -240,7 +240,3 @@ let modal = document.querySelector("#imagemEinfoDoCurso");
     document.querySelector('#imagensP3').innerHTML =  "<img id='imgP3' src='imagens/Register_Client/Capa.png' alt='Capa do projeto Register Cliente' onclick='info(12)'>";
 
     document.querySelector('#imagensP4').innerHTML =  "<img id='imgP4' src='imagens/Calculadora_Java/Capa.png' alt='Capa do projeto Calculadora Java' onclick='info(13)'>";
-
-    function openHTML(){
-        const win = window.open("");
-    }
