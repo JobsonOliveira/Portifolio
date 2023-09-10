@@ -237,6 +237,7 @@ dialog#imagemEinfoDoCurso{
     top: 5%;
     left: 50%;
     transform: translate(-50%, -5%);
+    background-color: #b8ff45;
 }
 /*DIV ONDE AS INFORMAÇÕES APARECEM*/
 div#modalInfo{
@@ -255,6 +256,9 @@ div#modalInfo p img{
     width: 30px;
     cursor: pointer;
 }
+div#modalInfo img{
+    width: 100%;
+}
 /*IMAGEM MOSTRADA NO MODAL*/
 div#imagem img{
     width: 100%;
@@ -262,7 +266,7 @@ div#imagem img{
 /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
 div#modalInfo h6{
     word-break: break-word;
-    font-size: 11px;
+    font-size: 1.7vh;
     padding: 3px;
     border-top: 2px solid #000;
 }
@@ -625,6 +629,7 @@ div#mensagem p a{
         top: 5%;
         left: 50%;
         transform: translate(-50%, -5%);
+        background-color: #b8ff45;
     }
     /*DIV ONDE AS INFORMAÇÕES APARECEM*/
     div#modalInfo{
@@ -643,6 +648,9 @@ div#mensagem p a{
         width: 30px;
         cursor: pointer;
     }
+    div#modalInfo img{
+        width: 100%;
+    }
     /*IMAGEM MOSTRADA NO MODAL*/
     div#imagem img{
         width: 100%;
@@ -650,7 +658,7 @@ div#mensagem p a{
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
         word-break: break-word;
-        font-size: 11px;
+        font-size: 1.7vh;
         padding: 3px;
         border-top: 2px solid #000;
     }
@@ -1021,6 +1029,7 @@ div#mensagem p a{
         top: 5%;
         left: 50%;
         transform: translate(-50%, -5%);
+        background-color: #b8ff45;
     }
     /*DIV ONDE AS INFORMAÇÕES APARECEM*/
     div#modalInfo{
@@ -1039,6 +1048,9 @@ div#mensagem p a{
         width: 30px;
         cursor: pointer;
     }
+    div#modalInfo img{
+        width: 100%;
+    }
     /*IMAGEM MOSTRADA NO MODAL*/
     div#imagem img{
         width: 100%;
@@ -1046,7 +1058,7 @@ div#mensagem p a{
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
         word-break: break-word;
-        font-size: 11px;
+        font-size: 1.7vh;
         padding: 3px;
         border-top: 2px solid #000;
     }
@@ -1411,6 +1423,7 @@ div#mensagem p a{
         top: 5%;
         left: 50%;
         transform: translate(-50%, -5%);
+        background-color: #b8ff45;
     }
     /*DIV ONDE AS INFORMAÇÕES APARECEM*/
     div#modalInfo{
@@ -1429,6 +1442,9 @@ div#mensagem p a{
         width: 30px;
         cursor: pointer;
     }
+    div#modalInfo img{
+        width: 100%;
+    }
     /*IMAGEM MOSTRADA NO MODAL*/
     div#imagem img{
         width: 100%;
@@ -1436,7 +1452,7 @@ div#mensagem p a{
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
         word-break: break-word;
-        font-size: 11px;
+        font-size: 1.7vh;
         padding: 3px;
         border-top: 2px solid #000;
     }
@@ -1797,6 +1813,7 @@ div#mensagem p a{
         top: 5%;
         left: 50%;
         transform: translate(-50%, -5%);
+        background-color: #b8ff45;
     }
     /*DIV ONDE AS INFORMAÇÕES APARECEM*/
     div#modalInfo{
@@ -1815,6 +1832,9 @@ div#mensagem p a{
         width: 30px;
         cursor: pointer;
     }
+    div#modalInfo img{
+        width: 100%;
+    }
     /*IMAGEM MOSTRADA NO MODAL*/
     div#imagem img{
         width: 100%;
@@ -1822,7 +1842,7 @@ div#mensagem p a{
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
         word-break: break-word;
-        font-size: 11px;
+        font-size: 1.7vh;
         padding: 3px;
         border-top: 2px solid #000;
     }
@@ -2181,6 +2201,7 @@ div#mensagem p a{
         top: 5%;
         left: 50%;
         transform: translate(-50%, -5%);
+        background-color: #b8ff45;
     }
     /*DIV ONDE AS INFORMAÇÕES APARECEM*/
     div#modalInfo{
@@ -2199,6 +2220,9 @@ div#mensagem p a{
         width: 30px;
         cursor: pointer;
     }
+    div#modalInfo img{
+        width: 100%;
+    }
     /*IMAGEM MOSTRADA NO MODAL*/
     div#imagem img{
         width: 100%;
@@ -2206,7 +2230,7 @@ div#mensagem p a{
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
         word-break: break-word;
-        font-size: 11px;
+        font-size: 1.7vh;
         padding: 3px;
         border-top: 2px solid #000;
     }
@@ -2584,6 +2608,9 @@ div#mensagem p a{
         width: 30px;
         cursor: pointer;
     }
+    div#modalInfo img{
+        width: 100%;
+    }
     /*IMAGEM MOSTRADA NO MODAL*/
     div#imagem img{
         width: 100%;
@@ -2960,6 +2987,9 @@ div#mensagem p a{
     div#modalInfo p img{
         width: 30px;
         cursor: pointer;
+    }
+    div#modalInfo img{
+        width: 100%;
     }
     /*IMAGEM MOSTRADA NO MODAL*/
     div#imagem img{
