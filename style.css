@@ -1,7 +1,7 @@
 *{
     margin: 0;
      padding: 0;
-     font-family: 'Bungee', cursive;
+     font-family: 'Bungee', 'cursive';
      box-shadow: border-box;
  }
 
@@ -394,7 +394,7 @@ div#mensagem p a{
 }
 }
 
-@media (min-width: 1056px) and (max-width: 1360px){
+@media (min-width: 1056px) and (max-width: 1359px){
 
     header.topo{
         display: flex;
@@ -784,7 +784,7 @@ div#mensagem p a{
 
 }
 
-@media (min-width: 1027px) and (max-width: 1056px){
+@media (min-width: 1027px) and (max-width: 1055px){
 
     header.topo{
         display: flex;
@@ -1180,7 +1180,7 @@ div#mensagem p a{
 
 }
 
-@media (min-width: 910px) and (max-width: 1027px){
+@media (min-width: 910px) and (max-width: 1026px){
 
     header.topo{
         display: flex;
@@ -1570,7 +1570,7 @@ div#mensagem p a{
 
 }
 
-@media (min-width: 807px) and (max-width: 910px){
+@media (min-width: 807px) and (max-width: 909px){
 
     header.topo{
         display: flex;
@@ -1956,7 +1956,7 @@ div#mensagem p a{
 
 }
 
-@media (min-width: 682px) and (max-width: 807px){
+@media (min-width: 682px) and (max-width: 806px){
 
     header.topo{
         display: flex;
@@ -2340,7 +2340,7 @@ div#mensagem p a{
 
 }
 
-@media (min-width: 500px) and (max-width: 682px){
+@media (min-width: 500px) and (max-width: 681px){
 
     header.topo{
         display: flex;
@@ -2721,7 +2721,7 @@ div#mensagem p a{
 
 }
 
-@media (min-width: 1px) and (max-width: 500px){
+@media (min-width: 1px) and (max-width: 499px){
 
     header.topo{
         display: grid;
