@@ -257,7 +257,7 @@ div#modalInfo p img{
 }
 /*IMAGEM MOSTRADA NO MODAL*/
 div#modalInfo img{
-    width: 500px;
+    width: 100%;
 }
 /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
 div#modalInfo h6{
@@ -325,7 +325,7 @@ div#btnPoxPg1,
 div#btnPoxPg2,
 div#btnPoxPg3,
 div#btnPoxPg4{
-    width: 500px;
+    width: 100%;
     background: linear-gradient(to bottom, rgb(253, 207, 0), rgb(102, 84, 1));
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
     cursor: pointer;
@@ -645,7 +645,7 @@ div#mensagem p a{
     }
     /*IMAGEM MOSTRADA NO MODAL*/
     div#modalInfo img{
-        width: 500px;
+        width: 100%;
     }
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
@@ -714,7 +714,7 @@ div#mensagem p a{
     div#btnPoxPg2,
     div#btnPoxPg3,
     div#btnPoxPg4{
-        width: 500px;
+        width: 100%;
         background: linear-gradient(to bottom, rgb(253, 207, 0), rgb(102, 84, 1));
         box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         cursor: pointer;
@@ -1041,7 +1041,7 @@ div#mensagem p a{
     }
     /*IMAGEM MOSTRADA NO MODAL*/
     div#modalInfo img{
-        width: 500px;
+        width: 100%;
     }
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
@@ -1110,7 +1110,7 @@ div#mensagem p a{
     div#btnPoxPg2,
     div#btnPoxPg3,
     div#btnPoxPg4{
-        width: 500px;
+        width: 100%;
         background: linear-gradient(to bottom, rgb(253, 207, 0), rgb(102, 84, 1));
         box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         cursor: pointer;
@@ -1431,7 +1431,7 @@ div#mensagem p a{
     }
     /*IMAGEM MOSTRADA NO MODAL*/
     div#modalInfo img{
-        width: 500px;
+        width: 100%;
     }
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
@@ -1500,7 +1500,7 @@ div#mensagem p a{
     div#btnPoxPg2,
     div#btnPoxPg3,
     div#btnPoxPg4{
-        width: 500px;
+        width: 100%;
         background: linear-gradient(to bottom, rgb(253, 207, 0), rgb(102, 84, 1));
         box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         cursor: pointer;
@@ -1817,7 +1817,7 @@ div#mensagem p a{
     }
     /*IMAGEM MOSTRADA NO MODAL*/
     div#modalInfo img{
-        width: 500px;
+        width: 100%;
     }
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
@@ -1886,7 +1886,7 @@ div#mensagem p a{
     div#btnPoxPg2,
     div#btnPoxPg3,
     div#btnPoxPg4{
-        width: 500px;
+        width: 100%;
         background: linear-gradient(to bottom, rgb(253, 207, 0), rgb(102, 84, 1));
         box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         cursor: pointer;
@@ -2201,7 +2201,7 @@ div#mensagem p a{
     }
     /*IMAGEM MOSTRADA NO MODAL*/
     div#modalInfo img{
-        width: 500px;
+        width: 100%;
     }
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
@@ -2270,7 +2270,7 @@ div#mensagem p a{
     div#btnPoxPg2,
     div#btnPoxPg3,
     div#btnPoxPg4{
-        width: 500px;
+        width: 100%;
         background: linear-gradient(to bottom, rgb(253, 207, 0), rgb(102, 84, 1));
         box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         cursor: pointer;
@@ -2487,7 +2487,7 @@ div#mensagem p a{
     /*TEXTO SOBRE MIM*/
     p#textoSobMim{
         padding: 20px;
-        font-size: 12px;
+        font-size: 15px;
     }
     /*TÍTULO HISTÓRIA ADS"*/
     p#TituloHistoriaADS,
@@ -2515,7 +2515,7 @@ div#mensagem p a{
     /*TEXTO SOBRE HITORIA ADS*/
     p#textoHistoria{
         padding: 20px;
-        font-size: 12px;
+        font-size: 15px;
     }
     /*--------------------DIV SOBRE O CURSO DE GRADUAÇÃO E CURSOS MENORES-------------------*/
     /*DIV COM  TÍTULO E AS INFORMAÇÕES DE FORMAÇÃO*/
@@ -2585,12 +2585,12 @@ div#mensagem p a{
     }
     /*IMAGEM MOSTRADA NO MODAL*/
     div#modalInfo img{
-        width: 450px;
+        width: 100%;
     }
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
         word-break: break-word;
-        font-size: 11px;
+        font-size: 70%;
         padding: 3px;
         border-top: 2px solid #000;
     }
@@ -2653,7 +2653,7 @@ div#mensagem p a{
     div#btnPoxPg2,
     div#btnPoxPg3,
     div#btnPoxPg4{
-        width: 450px;
+        width: 100%;
         background: linear-gradient(to bottom, rgb(253, 207, 0), rgb(102, 84, 1));
         box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
         cursor: pointer;
@@ -2966,7 +2966,7 @@ div#mensagem p a{
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
         word-break: break-word;
-        font-size: 11px;
+        font-size: 70%;
         padding: 3px;
         border-top: 2px solid #000;
     }
