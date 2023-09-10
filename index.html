@@ -99,43 +99,84 @@
                     <img src="imagens/certificados/IntroRedes.png" alt="foto do certificado do curso de redes" onclick="info(9)">
                 </div>
             </div>
-	    </div>
-	    <!-----------------------DIV INFORMANDO AS TECNOLOGIAS QUE EU UTILIZO-->
-        <p id="tituloTecnologias">Tecnologias que eu utilizo</p>
-	    <div id="tecnologias">
-            <p>
-                <img src="imagens/fotoTecnologias/html.png" alt="Imagem html" onclick="openHTML()">
-                <img src="imagens/fotoTecnologias/css.png" alt="Imagem css">
-                <img id="js" src="imagens/fotoTecnologias/javascipt.png" alt="Imagem javascript">
-                <img id="react" src="imagens/fotoTecnologias/react.png" alt="Imagem react">
-                <img id="java" src="imagens/fotoTecnologias/java.png" alt="Imagem java">
-                <img id="git" src="imagens/fotoTecnologias/git.png" alt="Imagem git">
-                <img src="imagens/fotoTecnologias/mysql.png" alt="Imagem mySql">
-            </p>
-	    </div>
-	    <!-----------------------DIV CONTENDO MEUS PROJETOS-->
-        <p id="tituloProjetos">Meus projetos</p>
-	    <div id="projetos">
-            <!--PROJETO 1-->
-            <div id="container1">
-                <div id="imagensP1"></div>
-                <p>HTML5, CSS3, javascipt</p>
+        <!--INFORMAÇÕES-->
+        <div class="informacoes">
+           <!--escolaridade-->
+           <div class="escolaridade">
+               <div class="utilizo">
+                   <div class="Titulo_Utilizo">
+                   	<h1>UTILIZO:</h1>
+                   </div>
+                   <img src="https://cdn.iconscout.com/icon/free/png-256/free-java-2038875-1720088.png" class="java" alt="Logo do Java">
+                   <img src="imagens/html5.png" alt="Logo HTML5">
+                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" class= "css" alt="Logo CSS3">
+                   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Javascript-shield.svg" class="js" alt="Logo JavaScript">
+                   <img src="https://upload.wikimedia.org/wikipedia/hy/a/a9/MySQL.png" class="sql" alt="Logo MySQL">
+                   <img src="https://cdn.iconscout.com/icon/free/png-256/free-git-225996.png" class="git" alt="Logo Git">
+               </div>
+               <div class="info_escolaridade">
+               	    <div class="Titulo_Escolaridade">
+                   		<h1 class="titulo_escolaridade">ESCOLARIDADE:</h1>
+               	    </div>
+               	    <div class="sobre_a_escolaridade">
+                        <p><strong>Curso:</strong>&nbsp;&nbsp;Análise e desenvolvimento de sistemas<br>
+                        <strong>Institução:</strong>&nbsp;&nbsp;UNIBRA- Centro Universitário Brasileiro.<br>
+                        <strong>Semestre atual:</strong>&nbsp;&nbsp;Terceiro. <br>
+                        <strong>Conclusão:</strong>&nbsp;&nbsp;12/2024 <br><br>
+                        <strong>Cursos de extenção:</strong>&nbsp;&nbsp;<br> Intencivo em lógica de programação em Java - 20h - 09/2022. <br> Introdução a programação com Python - 20h - 10/2022. <br> Programação Orientada a Objetos com Java - 20h - 12/2022.
+                        </p>
+                    </div>
+               </div>
+           </div>
+           <!--projetos-->
+            <div class="projetos">
+                <!--TITULO DA AREA DOS PROJETOS-->
+                <div class="Titulo_Proj">
+                    <h1>PROJETOS:</h1>
+                </div>
+                <div class="foto_e_texto_proj1">
+                    <!--AONDE FICAM AS IMEGENS DO PROJETO E OS BOTÕES-->
+                    <div id="container1">
+                        <button class="btnImgP1" id="ImgAntP1">&#10094;</button>
+                        <div id="imagensP1"></div>
+                        <button class="btnImgP1" id="ProxImgP1">&#10095;</button>
+                    </div>
+                    <div class="sobre_o_projeto1">
+                        <p>Quando eu iniciei este projeto o meu objetivo era testar e adquirir novos conhecimentos, tanto de HTML5 e CSS3, quanto de JavaScript, ele se trata de um site para registrar os pagamentos realizados pelos clientes de uma empresa, através dele o usuário poderá realizar consultas de pagamentos que já foram registrados, podendo filtrar a busca pelo nome do cliente, pelo valor do pagamento, por uma data específica, etc.
+                        <p>Acesse este <a href="https://customer-payment-record.netlify.app/" target="_blank">link</a> para visualizar o site.</p>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="foto_e_texto_proj2">
+                    <!--AONDE FICAM AS IMEGENS DO PROJETO E OS BOTÕES-->
+                    <div id="container2">
+                        <button class="btnImgP2" id="ImgAntP2">&#10094;</button>
+                        <div id="imagensP2"></div>
+                        <button class="btnImgP2" id="ProxImgP2">&#10095;</button>
+                    </div>
+                    <div class="sobre_o_projeto2">
+                        <p>Este é um projeto referente a uma calculadora, através dele eu adquiri muito conhecimento em relação a JavaScript, HTML5, CSS3 e a lógica de programaão. <br>
+                        Através desta calculadora o usuário poderá realizar contas simples, como a soma, a subtração, a divisão e a multiplicação. <br>
+                        Ela também siponibiliza a utilização de números decimais, um botão para apagar o número ou operador atual e um botão para apagar toda a conta que está sendo feita.
+                        <p>Acesse este <a href="https://calculadora-proj.netlify.app/" target="_blank">link</a> para visualizar a calculadora.</p>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="foto_e_texto_proj3">
+                    <!--AONDE FICAM AS IMEGENS DO PROJETO E OS BOTÕES-->
+                    <div id="container3">
+                        <button class="btnImgP3" id="ImgAntP3">&#10094;</button>
+                        <div id="imagensP3"></div>
+                        <button class="btnImgP3" id="ProxImgP3">&#10095;</button>
+                    </div>
+                    <div class="sobre_o_projeto3">
+                        <p>O objetivo desse projeto era e ainda é aprender mais sobre banco de dados e php, nele é possível fornecer informações como: Nome do usuário, Cpf e Senha, essas informações são registradas no banco de dados local, após registrar, o usuário é redirecionado para a tela de histórico de registros, onde ele pode clicar no butão para atualizar a página e assim ele irá visualizar os dados do novo usuário que foi registrado.&nbsp;Este projeto foi feito utilizando HTML5, CSS3, JavaScript, PHP e o banco de dados phpMyAdmin.<br>
+                        Foi minha primeira experiência de vinculação de banco de dados com um site, tive algumas dificuldades, mas nada me impediu de procurar mais conehecimento e aplica-los neste projeto.
+                    </div>
+                </div>
             </div>
-            <!--PROJETO 2-->
-            <div id="container2">
-                <div id="imagensP2"></div>
-                <p>HTML5, CSS3, javascipt</p>
-            </div>
-           	<!--PROJETO 3-->
-            <div id="container3">
-                <div id="imagensP3"></div>
-                <p>HTML5, CSS3, javascipt, PHP, phpMyAdmin</p>
-           	</div>
-            <!--PROJETO 4-->
-            <div id="container4">
-               	<div id="imagensP4"></div>
-                <p>Java</p>
-	        </div>  
         </div>
 
     <!-----------------------------RODAPÉ DO SITE---------------------------------->
