@@ -2,2688 +2,43 @@
     margin: 0;
      padding: 0;
      font-family: 'Bungee', cursive;
-     box-sizing: border-box;
-}
-body{
-    overflow-x: hidden;
-}
+     box-shadow: border-box;
+ }
 
- @media (min-width: 1351px) and (max-width: 1500px){
-    header.topo{
-        display: flex;
-        background-color: #001573;
-        text-align: center;
-        height: 185px;
-        width: 98.9vw;
-}
-div.nome{
-	position: absolute;
-	margin-top: 20px;
-	text-align: right;
-	height: 95px;
-	width: 70vw;
-	padding-top: 17px;
-}
-h1.MeuNome{
-        color: #00eeff;
-        font-size: 6vh;
-        height: 75px;
-}
+ body a{
+    color: blue;
+ }
 
-h1 span{
-        position: relative;
-        top: 1px;
-        display: inline-block;
-        overflow: hidden;
-
-        -webkit-animation: bounce 0.9s ease infinite alternate;
-        text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
-}
-
-h1 span:nth-child(2) {
-    -webkit-animation-delay: 0.2s;
-}
-
-h1 span:nth-child(3) {
-    -webkit-animation-delay: 0.3s;
-}
-
-h1 span:nth-child(4) {
-    -webkit-animation-delay: 0.6s;
-}
-
-h1 span:nth-child(5) {
-    -webkit-animation-delay: 0.8s;
-}
-
-h1 span:nth-child(6) {
-    -webkit-animation-delay: 1.0s;
-}
-
-h1 span:nth-child(7) {
-    -webkit-animation-delay: 1.2s;
-}
-
-h1 span:nth-child(8) {
-    -webkit-animation-delay: 1.4s;
-}
-
-h1 span:nth-child(9) {
-    -webkit-animation-delay: 1.6s;
-}
-
-h1 span:nth-child(10) {
-    -webkit-animation-delay: 1.8s;
-}
-h1 span:nth-child(11) {
-    -webkit-animation-delay: 2.0s;
-}
-
-h1 span:nth-child(12) {
-    -webkit-animation-delay: 2.2s;
-}
-
-h1 span:nth-child(13) {
-    -webkit-animation-delay: 2.4s;
-}
-
-h1 span:nth-child(14) {
-    -webkit-animation-delay: 2.6s;
-}
-
-h1 span:nth-child(15) {
-    -webkit-animation-delay: 2.8s;
-}
-
-h1 span:nth-child(16) {
-    -webkit-animation-delay: 3.0s;
-}
-
-h1 span:nth-child(17) {
-    -webkit-animation-delay: 3.2s;
-}
-h1 span:nth-child(18) {
-    -webkit-animation-delay: 3.4s;
-}
-@-webkit-keyframes bounce {
-    100%{
-    top: -20px;
-    text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #001573;
-        }
-}
-div.contato{
-    width: 300px;
-    height: 50px;
-    position: relative;
-    top: 130px;
-    left: 0vw;
-}
-/*--REDES SOCIÁIS--*/
-div.contato img{
-    width: 45px;
-    margin-left: 20px;
-    cursor: pointer;
-}
-div.contato img.GitHub{
-    width: 48px;
-    border-radius: 100%;
-}div.contato img.linkedin{
-    width: 48px;
-    border-radius: 100%;
-}
-    div.contato img.Instagram{
-        border-radius: 100%;
-}
-/*--DIV QUE CONTEM A FOTO--*/
-div.foto{
-top: 133px;
-  position: sticky;
-  left: 80vw;
-  width: 180px;
-  height: 180px;
-  border-radius: 100%;
-}
-/*--A FOTO--*/
-div.foto img{
-      position: relative;
-      width: 180px;
-      border-radius: 100%;
-}
-/*---------------------MEIO DO SITE-------------------*/
-
-main.meio{
-        display: flex;
-        min-height: 100px;
-}
-/*--APRESENTAÇÃO--*/
-div.apresentacao{
-    text-align: top;
-    align-items: top;
-    background-color: #FFB600;
-    left: 75.3vw;
-    width: 23.6vw;
-    min-height: 200%;
-    border-top: 2px solid rgba(95, 94, 94, 0.2);
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-    z-index: 1;
-}
-div.Titulo{
-    display: flex;
-    height: 70px;
-    max-width: 23.5vw;
-    text-align: center;
-}
-div.Titulo h1{
-        top: -3px;
-        height: 40px;
-        width: 23.5vw;
-}
-div.texto{
-  text-align: left;
-  align-items: center;
-  padding: 2px;
-  height: 829px;
-}
-div.texto p{
-        font-size: 2.7vh;
-        padding: 5px;
-        height: 814px;
-}
-/*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
-div.informacoes{
-        position: relative;
-        display: grid;
-        width: 75.5vw;
-        min-height: 500px;
-}
-/*--INFO ESCOLARIDADE--*/
-div.escolaridade{
-	position: relative;
-    	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        background-color: #FFB600;
-        display: flex;
-        width: 1034px;
-        height: 450px;
-}
-div.Titulo_Escolaridade{
-    	text-align: left;
-    	position: sticky;
-    	width: 38vw;
-    	max-height: 70px;
-    	margin-left: 12.8vw;
-}
-div.info_escolaridade{
-	position: absolute;
-	margin-left: 24.5vw;
-	display: grid;
-	height: 447px;
-	width: 655px;
-	text-align: top;
-  	align-items: top;
-}
-div.sobre_a_escolaridade{
-    min-height: 150px;
-    margin-top: 5px;
-	text-align: left;
-	align-items: left;
-	padding: 2px;
-}
-div.sobre_a_escolaridade p{
-	height: 370px;
-	word-break: break-all;
-	font-size: 2.5vh;
-	padding-left: 5px;
-        padding-right: 15px;
-        max-width: 49.3vw;
-        
-        
-}
-/*--DIV COMPLETA DO "UTILIZO"--*/
-div.utilizo{
-        background-color: #00ffd5;
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        max-width: 23.5vw;
-        height: 440px;
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        border-radius: 5px;
-}
-/*--DIV COM O TÍTULO "UTILIZO"--*/
-div.Titulo_Utilizo{
-position: sticky;
-	width: 23.5vw;
-	height: 50px;
-    text-align: center;
-    	
-}
-/*--PARA TODAS AS IMAGENS DE COISAS QUE EU UTILIZO--*/
-div.utilizo img{
-    position: flex;
-    width: 8vw;
-    padding: 15px;
-}
-/*--PARA A LOGO DO CSS E DO JAVASCRIPT--*/
-div.utilizo img.css,
-div.utilizo img.js{
-    width: 6.4vw;
-}
-/*--PARA A LOGO DO MYSQL--*/
-div.utilizo img.sql{
-    width: 9.4vw;
-}
-div.utilizo img.java{
-    width: 8.4vw;
-}
-div.utilizo img.git{
-  width: 6.9vw;
-}
-/*--INFO PROJETOS--*/
-div.projetos{
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        background-color: #FFB600;
-        display: grid;
-        height: 1200px;
-        max-width: 100%;
-}
-/*--TITULO DA AREA DE PROJETOS--*/
-div.Titulo_Proj{
-    position: sticky;
-    text-align: center;
-    width: 75.5vw;
-    max-height: 70px;
-}
-div.projetos h1{
-        position: relative;
-}
-/*------------------PROJETO 1---------------------*/
-div.foto_e_texto_proj1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 75.4vw;
-    height: 370px;
-    position: relative;
-    }
-#container1{
-    display: flex;
-    width: 100%;
-    height: 56.3vh;
-}
-#ImgAntP1{
-    width: 5vh;
-    background: linear-gradient(to left, #5e4609, #FFB600);
-    border: none;
-    font-size: 4vh;
-    border-radius: 15px 0px 0px 15px;
-}
-#ImgAntP1:hover{
-    border: 1px solid #000;
-}
-#ProxImgP1{
-    width: 5vh;
-    background: linear-gradient(to right, #5e4609, #FFB600);
-    border: none;
-    font-size: 5vh;
-    border-radius: 0px 15px 15px 0px;
-}
-#ProxImgP1:hover{
-    border: 1px solid #000;
-}
-div.sobre_o_projeto1{
-    position: relative;
-    height: 370px;
-    width: 37.5vw;
-    padding: 5px;
-    padding-top: 0px;  
-}
-div.sobre_o_projeto1 p{
-    text-align: justify;
-    font-size: 1.73vh;
-}
-hr{
-    height: 0px;
-    border: 1px solid #000;
-}
-/*------------------PROJETO 2---------------------*/
-/*aonde fica o container e o texto sobre o projeto*/
-div.foto_e_texto_proj2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 75.2vw;
-    height: 370px;
-    position: relative;
-}
-/*local aonde fica a imagem e os botões*/
-#container2{
-    display: flex;
-    width: 100;
-    height: 56.3vh;
-}
-/*botões para as imagens do projeto 2*/
-#ImgAntP2{
-    width: 5vh;
-    background: linear-gradient(to left, #5e4609, #FFB600);
-    border: none;
-    font-size: 5vh;
-    border-radius: 15px 0px 0px 15px;
-}
-#ImgAntP2:hover{
-    border: 1px solid #000;
-}
-#ProxImgP2{
-    width: 5vh;
-    background: linear-gradient(to right, #5e4609, #FFB600);
-    border: none;
-    font-size: 5vh;
-    border-radius: 0px 15px 15px 0px;
-}
-#ProxImgP2:hover{
-    border: 1px solid #000;
-}
-div.sobre_o_projeto2{
-    position: relative;
-    height: 370px;
-    width: 37.4vw;
-    padding: 5px; 
-}
-div.sobre_o_projeto2 p{
-    text-align: justify;
-    font-size: 1.9vh;
-}
-
-/*------------------PROJETO 3---------------------*/
-/*aonde fica o container e o texto sobre o projeto*/
-div.foto_e_texto_proj3{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 75.2vw;
-    height: 370px;
-    position: relative;
-}
-/*local aonde fica a imagem e os botões*/
-#container3{
-    display: flex;
-    width: 100;
-    height: 56.3vh;
-}
-/*botões para as imagens do projeto 2*/
-#ImgAntP3{
-    width: 5vh;
-    background: linear-gradient(to left, #5e4609, #FFB600);
-    border: none;
-    font-size: 5vh;
-    border-radius: 15px 0px 0px 15px;
-}
-#ImgAntP3:hover{
-    border: 1px solid #000;
-}
-#ProxImgP3{
-    width: 5vh;
-    background: linear-gradient(to right, #5e4609, #FFB600);
-    border: none;
-    font-size: 5vh;
-    border-radius: 0px 15px 15px 0px;
-}
-#ProxImgP3:hover{
-    border: 1px solid #000;
-}
-div.sobre_o_projeto3{
-    position: relative;
-    height: 370px;
-    width: 37.4vw;
-    padding: 5px; 
-}
-div.sobre_o_projeto3 p{
-    text-align: justify;
-    font-size: 1.9vh;
-}
-/*-------------------PARTE INFERIOR DO SITE-----------------*/
-  footer.rodape{
-    display: flex;
-    background-color: #001573;
-    height: 65px;
-    width: 98.9vw;
-}
-div.agradecimento{
-    position: sticky;
-    text-align: center;
-    width: 1344px;
-    height: 50px;
-}
-div.agradecimento p{
-    font-size: 3.5vh;
-    color: #00eeff;
-    text-shadow: 1px 1px #000;
-}
-}
-
- @media (min-width: 1051px) and (max-width: 1350px){
-    header.topo{
-        display: flex;
-        background-color: #001573;
-        text-align: center;
-        height: 185px;
-        width: 98.8vw;
-}
-div.nome{
-	position: absolute;
-	margin-top: 20px;
-	text-align: right;
-	height: 95px;
-	width: 70vw;
-	padding-top: 17px;
-}
-header.topo h1.MeuNome{
-        position: sticky;
-        color: #00eeff;
-        font-size: 6vh;
-        height: 75px;
-}
-
-h1 span{
-        position: relative;
-        top: 1px;
-        display: inline-block;
-        overflow: hidden;
-
-        -webkit-animation: bounce 0.9s ease infinite alternate;
-        text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
-}
-
-h1 span:nth-child(2) {
-    -webkit-animation-delay: 0.2s;
-}
-
-h1 span:nth-child(3) {
-    -webkit-animation-delay: 0.3s;
-}
-
-h1 span:nth-child(4) {
-    -webkit-animation-delay: 0.6s;
-}
-
-h1 span:nth-child(5) {
-    -webkit-animation-delay: 0.8s;
-}
-
-h1 span:nth-child(6) {
-    -webkit-animation-delay: 1.0s;
-}
-
-h1 span:nth-child(7) {
-    -webkit-animation-delay: 1.2s;
-}
-
-h1 span:nth-child(8) {
-    -webkit-animation-delay: 1.4s;
-}
-
-h1 span:nth-child(9) {
-    -webkit-animation-delay: 1.6s;
-}
-
-h1 span:nth-child(10) {
-    -webkit-animation-delay: 1.8s;
-}
-h1 span:nth-child(11) {
-    -webkit-animation-delay: 2.0s;
-}
-
-h1 span:nth-child(12) {
-    -webkit-animation-delay: 2.2s;
-}
-
-h1 span:nth-child(13) {
-    -webkit-animation-delay: 2.4s;
-}
-
-h1 span:nth-child(14) {
-    -webkit-animation-delay: 2.6s;
-}
-
-h1 span:nth-child(15) {
-    -webkit-animation-delay: 2.8s;
-}
-
-h1 span:nth-child(16) {
-    -webkit-animation-delay: 3.0s;
-}
-
-h1 span:nth-child(17) {
-    -webkit-animation-delay: 3.2s;
-}
-h1 span:nth-child(18) {
-    -webkit-animation-delay: 3.4s;
-}
-@-webkit-keyframes bounce {
-    100%{
-    top: -20px;
-    text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #001573;
-        }
-}
-
-/*--REDES SOCIÁIS--*/
-div.contato img{ 
-    width: 45px;
-    position: relative;
-    top: 130px;
-    left: 0vw;
-    cursor: pointer;
-    margin-left: 20px;
-}
-div.contato img.GitHub{
-    width: 48px;
-    border-radius: 100%;
-}div.contato img.linkedin{
-    width: 48px;
-    border-radius: 100%;
-}
-    div.contato img.Instagram{
-        border-radius: 100%;
-}
-/*--DIV QUE CONTEM A FOTO--*/
-div.foto{
-  position: sticky;
-  top: 3px;
-  left: 80vw;
-  width: 180px;
-  height: 180px;
-  border-radius: 100%;
-  
-}
-/*--A FOTO--*/
-div.foto img{
-      position: relative;
-      margin-left: 0px;
-      width: 180px;
-      border-radius: 100%;
-}
-/*-----------------------------MEIO DO SITE-------------------*/
-
-main.meio{
-        display: flex;
-        min-height: 100px;
-
-}
-/*--APRESENTAÇÃO--*/
-div.apresentacao{
-    text-align: top;
-    align-items: top;
-    background-color: #FFB600;
-    left: 75.3vw;
-    max-width: 350px;
-    height: 1650px;
-    border-top: 2px solid rgba(95, 94, 94, 0.2);
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-    z-index: 1;
-}
-div.Titulo{
-    display: flex;
-    height: 70px;
-    max-width: 23.5vw;
-    text-align: center;
-}
-div.Titulo h1{
-        top: -3px;
-        height: 40px;
-        width: 23.5vw;
-}
-div.texto{
-  text-align: left;
-  align-items: center;
-  padding: 2px;
-  height: 829px;
-}
-div.texto p{
-        font-size: 2.6vh;
-        padding: 5px;
-        height: 814px;
-}
-/*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
-div.informacoes{
-        position: relative;
-        display: grid;
-       width: 98vw;
-        min-height: 500px;
-}
-/*--INFO ESCOLARIDADE--*/
-div.escolaridade{
-	position: relative;
-    	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        background-color: #FFB600;
-        display: flex;
-        min-width: 1000px;
-        height: 450px;
-}
-div.Titulo_Escolaridade{
-    	text-align: left;
-    	position: sticky;
-    	width: 38vw;
-    	max-height: 70px;
-    	margin-left: 12.8vw;
-}
-div.info_escolaridade{
-	position: absolute;
-	margin-left: 24.5vw;
-	display: grid;
-	height: 449px;
-	width: 655px;
-	text-align: top;
-  	align-items: top;
-}
-div.sobre_a_escolaridade{
-	height: 370px;
-	margin-top: 5px;
-	text-align: left;
-	align-items: left;
-	padding: 2px;
-}
-div.sobre_a_escolaridade p{
-	height: 370px;
-	word-break: break-all;
-	font-size: 14px;
-	padding-left: 5px;
-        padding-right: 15px;
-        max-width: 49.3vw;
-        
-        
-}
-/*--DIV COMPLETA DO "UTILIZO"--*/
-div.utilizo{
-        background-color: #00ffd5;
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        max-width: 23.5vw;
-        height: 440px;
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        border-radius: 5px;
-}
-/*--DIV COM O TÍTULO "UTILIZO"--*/
-div.Titulo_Utilizo{
-position: sticky;
-	width: 23.5vw;
-	height: 50px;
-        text-align: center;
-    	
-}
-/*--PARA TODAS AS IMAGENS DE COISAS QUE EU UTILIZO--*/
-div.utilizo img{
-    position: flex;
-    width: 8vw;
-    padding: 15px;
-}
-/*--PARA A LOGO DO CSS E DO JAVASCRIPT--*/
-div.utilizo img.css,
-div.utilizo img.js{
-    width: 6.4vw;
-}
-/*--PARA A LOGO DO MYSQL--*/
-div.utilizo img.sql{
-    width: 9.4vw;
-}
-div.utilizo img.java{
-    width: 8.4vw;
-}
-div.utilizo img.git{
-  width: 6.9vw;
-}
-/*--INFO PROJETOS--*/
-div.projetos{
-      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        background-color: #FFB600;
-        display: grid;
-        height: 1200px;
-        max-width: 100%;
-}
-/*--TITULO DA AREA DE PROJETOS--*/
-div.Titulo_Proj{
-    position: sticky;
-    text-align: center;
-    width: 76vw;
-    max-height: 70px;
-}
-div.projetos h1{
-        position: relative;
-}
-div.foto_e_texto_proj1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 75vw;
-    height: 370px;
-}
-    #container1{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP1{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP1:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP1{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP1:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto1{
-        height: 370px;
-        width: 38vw;
-        padding: 5px;
-    }
-    div.sobre_o_projeto1 p{
-        font-size: 1.58vh;
-        text-align: justify;
-    }
-    hr{
-        height: 0px;
-        border: 1px solid #000;
-    }
-/*--------------------PROJETO 2-------------------*/
-div.foto_e_texto_proj2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 75vw;
-    height: 370px;
-}
-    #container2{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP2{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP2:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP2{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP2:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto2{
-        height: 370px;
-        width: 38vw;
-        padding: 5px;
-    }
-    div.sobre_o_projeto2 p{
-        font-size: 1.7vh;
-        text-align: justify;
-    }
-
-    /*--------------------PROJETO 3-------------------*/
-div.foto_e_texto_proj3{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 75vw;
-    height: 370px;
-}
-    #container3{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP3{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP3:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP3{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP3:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto3{
-        height: 370px;
-        width: 38vw;
-        padding: 5px;
-    }
-    div.sobre_o_projeto3 p{
-        font-size: 1.7vh;
-        text-align: justify;
-    }
-/*PARTE INFERIOR DO SITE*/
-  footer.rodape{
-    display: flex;
-    background-color: #001573;
-    height: 65px;
-    width: 98.8vw;
-}
-div.agradecimento{
-    position: sticky;
-    text-align: center;
-    width: 1344px;
-    height: 50px;
-}
-div.agradecimento p{
-    font-size: 4vh;
-    color: #00eeff;
-    text-shadow: 1px 1px #000;
-}
-}
-
-@media (min-width: 910px) and (max-width: 1050px){
-    header.topo{
-        display: flex;
-        background-color: #001573;
-        text-align: center;
-        height: 185px;
-        width: 1037px;
-}
-div.nome{
-	position: absolute;
-	margin-top: 20px;
-	text-align: right;
-	height: 95px;
-	width: 70vw;
-	padding-top: 17px;
-}
-header.topo h1.MeuNome{
-        position: sticky;
-        color: #00eeff;
-        font-size: 6vh;
-}
-
-h1 span{
-        position: relative;
-        top: 1px;
-        display: inline-block;
-        overflow: hidden;
-
-        -webkit-animation: bounce 0.9s ease infinite alternate;
-        text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
-}
-
-h1 span:nth-child(2) {
-    -webkit-animation-delay: 0.2s;
-}
-
-h1 span:nth-child(3) {
-    -webkit-animation-delay: 0.3s;
-}
-
-h1 span:nth-child(4) {
-    -webkit-animation-delay: 0.6s;
-}
-
-h1 span:nth-child(5) {
-    -webkit-animation-delay: 0.8s;
-}
-
-h1 span:nth-child(6) {
-    -webkit-animation-delay: 1.0s;
-}
-
-h1 span:nth-child(7) {
-    -webkit-animation-delay: 1.2s;
-}
-
-h1 span:nth-child(8) {
-    -webkit-animation-delay: 1.4s;
-}
-
-h1 span:nth-child(9) {
-    -webkit-animation-delay: 1.6s;
-}
-
-h1 span:nth-child(10) {
-    -webkit-animation-delay: 1.8s;
-}
-h1 span:nth-child(11) {
-    -webkit-animation-delay: 2.0s;
-}
-
-h1 span:nth-child(12) {
-    -webkit-animation-delay: 2.2s;
-}
-
-h1 span:nth-child(13) {
-    -webkit-animation-delay: 2.4s;
-}
-
-h1 span:nth-child(14) {
-    -webkit-animation-delay: 2.6s;
-}
-
-h1 span:nth-child(15) {
-    -webkit-animation-delay: 2.8s;
-}
-
-h1 span:nth-child(16) {
-    -webkit-animation-delay: 3.0s;
-}
-
-h1 span:nth-child(17) {
-    -webkit-animation-delay: 3.2s;
-}
-h1 span:nth-child(18) {
-    -webkit-animation-delay: 3.4s;
-}
-@-webkit-keyframes bounce {
-    100%{
-    top: -20px;
-    text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #001573;
-        }
-}
-
-/*--REDES SOCIÁIS--*/
-div.contato{
-    width: 300px;
-    height: 50px;
-    position: relative;
-    top: 130px;
-}
-div.contato img{ 
-    width: 45px;
-    cursor: pointer;
-    margin-left: 20px;
-}
-div.contato img.GitHub{
-    width: 48px;
-    border-radius: 100%;
-}div.contato img.linkedin{
-    width: 48px;
-    border-radius: 100%;
-}
-    div.contato img.Instagram{
-        border-radius: 100%;
-}
-/*--DIV QUE CONTEM A FOTO--*/
-div.foto{
-  position: sticky;
-  top: 3px;
-  left: 78vw;
-  width: 180px;
-  height: 180px;
-  border-radius: 100%;
-}
-/*--A FOTO--*/
-div.foto img{
-      position: relative;
-      margin-left: 0px;
-      width: 180px;
-      border-radius: 100%;
-}
-/*-----------------------------MEIO DO SITE-------------------*/
-
-main.meio{
-        display: flex;
-        min-height: 100px;
-
-}
-/*--APRESENTAÇÃO--*/
-div.apresentacao{
-    text-align: top;
-    align-items: top;
-    background-color: #FFB600;
-    left: 75.3vw;
-    display: grid;
-    max-width: 350px;
-    height: 1950px;
-    border-top: 2px solid rgba(95, 94, 94, 0.2);
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-    z-index: 1;
-}
-div.Titulo{
-    display: flex;
-    height: 70px;
-    max-width: 23.5vw;
-    text-align: center;
-}
-div.Titulo h1{
-        font-size: 3vw;
-        top: -3px;
-        height: 40px;
-        width: 23.5vw;
-}
-div.texto{
-  text-align: left;
-  align-items: center;
-  padding: 2px;
-  height: 829px;
-}
-div.texto p{
-        font-size: 2vh;
-        padding: 5px;
-        height: 814px;
-}
-/*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
-div.informacoes{
-        position: relative;
-        display: grid;
-       width: 98vw;
-        min-height: 500px;
-}
-/*--INFO ESCOLARIDADE--*/
-div.escolaridade{
-	position: relative;
-    	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        background-color: #FFB600;
-        display: flex;
-        width: 822px;
-        height: 450px;
-}
-div.Titulo_Escolaridade{
-    	text-align: left;
-    	position: sticky;
-    	width: 38vw;
-    	max-height: 70px;
-    	margin-left: 12.8vw;
-}
-div.info_escolaridade{
-	position: absolute;
-	margin-left: 24.5vw;
-	display: grid;
-	height: 449px;
-	width: 535px;
-	text-align: top;
-  	align-items: top;
-}
-div.sobre_a_escolaridade{
-	height: 370px;
-    width: 534px;
-	margin-top: 5px;
-	text-align: left;
-	align-items: left;
-	padding: 2px;
-}
-div.sobre_a_escolaridade p{
-	height: 370px;
-	word-break: break-all;
-	font-size: 12px;
-	padding-left: 5px;
-    padding-right: 15px;
-    max-width: 49.3vw;
-        
-        
-}
-/*--DIV COMPLETA DO "UTILIZO"--*/
-div.utilizo{
-        background-color: #00ffd5;
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        max-width: 23.5vw;
-        height: 440px;
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        border-radius: 5px;
-}
-/*--DIV COM O TÍTULO "UTILIZO"--*/
-div.Titulo_Utilizo{
-position: sticky;
-	width: 23.5vw;
-	height: 50px;
-        text-align: center;
-    	
-}
-/*--PARA TODAS AS IMAGENS DE COISAS QUE EU UTILIZO--*/
-div.utilizo img{
-    position: flex;
-    width: 8.6vw;
-    padding: 15px;
-}
-/*--PARA A LOGO DO CSS E DO JAVASCRIPT--*/
-div.utilizo img.css,
-div.utilizo img.js{
-    width: 7vw;
-}
-/*--PARA A LOGO DO MYSQL--*/
-div.utilizo img.sql{
-    width: 10vw;
-}
-div.utilizo img.java{
-    width: 9vw;
-}
-div.utilizo img.git{
-  width: 8.3vw;
-}
-/*--INFO PROJETOS--*/
-div.projetos{
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-    background-color: #FFB600;
-    display: grid;
-    height: 1500px;
-    width: 822px;
-}
-/*--TITULO DA AREA DE PROJETOS--*/
-div.Titulo_Proj{
-  position: sticky;
-  text-align: center;
-  min-width: 44.8vw;
-  max-height: 70px;
-  left: 30.3vw;
-}
-div.projetos h1{
-      position: relative;
-}
-div.foto_e_texto_proj1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 75vw;
-    height: 370px;
-}
-    #container1{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP1{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP1:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP1{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP1:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto1{
-        height: 370px;
-        width: 38vw;
-        padding: 5px;
-    }
-    div.sobre_o_projeto1 p{
-        font-size: 1.58vh;
-        text-align: justify;
-    }
-    hr{
-        height: 0px;
-        border: 1px solid #000;
-    }
-/*--------------------PROJETO 2-------------------*/
-div.foto_e_texto_proj2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 75vw;
-    height: 370px;
-}
-    #container2{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP2{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP2:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP2{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP2:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto2{
-        height: 370px;
-        width: 38vw;
-        padding: 5px;
-    }
-    div.sobre_o_projeto2 p{
-        font-size: 1.7vh;
-        text-align: justify;
-    }
-    /*--------------------PROJETO 3-------------------*/
-div.foto_e_texto_proj3{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 75vw;
-    height: 370px;
-}
-    #container3{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP3{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP3:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP3{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP3:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto3{
-        height: 370px;
-        width: 38vw;
-        padding: 5px;
-    }
-    div.sobre_o_projeto3 p{
-        font-size: 1.7vh;
-        text-align: justify;
-    }
-
-/*----------------------RODAPÉ-----------------------*/
-  footer.rodape{
-    display: flex;
-    background-color: #001573;
-    height: 65px;
-    width: 1037px;
-}
-div.agradecimento{
-    position: sticky;
-    text-align: center;
-    width: 1344px;
-    height: 50px;
-}
-div.agradecimento p{
-    font-size: 4vh;
-    color: #00eeff;
-    text-shadow: 1px 1px #000;
-}
-}
-
-@media (min-width: 775px) and (max-width: 909px){
-    
-    header.topo{
-        display: flex;
-        background-color: #001573;
-        text-align: center;
-        height: 185px;
-        width: 98vw;
-}
-div.nome{
-	position: absolute;
-	margin-top: 20px;
-	text-align: right;
-	height: 90px;
-	width: 70vw;
-	padding-top: 17px;
-}
-header.topo h1.MeuNome{
-        position: sticky;
-        color: #00eeff;
-        font-size: 5vh;
-        height: 75px;
-}
-
-h1 span{
-        position: relative;
-        top: 1px;
-        display: inline-block;
-        overflow: hidden;
-
-        -webkit-animation: bounce 0.9s ease infinite alternate;
-        text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
-}
-
-h1 span:nth-child(2) {
-    -webkit-animation-delay: 0.2s;
-}
-
-h1 span:nth-child(3) {
-    -webkit-animation-delay: 0.3s;
-}
-
-h1 span:nth-child(4) {
-    -webkit-animation-delay: 0.6s;
-}
-
-h1 span:nth-child(5) {
-    -webkit-animation-delay: 0.8s;
-}
-
-h1 span:nth-child(6) {
-    -webkit-animation-delay: 1.0s;
-}
-
-h1 span:nth-child(7) {
-    -webkit-animation-delay: 1.2s;
-}
-
-h1 span:nth-child(8) {
-    -webkit-animation-delay: 1.4s;
-}
-
-h1 span:nth-child(9) {
-    -webkit-animation-delay: 1.6s;
-}
-
-h1 span:nth-child(10) {
-    -webkit-animation-delay: 1.8s;
-}
-h1 span:nth-child(11) {
-    -webkit-animation-delay: 2.0s;
-}
-
-h1 span:nth-child(12) {
-    -webkit-animation-delay: 2.2s;
-}
-
-h1 span:nth-child(13) {
-    -webkit-animation-delay: 2.4s;
-}
-
-h1 span:nth-child(14) {
-    -webkit-animation-delay: 2.6s;
-}
-
-h1 span:nth-child(15) {
-    -webkit-animation-delay: 2.8s;
-}
-
-h1 span:nth-child(16) {
-    -webkit-animation-delay: 3.0s;
-}
-
-h1 span:nth-child(17) {
-    -webkit-animation-delay: 3.2s;
-}
-h1 span:nth-child(18) {
-    -webkit-animation-delay: 3.4s;
-}
-@-webkit-keyframes bounce {
-    100%{
-    top: -20px;
-    text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #001573;
-        }
-}
-div.contato{
-    width: 300px;
-    height: 50px;
-    position: relative;
-    top: 130px;
-}
-/*--REDES SOCIÁIS--*/
-div.contato img{ 
-    width: 45px;
-    cursor: pointer;
-    margin-left: 20px;
-}
-div.contato img.GitHub{
-    width: 48px;
-    border-radius: 100%;
-}div.contato img.linkedin{
-    width: 48px;
-    border-radius: 100%;
-}
-    div.contato img.Instagram{
-        border-radius: 100%;
-}
-/*--DIV QUE CONTEM A FOTO--*/
-div.foto{
-  position: sticky;
-  top: 3px;
-  left: 73vw;
-  width: 180px;
-  height: 180px;
-  border-radius: 100%;
-  
-}
-/*--A FOTO--*/
-div.foto img{
-      position: relative;
-      margin-left: 0px;
-      width: 180px;
-      border-radius: 100%;
-}
-/*-----------------------------MEIO DO SITE-------------------*/
-
-main.meio{
-        display: grid;
-        min-height: 100px;
-
-}
-/*--APRESENTAÇÃO--*/
-div.apresentacao{
-    text-align: top;
-    align-items: top;
-        background-color: #FFB600;
-        display: grid;
-        width: 98.1vw;
-        height: 301px;
-        border-top: 2px solid rgba(95, 94, 94, 0.2);
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-}
-div.Titulo{
-    display: flex;
-    height: 70px;
-    max-width: 98vw;
-    justify-content: center;
-}
-div.Titulo h1{
-        font-size: 30px;
-        height: 65px;
-        width: 95vw;
-        text-align: center;
-}
-div.texto{
-  text-align: left;
-  align-items: center;
-  padding: 2px;
-  height: 829px;
-}
-div.texto p{
-        font-size: 1.9vh;
-        padding: 5px;
-        height: 814px;
-}
-/*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
-div.informacoes{
-        position: relative;
-        display: grid;
-       width: 98.1vw;
-        min-height: 500px;
-}
-/*--INFO ESCOLARIDADE--*/
-div.escolaridade{
-	position: relative;
-    	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        background-color: #FFB600;
-        display: flex;
-        width: 98.1vw;
-        height: 450px;
-}
-div.Titulo_Escolaridade{
-    	text-align: center;
-    	width: 70vw;
-    	max-height: 70px;
-    	margin-left: 0vw;
-}
-div.info_escolaridade{
-	position: absolute;
-	margin-left: 24.5vw;
-	display: grid;
-	height: 449px;
-	width: 73.5vw;
-	text-align: top;
-  	align-items: top;
-}
-div.sobre_a_escolaridade{
-	height: 370px;
-    max-width: 73.5vw;
-	margin-top: 5px;
-	text-align: left;
-	align-items: left;
-	padding: 2px;
-}
-div.sobre_a_escolaridade p{
-    
-	height: 370px;
-	word-break: break-all;
-	font-size: 2.3vh;
-	padding-left: 5px;
-    padding-right: 15px;
-    max-width: 72vw;
-        
-        
-}
-/*--DIV COMPLETA DO "UTILIZO"--*/
-div.utilizo{
-        background-color: #00ffd5;
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        max-width: 23.5vw;
-        height: 440px;
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        border-radius: 5px;
-}
-/*--DIV COM O TÍTULO "UTILIZO"--*/
-div.Titulo_Utilizo{
-position: sticky;
-	width: 23.5vw;
-	height: 50px;
-        text-align: center;
-    	
-}
-/*--PARA TODAS AS IMAGENS DE COISAS QUE EU UTILIZO--*/
-div.utilizo img{
-    position: flex;
-    width: 9.9vw;
-    padding: 15px;
-}
-/*--PARA A LOGO DO CSS E DO JAVASCRIPT--*/
-div.utilizo img.css,
-div.utilizo img.js{
-    width: 8vw;
-}
-/*--PARA A LOGO DO MYSQL--*/
-div.utilizo img.sql{
-    width: 11.3vw;
-}
-div.utilizo img.java{
-    width: 10.3vw;
-}
-div.utilizo img.git{
-  width: 9.8vw;
-}
-/*--INFO PROJETOS--*/
-div.projetos{
-      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        background-color: #FFB600;
-        display: grid;
-        height: 2000px;
-        width: 98.1vw;
-        z-index: 2;
-}
-/*--TITULO DA AREA DE PROJETOS--*/
-div.Titulo_Proj{
-    position: sticky;
-    text-align: center;
-    min-width: 44.8vw;
-    max-height: 70px;
-    left: 30.3vw;
-}
-div.foto_e_texto_proj1{
-    display: grid;
-    width: 98vw;
-    height: 550px;
-}
-    #container1{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP1{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP1:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP1{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP1:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto1{
-        width: 98vw;
-        height: 185px;
-        padding: 5px;
-    }
-    div.sobre_o_projeto1 p{
-        font-size: 1.58vh;
-        text-align: justify;
-    }
-    hr{
-        height: 0px;
-        border: 1px solid #000;
-    }
-/*--------------------PROJETO 2-------------------*/
-div.foto_e_texto_proj2{
-    display: grid;
-    width: 98vw;
-    height: 560px;
-}
-    #container2{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP2{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP2:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP2{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP2:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto2{
-        height: 200px;
-        width: 98vw;                    
-        padding: 5px;
-    }
-    div.sobre_o_projeto2 p{
-        font-size: 1.7vh;
-        text-align: justify;
-    }
-
-    /*--------------------PROJETO 3-------------------*/
-div.foto_e_texto_proj3{
-    display: grid;
-    width: 98vw;
-    height: 560px;
-}
-    #container3{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP3{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP3:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP3{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP3:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto3{
-        height: 200px;
-        width: 98vw;                    
-        padding: 5px;
-    }
-    div.sobre_o_projeto3 p{
-        font-size: 1.7vh;
-        text-align: justify;
-    }
-
-    /*------------------------RODAPÉ-----------------------*/
-  footer.rodape{
-    display: flex;
-    background-color: #001573;
-    height: 65px;
-    width: 98;
-}
-div.agradecimento{
-    position: sticky;
-    text-align: center;
-    width: 1344px;
-    height: 50px;
-}
-div.agradecimento{
-    font-size: 3vh;
-    color: #00eeff;
-    text-shadow: 1px 1px #000;
-}
-}
-
-@media (min-width: 629px) and (max-width: 774px){
-    header.topo{
-        display: flex;
-        background-color: #001573;
-        text-align: center;
-        height: 250px;
-        width: 97.9vw;
-}
-div.nome{
-	position: absolute;
-	text-align: center;
-	height: 67px;
-	width: 97.7vw;
-    margin-top: 2vh;
-}
-header.topo h1.MeuNome{
-        color: #00eeff;
-        height: 65px;
-        font-size: 5.5vh;
-}
-
-h1 span{
-        position: relative;
-        top: 1px;
-        display: inline-block;
-        overflow: hidden;
-
-        -webkit-animation: bounce 0.9s ease infinite alternate;
-        text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
-}
-
-h1 span:nth-child(2) {
-    -webkit-animation-delay: 0.2s;
-}
-
-h1 span:nth-child(3) {
-    -webkit-animation-delay: 0.3s;
-}
-
-h1 span:nth-child(4) {
-    -webkit-animation-delay: 0.6s;
-}
-
-h1 span:nth-child(5) {
-    -webkit-animation-delay: 0.8s;
-}
-
-h1 span:nth-child(6) {
-    -webkit-animation-delay: 1.0s;
-}
-
-h1 span:nth-child(7) {
-    -webkit-animation-delay: 1.2s;
-}
-
-h1 span:nth-child(8) {
-    -webkit-animation-delay: 1.4s;
-}
-
-h1 span:nth-child(9) {
-    -webkit-animation-delay: 1.6s;
-}
-
-h1 span:nth-child(10) {
-    -webkit-animation-delay: 1.8s;
-}
-h1 span:nth-child(11) {
-    -webkit-animation-delay: 2.0s;
-}
-
-h1 span:nth-child(12) {
-    -webkit-animation-delay: 2.2s;
-}
-
-h1 span:nth-child(13) {
-    -webkit-animation-delay: 2.4s;
-}
-
-h1 span:nth-child(14) {
-    -webkit-animation-delay: 2.6s;
-}
-
-h1 span:nth-child(15) {
-    -webkit-animation-delay: 2.8s;
-}
-
-h1 span:nth-child(16) {
-    -webkit-animation-delay: 3.0s;
-}
-
-h1 span:nth-child(17) {
-    -webkit-animation-delay: 3.2s;
-}
-h1 span:nth-child(18) {
-    -webkit-animation-delay: 3.4s;
-}
-@-webkit-keyframes bounce {
-    100%{
-    top: -20px;
-    text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #001573;
-        }
-}
-
-/*--REDES SOCIÁIS--*/
-div.contato img{ 
-    width: 65px;
-    cursor: pointer;
-    border-radius: 100%;
-}
-div.contato img.GitHub{
-    width: 67px;
-    margin-top: 5px;
-}
-div.contato img.linkedin{
-    width: 73px;
-    margin-left: -5px;
-}
-div.contato{
-    position: relative;
-    height: 70px;
-    width: 400px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 180px;
-    margin-left: 5px;
-}
-
-/*--DIV QUE CONTEM A FOTO--*/
-div.foto{
-  position: sticky;
-  top: 80px;
-  left: 68vw;
-  width: 170px;
-  height: 170px;
-  border-radius: 100%;
-}
-/*--A FOTO--*/
-div.foto img{
-      position: relative;
-      margin-left: 0px;
-      width: 170px;
-      border-radius: 100%;
-}
-/*-----------------------------MEIO DO SITE-------------------*/
-
-main.meio{
-        display: grid;
-        min-height: 100px;
-        max-width: 755px;
-}
-/*--APRESENTAÇÃO--*/
-div.apresentacao{
-    text-align: top;
-    align-items: top;
-        background-color: #FFB600;
-        display: grid;
-        width: 97.9vw;
-        height: 350px;
-        border-top: 2px solid rgba(95, 94, 94, 0.2);
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-}
-div.Titulo{
-    display: flex;
-    height: 70px;
-    max-width: 98vw;
-    justify-content: center;
-}
-div.Titulo h1{
-        font-size: 30px;
-        height: 65px;
-        width: 95vw;
-        text-align: center;
-}
-div.texto{
-  text-align: left;
-  align-items: center;
-  padding: 2px;
-  height: 829px;
-}
-div.texto p{
-        font-size: 2vh;
-        padding: 5px;
-        height: 814px;
-}
-/*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
-div.informacoes{
-        position: relative;
-        display: grid;
-        width: 98vw;
-        min-height: 500px;
-}
-/*--INFO ESCOLARIDADE--*/
-div.escolaridade{
-	position: relative;
-    	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        background-color: #FFB600;
-        display: grid;
-        width: 97.9vw;
-        height: 600px;
-}
-div.Titulo_Escolaridade{
-    	text-align: center;
-    	width: 98vw;
-    	max-height: 70px;
-    	margin-left: 0vw;
-}
-div.info_escolaridade{
-	display: grid;
-	height: 449px;
-	width: 97.8vw;
-	text-align: top;
-  	align-items: top;
-}
-div.sobre_a_escolaridade{
-	height: 370px;
-	margin-top: 5px;
-	text-align: left;
-	align-items: left;
-    width: 97.8vw;
-	padding: 2px;
-    text-align: center;
-}
-div.sobre_a_escolaridade p{
-	height: 370px;
-	word-break: break-all;
-	font-size: 2.4vh;
-	padding-left: 5px;
-    padding-right: 15px;
-    width: 97.8vw;
-}
-/*--DIV COMPLETA DO "UTILIZO"--*/
-div.utilizo{
-        background-color: #00ffd5;
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        max-width: 97vw;
-        top: 5px;
-        border-radius: 5px;
-        text-align: center;
-}
-/*--DIV COM O TÍTULO "UTILIZO"--*/
-div.Titulo_Utilizo{
-    position: sticky;
-	width: 97vw;
-	height: 50px;
-    text-align: center;
-}
-div.Titulo_Utilizo h1{
-    font-size: 4.5vw;
-    position: relative;
-    top: -10px;
-}
-/*--PARA TODAS AS IMAGENS DE COISAS QUE EU UTILIZO--*/
-div.utilizo img{
-    position: flex;
-    width: 10.5vw;
-    padding: 15px;
-}
-/*--PARA A LOGO DO CSS E DO JAVASCRIPT--*/
-div.utilizo img.css,
-div.utilizo img.js{
-    width: 8.6vw;
-}
-/*--PARA A LOGO DO MYSQL--*/
-div.utilizo img.sql{
-    width: 11.9vw;
-}
-div.utilizo img.java{
-    width: 11.3vw;
-}
-div.utilizo img.git{
-  width: 10vw;
-}
-/*--INFO PROJETOS--*/
-div.projetos{
-      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        background-color: #FFB600;
-        display: grid;
-        height: 1900px;
-        width: 97.9vw;
-        z-index: 2;
-}
-/*--TITULO DA AREA DE PROJETOS--*/
-div.Titulo_Proj{
-    position: sticky;
-    text-align: center;
-    width: 98vw;
-    max-height: 70px;
-}
-div.projetos h1{
-        position: relative;
-}
-div.foto_e_texto_proj1{
-    display: grid;
-    width: 98vw;
-    height: 550px;
-}
-    #container1{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP1{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP1:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP1{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP1:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto1{
-        width: 98vw;
-        height: 185px;
-        padding: 5px;
-    }
-    div.sobre_o_projeto1 p{
-        font-size: 1.58vh;
-        text-align: justify;
-    }
-    hr{
-        height: 0px;
-        border: 1px solid #000;
-    }
-/*--------------------PROJETO 2-------------------*/
-div.foto_e_texto_proj2{
-    display: grid;
-    width: 98vw;
-    height: 560px;
-}
-    #container2{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP2{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP2:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP2{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP2:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto2{
-        height: 200px;
-        width: 98vw;                    
-        padding: 5px;
-    }
-    div.sobre_o_projeto2 p{
-        font-size: 1.7vh;
-        text-align: justify;
-    }
-
-    /*--------------------PROJETO 3-------------------*/
-div.foto_e_texto_proj3{
-    display: grid;
-    width: 98vw;
-    height: 560px;
-}
-    #container3{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP3{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP3:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP3{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP3:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto3{
-        height: 200px;
-        width: 98vw;                    
-        padding: 5px;
-    }
-    div.sobre_o_projeto3 p{
-        font-size: 1.7vh;
-        text-align: justify;
-    }
-
-    /*--------------------------RODAPÉ---------------------------*/
-  footer.rodape{
-    display: flex;
-    background-color: #001573;
-    height: 65px;
-    width: 97.9vw;
-}
-div.agradecimento{
-    position: sticky;
-    text-align: center;
-    width: 97.8vw;
-    height: 50px;
-}
-div.agradecimento p{
-    font-size: 2.7vh;
-    color: #00eeff;
-    text-shadow: 1px 1px #000;
-}
-}
-@media (min-width: 544px) and (max-width: 628px){
-    header.topo{
-        display: flex;
-        background-color: #001573;
-        text-align: center;
-        height: 250px;
-        width: 97.9vw;
-    }
-div.nome{
-	position: absolute;
-	text-align: center;
-	height: 65px;
-	width: 97.7vw;
-    margin-top: 2vh;
-}
-header.topo h1.MeuNome{
-        color: #00eeff;
-        height: 65px;
-        font-size: 6vw;
-}
-
-h1 span{
-        position: relative;
-        top: 1px;
-        display: inline-block;
-        overflow: hidden;
-
-        -webkit-animation: bounce 0.9s ease infinite alternate;
-        text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
-}
-
-h1 span:nth-child(2) {
-    -webkit-animation-delay: 0.2s;
-}
-
-h1 span:nth-child(3) {
-    -webkit-animation-delay: 0.3s;
-}
-
-h1 span:nth-child(4) {
-    -webkit-animation-delay: 0.6s;
-}
-
-h1 span:nth-child(5) {
-    -webkit-animation-delay: 0.8s;
-}
-
-h1 span:nth-child(6) {
-    -webkit-animation-delay: 1.0s;
-}
-
-h1 span:nth-child(7) {
-    -webkit-animation-delay: 1.2s;
-}
-
-h1 span:nth-child(8) {
-    -webkit-animation-delay: 1.4s;
-}
-
-h1 span:nth-child(9) {
-    -webkit-animation-delay: 1.6s;
-}
-
-h1 span:nth-child(10) {
-    -webkit-animation-delay: 1.8s;
-}
-h1 span:nth-child(11) {
-    -webkit-animation-delay: 2.0s;
-}
-
-h1 span:nth-child(12) {
-    -webkit-animation-delay: 2.2s;
-}
-
-h1 span:nth-child(13) {
-    -webkit-animation-delay: 2.4s;
-}
-
-h1 span:nth-child(14) {
-    -webkit-animation-delay: 2.6s;
-}
-
-h1 span:nth-child(15) {
-    -webkit-animation-delay: 2.8s;
-}
-
-h1 span:nth-child(16) {
-    -webkit-animation-delay: 3.0s;
-}
-
-h1 span:nth-child(17) {
-    -webkit-animation-delay: 3.2s;
-}
-h1 span:nth-child(18) {
-    -webkit-animation-delay: 3.4s;
-}
-@-webkit-keyframes bounce {
-    100%{
-    top: -20px;
-    text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #001573;
-        }
-}
-
-/*--REDES SOCIÁIS--*/
-div.contato img{ 
-    width: 65px;
-    cursor: pointer;
-    border-radius: 100%;
-}
-div.contato img.GitHub{
-    width: 67px;
-    margin-top: 5px;
-}
-div.contato img.linkedin{
-    width: 73px;
-    margin-left: -5px;
-}
-div.contato{
-    position: relative;
-    width: 400px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 180px;
-    margin-left: 5px;
-}
-
-/*--DIV QUE CONTEM A FOTO--*/
-div.foto{
-  position: sticky;
-  top: 75px;
-  left: 60vw;
-  width: 200px;
-  height: 175px;
-  text-align: left;
-}
-/*--A FOTO--*/
-div.foto img{
-      width: 170px;
-      border-radius: 100%;
-}
-/*-----------------------------MEIO DO SITE-------------------*/
-
-main.meio{
-        display: grid;
-        min-height: 100px;
-        max-width: 755px;
-}
-/*--APRESENTAÇÃO--*/
-div.apresentacao{
-    text-align: top;
-    align-items: top;
-        background-color: #FFB600;
-        display: grid;
-        width: 97.9vw;
-        height: 350px;
-        border-top: 2px solid rgba(95, 94, 94, 0.2);
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-}
-div.Titulo{
-    display: flex;
-    height: 70px;
-    max-width: 98vw;
-    justify-content: center;
-}
-div.Titulo h1{
-        font-size: 30px;
-        height: 65px;
-        width: 95vw;
-        text-align: center;
-}
-div.texto{
-  text-align: left;
-  align-items: center;
-  padding: 2px;
-  height: 829px;
-}
-div.texto p{
-        font-size: 1.77vh;
-        padding: 5px;
-        height: 814px;
-}
-/*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
-div.informacoes{
-        position: relative;
-        display: grid;
-       width: 98vw;
-        min-height: 500px;
-}
-/*--INFO ESCOLARIDADE--*/
-div.escolaridade{
-	position: relative;
-    	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        background-color: #FFB600;
-        display: grid;
-        width: 97.9vw;
-        height: 600px;
-}
-div.Titulo_Escolaridade{
-    	text-align: center;
-    	width: 98vw;
-    	max-height: 70px;
-    	margin-left: 0vw;
-}
-div.info_escolaridade{
-	display: grid;
-	height: 449px;
-	width: 97.8vw;
-	text-align: top;
-  	align-items: top;
-}
-div.sobre_a_escolaridade{
-	height: 370px;
-	margin-top: 5px;
-	text-align: left;
-	align-items: left;
-    width: 97.8vw;
-	padding: 2px;
-    text-align: center;
-}
-div.sobre_a_escolaridade p{
-	height: 370px;
-	word-break: break-all;
-	font-size: 2.22vh;
-	padding-left: 5px;
-    padding-right: 15px;
-    max-width: 99vw;
-}
-/*--DIV COMPLETA DO "UTILIZO"--*/
-div.utilizo{
-        background-color: #00ffd5;
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        max-width: 96vw;
-        top: 5px;
-        border-radius: 5px;
-        text-align: center;
-        margin-left: 4px;
-}
-/*--DIV COM O TÍTULO "UTILIZO"--*/
-div.Titulo_Utilizo{
-    position: sticky;
-	width: 97vw;
-	height: 50px;
-    text-align: center;
-}
-div.Titulo_Utilizo h1{
-    font-size: 4.5vw;
-    position: relative;
-    top: -10px;
-}
-/*--PARA TODAS AS IMAGENS DE COISAS QUE EU UTILIZO--*/
-div.utilizo img{
-    position: flex;
-    width: 12.5vw;
-    padding: 15px;
-}
-/*--PARA A LOGO DO CSS E DO JAVASCRIPT--*/
-div.utilizo img.css,
-div.utilizo img.js{
-    width: 10.6vw;
-}
-/*--PARA A LOGO DO MYSQL--*/
-div.utilizo img.sql{
-    width: 15.9vw;
-}
-div.utilizo img.java{
-    width: 13.3vw;
-}
-div.utilizo img.git{
-  width: 13vw;
-}
-/*--INFO PROJETOS--*/
-div.projetos{
-      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        background-color: #FFB600;
-        display: grid;
-        height: 2000px;
-        width: 97.9vw;
-        z-index: 2;
-}
-/*--TITULO DA AREA DE PROJETOS--*/
-div.Titulo_Proj{
-    position: sticky;
-    text-align: center;
-    width: 98vw;
-    max-height: 70px;
-}
-div.projetos h1{
-        position: relative;
-}
-div.foto_e_texto_proj1{
-    display: grid;
-    width: 98vw;
-    height: 550px;
-}
-    #container1{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP1{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP1:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP1{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP1:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto1{
-        width: 98vw;
-        height: 185px;
-        padding: 5px;
-    }
-    div.sobre_o_projeto1 p{
-        font-size: 1.58vh;
-        text-align: justify;
-    }
-    hr{
-        height: 0px;
-        border: 1px solid #000;
-    }
-/*--------------------PROJETO 2-------------------*/
-div.foto_e_texto_proj2{
-    display: grid;
-    width: 98vw;
-    height: 560px;
-}
-    #container2{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP2{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP2:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP2{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP2:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto2{
-        height: 200px;
-        width: 98vw;                    
-        padding: 5px;
-    }
-    div.sobre_o_projeto2 p{
-        font-size: 1.7vh;
-        text-align: justify;
-    }
-
-    /*--------------------PROJETO 3-------------------*/
-div.foto_e_texto_proj3{
-    display: grid;
-    width: 98vw;
-    height: 560px;
-}
-    #container3{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP3{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP3:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP3{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP3:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto3{
-        height: 200px;
-        width: 98vw;                    
-        padding: 5px;
-    }
-    div.sobre_o_projeto3 p{
-        font-size: 1.7vh;
-        text-align: justify;
-    }
-
-    /*-----------------------RODAPÉ---------------------------*/
-  footer.rodape{
-    display: flex;
-    background-color: #001573;
-    height: 65px;
-    width: 97.9vw;
-}
-div.agradecimento{
-    position: sticky;
-    text-align: center;
-    width: 97.8vw;
-    height: 50px;
-}
-div.agradecimento p{
-    font-size: 2.4vh;
-    color: #00eeff;
-    text-shadow: 1px 1px #000;
-}
-}
-
-@media (min-width: 300px) and (max-width: 543px){
+@media (min-width: 1360px) and (max-width: 1700px){        
 header.topo{
     display: flex;
     background-color: #001573;
-    text-align: center;
-    height: 250px;
-    width: 100vw;
+    height: 185px;
+    padding-left: 5px;
+    align-items: center;
 }
 div.nome{
-	position: absolute;
-	text-align: center;
-	height: 60px;
-	width: 97.7vw;
-    top: 1.2em;
+    position: relative;
+    text-align: center;
+    height: 50px;
+    width: 80vw;
+    padding-top: 17px;
 }
 header.topo h1.MeuNome{
-        color: #00eeff;
-        height: 65px;
-        font-size: 6vw;
+    position: relative;
+    color: #00eeff;
+    font-size: 40px;
+    height: 80px;
 }
 
 h1 span{
-        position: relative;
-        top: 1px;
-        display: inline-block;
-        overflow: hidden;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    overflow: hidden;
 
-        -webkit-animation: bounce 0.9s ease infinite alternate;
-        text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
+    -webkit-animation: bounce 0.9s ease infinite alternate;
+    text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
 }
 
 h1 span:nth-child(2) {
@@ -2757,339 +112,2989 @@ h1 span:nth-child(18) {
     text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #001573;
         }
 }
-
-/*--REDES SOCIÁIS--*/
-div.contato img{ 
-    width: 65px;
-    cursor: pointer;
-    border-radius: 100%;
-}
-div.contato img.GitHub{
-    width: 67px;
-    margin-top: 5px;
-}
-div.contato img.linkedin{
-    width: 73px;
-    margin-left: -5px;
-}
-div.contato{
-    position: relative;
-    width: 200px;
-    height: 150px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 100px;
-    margin-left: 5px;
-}
-
 /*--DIV QUE CONTEM A FOTO--*/
 div.foto{
-  position: sticky;
-  top: 75px;
-  left: 60vw;
-  width: 200px;
-  height: 175px;
-  text-align: left;
+    background-color: black;
+    position: relative;
+    width: 150px;
+    height: 145px;
+    border-radius: 20%;
+    border: 2px solid #0000;
 }
 /*--A FOTO--*/
 div.foto img{
-      width: 170px;
-      border-radius: 100%;
-}
-/*-----------------------------MEIO DO SITE-------------------*/
-
-main.meio{
-        display: grid;
-        min-height: 100px;
-}
-/*--APRESENTAÇÃO--*/
-div.apresentacao{
-    text-align: top;
-    align-items: top;
-        background-color: #FFB600;
-        display: grid;
-        width: 100vw;
-        height: 350px;
-        border-top: 2px solid rgba(95, 94, 94, 0.2);
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-}
-div.Titulo{
-    display: flex;
-    height: 70px;
-    max-width: 98vw;
-    justify-content: center;
-}
-div.Titulo h1{
-        font-size: 30px;
-        height: 65px;
-        width: 95vw;
-        text-align: center;
-}
-div.texto{
-  text-align: left;
-  align-items: center;
-  padding: 2px;
-  height: 829px;
-}
-div.texto p{
-        font-size: 1.7vh;
-        padding: 5px;
-        height: 814px;
-}
-/*--DIV POR TRAS DE (ESCOLARIDADE, UTILIZO, ETC...)--*/
-div.informacoes{
-        position: relative;
-        display: grid;
-       width: 98vw;
-        min-height: 500px;
-}
-/*--INFO ESCOLARIDADE--*/
-div.escolaridade{
-	position: relative;
-    	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        background-color: #FFB600;
-        display: grid;
-        width: 100vw;
-        height: 700px;
-}
-div.Titulo_Escolaridade{
-    	text-align: center;
-    	width: 98vw;
-    	max-height: 70px;
-    	margin-left: 0vw;
-        margin-top: 5px;
-}
-div.info_escolaridade{
-	display: grid;
-	height: 449px;
-	width: 97.8vw;
-	text-align: top;
-  	align-items: top;
-}
-div.sobre_a_escolaridade{
-	height: 370px;
-	margin-top: 5px;
-	text-align: left;
-	align-items: left;
-    width: 97.8vw;
-	padding: 2px;
-    text-align: center;
-}
-div.sobre_a_escolaridade p{
-	height: 370px;
-	word-break: break-all;
-	font-size: 2.1vh;
-	padding-left: 5px;
-    padding-right: 15px;
-    max-width: 99vw;
-}
-/*--DIV COMPLETA DO "UTILIZO"--*/
-div.utilizo{
-        background-color: #00ffd5;
-        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        max-width: 100vw;
-        top: 5px;
-        border-radius: 5px;
-        text-align: center;
-        margin-left: 2px;
-}
-/*--DIV COM O TÍTULO "UTILIZO"--*/
-div.Titulo_Utilizo{
-    position: sticky;
-	width: 97vw;
-	height: 50px;
-    text-align: center;
-    margin-top: 5px;
-}
-div.Titulo_Utilizo h1{
-    font-size: 6vw;
     position: relative;
+    width: 150px;
+    border-radius: 20%;
+    cursor: pointer;
 }
-/*--PARA TODAS AS IMAGENS DE COISAS QUE EU UTILIZO--*/
-div.utilizo img{
-    position: flex;
-    width: 18.7vw;
-    padding: 15px;
-}
-/*--PARA A LOGO DO CSS E DO JAVASCRIPT--*/
-div.utilizo img.css,
-div.utilizo img.js{
-    width: 14.6vw;
-}
-/*--PARA A LOGO DO MYSQL--*/
-div.utilizo img.sql{
-    width: 22.9vw;
-}
-div.utilizo img.java{
-    width: 20.3vw;
-}
-div.utilizo img.git{
-  width: 17vw;
-}
-/*--INFO PROJETOS--*/
-div.projetos{
-      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
-        background-color: #FFB600;
-        display: grid;
-        min-height: 2250px;
-        width: 100vw;
-        z-index: 2;
-}
-/*--TITULO DA AREA DE PROJETOS--*/
-div.Titulo_Proj{
-    position: sticky;
-    width: 98vw;
-    max-height: 70px;
-    margin-top: 1vh;
-}
-div.projetos h1{
-    text-align: center;
-    position: relative;
-}
-div.foto_e_texto_proj1{
+/*----------------------------------------------------MEIO---------------------------------------*/
+div#meio{
     display: grid;
-    width: 98vw;
-    height: 550px;
+    background-color: #b8ff45;
+    padding: 2px;
+    gap: 5px;
 }
-    #container1{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP1{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP1:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP1{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP1:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto1{
-        width: 98vw;
-        height: 185px;
-        padding: 5px;
-    }
-    div.sobre_o_projeto1 p{
-        font-size: 1.58vh;
-        text-align: justify;
-    }
-    hr{
-        height: 0px;
-        border: 1px solid #000;
-    }
-/*--------------------PROJETO 2-------------------*/
-div.foto_e_texto_proj2{
-    display: grid;
-    width: 98vw;
-    height: 560px;
-}
-    #container2{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP2{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP2:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP2{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP2:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto2{
-        height: 200px;
-        width: 98vw;                    
-        padding: 5px;
-    }
-    div.sobre_o_projeto2 p{
-        font-size: 1.7vh;
-        text-align: justify;
-    }
-
-    /*--------------------PROJETO 3-------------------*/
-div.foto_e_texto_proj3{
-    display: grid;
-    width: 98vw;
-    height: 560px;
-}
-    #container3{
-        display: flex;
-        width: 100%;
-        height: 97.4%;
-    }
-    #ImgAntP3{
-        width: 5vh;
-        background: linear-gradient(to left, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 15px 0px 0px 15px;
-    }
-    #ImgAntP3:hover{
-        border: 1px solid #000;
-    }
-    #ProxImgP3{
-        width: 5vh;
-        background: linear-gradient(to right, #5e4609, #FFB600);
-        border: none;
-        font-size: 5vh;
-        border-radius: 0px 15px 15px 0px;
-    }
-    #ProxImgP3:hover{
-        border: 1px solid #000;
-    }
-
-    div.sobre_o_projeto3{
-        height: 200px;
-        width: 98vw;                    
-        padding: 5px;
-    }
-    div.sobre_o_projeto3 p{
-        font-size: 1.7vh;
-        text-align: justify;
-    }
-
-    /*---------------------------------RODAPÉ-------------------------------*/
-  footer.rodape{
+div#SobreMim_HistADS{
     display: flex;
+    gap: 10px;
+}
+/*TÍTULO "SOBRE MIM"*/
+p#TituloSobreMim{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+/*DIV FALANDO SOBRE MIM*/
+div#SobreMim{
+    word-break: break-all;
+    width: 50%;
+    border: 2px solid #000;
+    border-radius: 15px;
+    border-top: none;
+}
+/*TEXTO SOBRE MIM*/
+p#textoSobMim{
+    padding: 20px;
+    font-size: 12px;
+}
+/*TÍTULO HISTÓRIA ADS"*/
+p#TituloHistoriaADS,
+p#tituloFormacao,
+p#tituloCursos,
+p#TituloSobreMim,
+p#tituloTecnologias,
+p#tituloProjetos{
     background-color: #001573;
-    height: 85px;
-    width: 100vw;
-}
-div.agradecimento{
-    position: sticky;
     text-align: center;
-    width: 98vw;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    border-top: 2px solid rgba(95, 94, 94, 0.2);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
     height: 50px;
 }
-div.agradecimento p{
-    font-size: 2.5vh;
-    color: #00eeff;
-    text-shadow: 1px 1px #000;
+/*DIV FALANDO SOBRE A MINHA HISTÓRIA COM ADS*/
+div#HistoriaADS{
+    word-break: break-word;
+    width: 50%;
+    border: 2px solid #000;
+    border-radius: 15px;
+    border-top: none;
 }
+/*TEXTO SOBRE HITORIA ADS*/
+p#textoHistoria{
+    padding: 20px;
+    font-size: 12px;
+}
+/*--------------------DIV SOBRE O CURSO DE GRADUAÇÃO E CURSOS MENORES-------------------*/
+div#escolaridade{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    
+}
+/*DIV COM TITULO E INFORMAÇÕES DE FORMAÇÃO*/
+div#tituloEinfoFormacao{
+    display: grid;
+    gap: 1vh;
+}
+/*-------------DIV COM APENAS OS DADOS DA FACULDADE*/
+div#dadosFormacao{
+    display: grid;
+    padding: 5px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    height: 238px;
+    text-align: center;
+    align-items: center;
+}
+/*DIV COM TITULO E CERTIFICADOS*/
+div#tituloEinfoCurso{
+    display: grid;
+    gap: 1vh;
+}
+/*--------------DIV COM OS CURSOS DE EXTENÇÃO*/
+div#cursos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+/*FOTOS DOS CERTIFICADOS*/
+div#cursos img{
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/*-------AMPLIAR IMAGENS E MOSTRAR MAIS INFORMAÇÕES*/
+dialog#imagemEinfoDoCurso{
+    position: fixed;
+    width: 500px;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+/*DIV ONDE AS INFORMAÇÕES APARECEM*/
+div#modalInfo{
+    display: grid;
+}
+/*X PARA FECHAR O MODAL*/
+div#modalInfo p{
+    width: 500px;
+    font-size: 30px;
+    position: fixed;
+    justify-content: flex-end;
+    display: flex;
+}
+/*FOTOS QUE APARECEM NO POPPUP*/
+div#modalInfo p img{
+    width: 30px;
+    cursor: pointer;
+}
+/*IMAGEM MOSTRADA NO MODAL*/
+div#modalInfo img{
+    width: 500px;
+}
+/*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
+div#modalInfo h6{
+    word-break: break-word;
+    font-size: 11px;
+    padding: 3px;
+    border-top: 2px solid #000;
+}
+/*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
+div#tecnologias{
+    background-color: #b8ff45;
+    border-top: 2px solid rgba(95, 94, 94, 0.2);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+/*IMAGEM DO HTML E DO CSS*/
+div#tecnologias img{
+    width: 100px;
+}
+/*IMAGEM DO JS*/
+div#tecnologias img#js{
+    width: 96px;
+}
+/*IMAGEM DO REACT*/
+div#tecnologias img#react{
+    width: 105px;
+}
+/*IMAGEM DO GIT*/
+div#tecnologias img#git{
+    width: 90px;
+}
+/*IMAGEM DO JAVA*/
+div#tecnologias img#java{
+    width: 60px;
+}
+/*-----------------DIV PROJETOS---------------------------*/
+div#projetos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5px;
+    gap: 5px;
+}
+/*FOTO DAS CAPAS DO PROJETO NO SITE*/
+div#projetos img{
+    width: 325px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-bottom: 2px solid #000;
+}
+/*DIV CONTENDO OS BUTTONS E A FOTO DO PROJETO 1*/
+div#container1,
+div#container2,
+div#container3,
+div#container4{
+    display: grid;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+/*BUTTON PARA A FOTO DO PRÓXIMO PROJETO*/
+div#btnPoxPg1,
+div#btnPoxPg2,
+div#btnPoxPg3,
+div#btnPoxPg4{
+    width: 500px;
+    background: linear-gradient(to bottom, rgb(253, 207, 0), rgb(102, 84, 1));
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    border-right: none;
+    border-left: none;
+}
+/*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+div#btnPoxPg1:hover,
+div#btnPoxPg2:hover,
+div#btnPoxPg3:hover,
+div#btnPoxPg4:hover{
+    background: linear-gradient(to bottom, rgb(253, 186, 0), rgb(102, 75, 1));
+}
+/*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+div#btnPoxPg1:active,
+div#btnPoxPg2:active,
+div#btnPoxPg3:active,
+div#btnPoxPg4:active{
+    background: linear-gradient(to bottom, #001573, #001573);
+    color: #fff;
+}
+
+
+/*----------------------------------------------------RODAPÉ---------------------------------------*/
+div#footer{
+    display: flex;
+    background-color: #001573;
+    align-items: center;
+    padding: 2px;
+}
+/*--------------OS MEIOS DE CONTATO------------*/
+div#redesSociais{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+/*---------------IMAGEM DAS REDES SOCIAIS--------------*/
+div#redesSociais img{
+    width: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+/*---------------FRASE INTERESSANTE--------------*/
+div#mensagem{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+/*MENSAGEM DE REFLEXÃO DO SITE*/
+div#mensagem p{
+    word-break: break-all;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+}
+/*LINK PARA NO NOME DO AUTOR DA FRASE DE REFLEXÃO*/
+div#mensagem p a{
+    color: #00eeff;
+}
+}
+
+@media (min-width: 1056px) and (max-width: 1359px){
+
+    header.topo{
+        display: flex;
+        background-color: #001573;
+        height: 185px;
+        padding-left: 5px;
+        align-items: center;
+    }
+    div.nome{
+        position: relative;
+        text-align: center;
+        height: 50px;
+        width: 170vh;
+        padding-top: 17px;
+    }
+    header.topo h1.MeuNome{
+        position: relative;
+        color: #00eeff;
+        font-size: 40px;
+        height: 80px;
+    }
+    
+    h1 span{
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        overflow: hidden;
+    
+        -webkit-animation: bounce 0.9s ease infinite alternate;
+        text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
+    }
+    
+    h1 span:nth-child(2) {
+        -webkit-animation-delay: 0.2s;
+    }
+    
+    h1 span:nth-child(3) {
+        -webkit-animation-delay: 0.3s;
+    }
+    
+    h1 span:nth-child(4) {
+        -webkit-animation-delay: 0.6s;
+    }
+    
+    h1 span:nth-child(5) {
+        -webkit-animation-delay: 0.8s;
+    }
+    
+    h1 span:nth-child(6) {
+        -webkit-animation-delay: 1.0s;
+    }
+    
+    h1 span:nth-child(7) {
+        -webkit-animation-delay: 1.2s;
+    }
+    
+    h1 span:nth-child(8) {
+        -webkit-animation-delay: 1.4s;
+    }
+    
+    h1 span:nth-child(9) {
+        -webkit-animation-delay: 1.6s;
+    }
+    
+    h1 span:nth-child(10) {
+        -webkit-animation-delay: 1.8s;
+    }
+    h1 span:nth-child(11) {
+        -webkit-animation-delay: 2.0s;
+    }
+    
+    h1 span:nth-child(12) {
+        -webkit-animation-delay: 2.2s;
+    }
+    
+    h1 span:nth-child(13) {
+        -webkit-animation-delay: 2.4s;
+    }
+    
+    h1 span:nth-child(14) {
+        -webkit-animation-delay: 2.6s;
+    }
+    
+    h1 span:nth-child(15) {
+        -webkit-animation-delay: 2.8s;
+    }
+    
+    h1 span:nth-child(16) {
+        -webkit-animation-delay: 3.0s;
+    }
+    
+    h1 span:nth-child(17) {
+        -webkit-animation-delay: 3.2s;
+    }
+    h1 span:nth-child(18) {
+        -webkit-animation-delay: 3.4s;
+    }
+    @-webkit-keyframes bounce {
+        100%{
+        top: -20px;
+        text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #001573;
+            }
+    }
+    /*--DIV QUE CONTEM A FOTO--*/
+    div.foto{
+        background-color: black;
+        position: relative;
+        width: 150px;
+        height: 145px;
+        border-radius: 20%;
+        border: 2px solid #0000;
+    }
+    /*--A FOTO--*/
+    div.foto img{
+        position: relative;
+        width: 150px;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+    /*----------------------------------------------------MEIO---------------------------------------*/
+    div#meio{
+        display: grid;
+        background-color: #b8ff45;
+        padding: 2px;
+        gap: 5px;
+    }
+    div#SobreMim_HistADS{
+        display: flex;
+        gap: 10px;
+    }
+    /*TÍTULO "SOBRE MIM"*/
+    p#TituloSobreMim{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+    /*DIV FALANDO SOBRE MIM*/
+    div#SobreMim{
+        word-break: break-word;
+        width: 50%;
+        border: 2px solid #000;
+        border-radius: 15px;
+        border-top: none;
+    }
+    /*TEXTO SOBRE MIM*/
+    p#textoSobMim{
+        padding: 20px;
+        font-size: 12px;
+    }
+    /*TÍTULO HISTÓRIA ADS"*/
+    p#TituloHistoriaADS,
+    p#tituloFormacao,
+    p#tituloCursos,
+    p#TituloSobreMim,
+    p#tituloTecnologias,
+    p#tituloProjetos{
+        background-color: #001573;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        padding: 10px;
+        border-top: 2px solid rgba(95, 94, 94, 0.2);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        border-radius: 15px;
+        height: 50px;
+    }
+    /*DIV FALANDO SOBRE A MINHA HISTÓRIA COM ADS*/
+    div#HistoriaADS{
+        word-break: break-word;
+        width: 50%;
+        border: 2px solid #000;
+        border-radius: 15px;
+        border-top: none;
+    }
+    /*TEXTO SOBRE HITORIA ADS*/
+    p#textoHistoria{
+        padding: 20px;
+        font-size: 12px;
+    }
+    /*--------------------DIV SOBRE O CURSO DE GRADUAÇÃO E CURSOS MENORES-------------------*/
+    div#escolaridade{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        
+    }
+    /*DIV COM O TÍTULO E AS INFORMAÇÕES DA FORMAÇÃO*/
+    div#tituloEinfoFormacao{
+        display: grid;
+        gap: 1vh;
+    }
+    /*-------------DIV COM APENAS OS DADOS DA FACULDADE*/
+    div#dadosFormacao{
+        display: grid;
+        padding: 5px;
+        border: 2px solid #000;
+        border-radius: 15px;
+        font-size: 12px;
+        word-break: break-word;
+        height: 238px;
+        text-align: center;
+        align-items: center;
+    }
+    /*DIV COM O TÍTULO E CERTIFICADOS*/
+    div#tituloEinfoCurso{
+        display: grid;
+        gap: 1vh;
+    }
+    /*--------------DIV COM OS CURSOS DE EXTENÇÃO*/
+    div#cursos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        padding: 10px;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    /*FOTOS DOS CERTIFICADOS*/
+    div#cursos img{
+        width: 150px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    /*-------AMPLIAR IMAGENS E MOSTRAR MAIS INFORMAÇÕES*/
+    dialog#imagemEinfoDoCurso{
+        position: fixed;
+        width: 500px;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -5%);
+    }
+    /*DIV ONDE AS INFORMAÇÕES APARECEM*/
+    div#modalInfo{
+        display: grid;
+    }
+    /*X PARA FECHAR O MODAL*/
+    div#modalInfo p{
+        width: 500px;
+        font-size: 30px;
+        position: fixed;
+        justify-content: flex-end;
+        display: flex;
+    }
+    /*FOTOS QUE APARECEM NO POPPUP*/
+    div#modalInfo p img{
+        width: 30px;
+        cursor: pointer;
+    }
+    /*IMAGEM MOSTRADA NO MODAL*/
+    div#modalInfo img{
+        width: 500px;
+    }
+    /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
+    div#modalInfo h6{
+        word-break: break-word;
+        font-size: 11px;
+        padding: 3px;
+        border-top: 2px solid #000;
+    }
+    /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
+    div#tecnologias{
+        background-color: #b8ff45;
+        border-top: 2px solid rgba(95, 94, 94, 0.2);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        color: #fff;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    /*IMAGEM DO HTML E DO CSS*/
+    div#tecnologias img{
+        width: 100px;
+    }
+    /*IMAGEM DO JS*/
+    div#tecnologias img#js{
+        width: 96px;
+    }
+    /*IMAGEM DO REACT*/
+    div#tecnologias img#react{
+        width: 105px;
+    }
+    /*IMAGEM DO GIT*/
+    div#tecnologias img#git{
+        width: 90px;
+    }
+    /*IMAGEM DO JAVA*/
+    div#tecnologias img#java{
+        width: 60px;
+    }
+    /*-----------------DIV PROJETOS---------------------------*/
+    div#projetos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 5px;
+        gap: 5px;
+    }
+    /*FOTO DAS CAPAS DO PROJETO NO SITE*/
+    div#projetos img{
+        width: 325px;
+        border-radius: 5px;
+        cursor: pointer;
+        border-bottom: 2px solid #000;
+    }
+    /*DIV CONTENDO OS BUTTONS E A FOTO DO PROJETO 1*/
+    div#container1,
+    div#container2,
+    div#container3,
+    div#container4{
+        display: grid;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 5px;
+        width: 325px;
+    }
+    /*BUTTON PARA A FOTO DO PRÓXIMO PROJETO*/
+    div#btnPoxPg1,
+    div#btnPoxPg2,
+    div#btnPoxPg3,
+    div#btnPoxPg4{
+        width: 500px;
+        background: linear-gradient(to bottom, rgb(253, 207, 0), rgb(102, 84, 1));
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        margin-top: -15px;
+        border-right: none;
+        border-left: none;
+    }
+    /*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+    div#btnPoxPg1:hover,
+    div#btnPoxPg2:hover,
+    div#btnPoxPg3:hover,
+    div#btnPoxPg4:hover{
+        background: linear-gradient(to bottom, rgb(253, 186, 0), rgb(102, 75, 1));
+    }
+    /*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+    div#btnPoxPg1:active,
+    div#btnPoxPg2:active,
+    div#btnPoxPg3:active,
+    div#btnPoxPg4:active{
+        background: linear-gradient(to bottom, #001573, #001573);
+        color: #fff;
+    }
+    
+    
+    /*----------------------------------------------------RODAPÉ---------------------------------------*/
+    div#footer{
+        display: flex;
+        background-color: #001573;
+        align-items: center;
+        padding: 2px;
+    }
+    /*--------------OS MEIOS DE CONTATO------------*/
+    div#redesSociais{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+    }
+    /*---------------IMAGEM DAS REDES SOCIAIS--------------*/
+    div#redesSociais img{
+        width: 50px;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+    /*---------------FRASE INTERESSANTE--------------*/
+    div#mensagem{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+    }
+    /*MENSAGEM DE REFLEXÃO DO SITE*/
+    div#mensagem p{
+        word-break: break-word;
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+    }
+    /*LINK PARA NO NOME DO AUTOR DA FRASE DE REFLEXÃO*/
+    div#mensagem p a{
+        color: #00eeff;
+    }
+
+}
+
+@media (min-width: 1027px) and (max-width: 1055px){
+
+    header.topo{
+        display: flex;
+        background-color: #001573;
+        height: 185px;
+        padding-left: 5px;
+        align-items: center;
+    }
+    div.nome{
+        position: relative;
+        text-align: center;
+        height: 50px;
+        width: 125vh;
+        padding-top: 17px;
+    }
+    header.topo h1.MeuNome{
+        position: relative;
+        color: #00eeff;
+        height: 80px;
+        font-size: 40px;
+    }
+    
+    h1 span{
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        overflow: hidden;
+    
+        -webkit-animation: bounce 0.9s ease infinite alternate;
+        text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
+    }
+    
+    h1 span:nth-child(2) {
+        -webkit-animation-delay: 0.2s;
+    }
+    
+    h1 span:nth-child(3) {
+        -webkit-animation-delay: 0.3s;
+    }
+    
+    h1 span:nth-child(4) {
+        -webkit-animation-delay: 0.6s;
+    }
+    
+    h1 span:nth-child(5) {
+        -webkit-animation-delay: 0.8s;
+    }
+    
+    h1 span:nth-child(6) {
+        -webkit-animation-delay: 1.0s;
+    }
+    
+    h1 span:nth-child(7) {
+        -webkit-animation-delay: 1.2s;
+    }
+    
+    h1 span:nth-child(8) {
+        -webkit-animation-delay: 1.4s;
+    }
+    
+    h1 span:nth-child(9) {
+        -webkit-animation-delay: 1.6s;
+    }
+    
+    h1 span:nth-child(10) {
+        -webkit-animation-delay: 1.8s;
+    }
+    h1 span:nth-child(11) {
+        -webkit-animation-delay: 2.0s;
+    }
+    
+    h1 span:nth-child(12) {
+        -webkit-animation-delay: 2.2s;
+    }
+    
+    h1 span:nth-child(13) {
+        -webkit-animation-delay: 2.4s;
+    }
+    
+    h1 span:nth-child(14) {
+        -webkit-animation-delay: 2.6s;
+    }
+    
+    h1 span:nth-child(15) {
+        -webkit-animation-delay: 2.8s;
+    }
+    
+    h1 span:nth-child(16) {
+        -webkit-animation-delay: 3.0s;
+    }
+    
+    h1 span:nth-child(17) {
+        -webkit-animation-delay: 3.2s;
+    }
+    h1 span:nth-child(18) {
+        -webkit-animation-delay: 3.4s;
+    }
+    @-webkit-keyframes bounce {
+        100%{
+        top: -20px;
+        text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #001573;
+            }
+    }
+    /*--DIV QUE CONTEM A FOTO--*/
+    div.foto{
+        background-color: black;
+        position: relative;
+        width: 150px;
+        height: 145px;
+        border-radius: 20%;
+        border: 2px solid #0000;
+    }
+    /*--A FOTO--*/
+    div.foto img{
+        position: relative;
+        width: 150px;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+    /*----------------------------------------------------MEIO---------------------------------------*/
+    div#meio{
+        display: grid;
+        background-color: #b8ff45;
+        padding: 2px;
+        gap: 5px;
+    }
+    div#SobreMim_HistADS{
+        display: flex;
+        gap: 10px;
+    }
+    /*TÍTULO "SOBRE MIM"*/
+    p#TituloSobreMim{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+    /*DIV FALANDO SOBRE MIM*/
+    div#SobreMim{
+        word-break: break-word;
+        width: 50%;
+        border: 2px solid #000;
+        border-radius: 15px;
+        border-top: none;
+    }
+    /*TEXTO SOBRE MIM*/
+    p#textoSobMim{
+        padding: 20px;
+        font-size: 12px;
+    }
+    /*TÍTULO HISTÓRIA ADS"*/
+    p#TituloHistoriaADS,
+    p#tituloFormacao,
+    p#tituloCursos,
+    p#TituloSobreMim,
+    div#divTitEscolaridade,
+    p#tituloTecnologias,
+    p#tituloProjetos{
+        background-color: #001573;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        padding: 10px;
+        border-top: 2px solid rgba(95, 94, 94, 0.2);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        border-radius: 15px;
+    }
+    /*DIV FALANDO SOBRE A MINHA HISTÓRIA COM ADS*/
+    div#HistoriaADS{
+        word-break: break-word;
+        width: 50%;
+        border: 2px solid #000;
+        border-radius: 15px;
+        border-top: none;
+    }
+    /*TEXTO SOBRE HITORIA ADS*/
+    p#textoHistoria{
+        padding: 20px;
+        font-size: 12px;
+    }
+    /*DIV TITULO "ESCOLARIDADE"*/
+    div#divTitEscolaridade{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+    /*--------------------DIV SOBRE O CURSO DE GRADUAÇÃO E CURSOS MENORES-------------------*/
+    div#escolaridade{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        
+    }
+    /*TITULO E INFORMAÇÃO SOBRE A FORMAÇÃO*/
+    div#tituloEinfoFormacao{
+        display: grid;
+        gap: 1vh;
+    }
+    /*-------------DIV COM APENAS OS DADOS DA FACULDADE*/
+    div#dadosFormacao{
+        display: grid;
+        padding: 5px;
+        border: 2px solid #000000;
+        border-radius: 15px;
+        font-size: 12px;
+        word-break: break-word;
+        height: 240px;
+        text-align: center;
+        align-items: center;
+    }
+    /*TITULO E INFORMAÇÃO SOBRE A OS CURSOS*/
+    div#tituloEinfoCurso{
+        display: grid;
+        gap: 1vh;
+    }
+    /*--------------DIV COM OS CURSOS DE EXTENÇÃO*/
+    div#cursos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        padding: 10px;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    /*FOTOS DOS CERTIFICADOS*/
+    div#cursos img{
+        width: 150px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    /*-------AMPLIAR IMAGENS E MOSTRAR MAIS INFORMAÇÕES*/
+    dialog#imagemEinfoDoCurso{
+        position: fixed;
+        width: 500px;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -5%);
+    }
+    /*DIV ONDE AS INFORMAÇÕES APARECEM*/
+    div#modalInfo{
+        display: grid;
+    }
+    /*X PARA FECHAR O MODAL*/
+    div#modalInfo p{
+        width: 500px;
+        font-size: 30px;
+        position: fixed;
+        justify-content: flex-end;
+        display: flex;
+    }
+    /*FOTOS QUE APARECEM NO POPPUP*/
+    div#modalInfo p img{
+        width: 30px;
+        cursor: pointer;
+    }
+    /*IMAGEM MOSTRADA NO MODAL*/
+    div#modalInfo img{
+        width: 500px;
+    }
+    /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
+    div#modalInfo h6{
+        word-break: break-word;
+        font-size: 11px;
+        padding: 3px;
+        border-top: 2px solid #000;
+    }
+    /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
+    div#tecnologias{
+        background-color: #b8ff45;
+        border-top: 2px solid rgba(95, 94, 94, 0.2);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        color: #fff;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    /*IMAGEM DO HTML E DO CSS*/
+    div#tecnologias img{
+        width: 100px;
+    }
+    /*IMAGEM DO JS*/
+    div#tecnologias img#js{
+        width: 96px;
+    }
+    /*IMAGEM DO REACT*/
+    div#tecnologias img#react{
+        width: 105px;
+    }
+    /*IMAGEM DO GIT*/
+    div#tecnologias img#git{
+        width: 90px;
+    }
+    /*IMAGEM DO JAVA*/
+    div#tecnologias img#java{
+        width: 60px;
+    }
+    /*-----------------DIV PROJETOS---------------------------*/
+    div#projetos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 5px;
+        gap: 5px;
+    }
+    /*FOTO DAS CAPAS DO PROJETO NO SITE*/
+    div#projetos img{
+        width: 325px;
+        border-radius: 5px;
+        cursor: pointer;
+        border-bottom: 2px solid #000;
+    }
+    /*DIV CONTENDO OS BUTTONS E A FOTO DO PROJETO 1*/
+    div#container1,
+    div#container2,
+    div#container3,
+    div#container4{
+        display: grid;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 5px;
+        width: 325px;
+    }
+    /*BUTTON PARA A FOTO DO PRÓXIMO PROJETO*/
+    div#btnPoxPg1,
+    div#btnPoxPg2,
+    div#btnPoxPg3,
+    div#btnPoxPg4{
+        width: 500px;
+        background: linear-gradient(to bottom, rgb(253, 207, 0), rgb(102, 84, 1));
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        margin-top: -15px;
+        border-right: none;
+        border-left: none;
+    }
+    /*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+    div#btnPoxPg1:hover,
+    div#btnPoxPg2:hover,
+    div#btnPoxPg3:hover,
+    div#btnPoxPg4:hover{
+        background: linear-gradient(to bottom, rgb(253, 186, 0), rgb(102, 75, 1));
+    }
+    /*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+    div#btnPoxPg1:active,
+    div#btnPoxPg2:active,
+    div#btnPoxPg3:active,
+    div#btnPoxPg4:active{
+        background: linear-gradient(to bottom, #001573, #001573);
+        color: #fff;
+    }
+    
+    
+    /*----------------------------------------------------RODAPÉ---------------------------------------*/
+    div#footer{
+        display: flex;
+        background-color: #001573;
+        align-items: center;
+        padding: 2px;
+    }
+    /*--------------OS MEIOS DE CONTATO------------*/
+    div#redesSociais{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+    }
+    /*---------------IMAGEM DAS REDES SOCIAIS--------------*/
+    div#redesSociais img{
+        width: 50px;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+    /*---------------FRASE INTERESSANTE--------------*/
+    div#mensagem{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+    }
+    /*MENSAGEM DE REFLEXÃO DO SITE*/
+    div#mensagem p{
+        word-break: break-word;
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+    }
+    /*LINK PARA NO NOME DO AUTOR DA FRASE DE REFLEXÃO*/
+    div#mensagem p a{
+        color: #00eeff;
+    }
+
+}
+
+@media (min-width: 910px) and (max-width: 1026px){
+
+    header.topo{
+        display: flex;
+        background-color: #001573;
+        height: 185px;
+        padding-left: 5px;
+        align-items: center;
+    }
+    div.nome{
+        position: relative;
+        text-align: center;
+        height: 50px;
+        width: 120vh;
+        padding-top: 17px;
+    }
+    header.topo h1.MeuNome{
+        position: relative;
+        color: #00eeff;
+        height: 80px;
+        font-size: 40px;
+    }
+    
+    h1 span{
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        overflow: hidden;
+    
+        -webkit-animation: bounce 0.9s ease infinite alternate;
+        text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
+    }
+    
+    h1 span:nth-child(2) {
+        -webkit-animation-delay: 0.2s;
+    }
+    
+    h1 span:nth-child(3) {
+        -webkit-animation-delay: 0.3s;
+    }
+    
+    h1 span:nth-child(4) {
+        -webkit-animation-delay: 0.6s;
+    }
+    
+    h1 span:nth-child(5) {
+        -webkit-animation-delay: 0.8s;
+    }
+    
+    h1 span:nth-child(6) {
+        -webkit-animation-delay: 1.0s;
+    }
+    
+    h1 span:nth-child(7) {
+        -webkit-animation-delay: 1.2s;
+    }
+    
+    h1 span:nth-child(8) {
+        -webkit-animation-delay: 1.4s;
+    }
+    
+    h1 span:nth-child(9) {
+        -webkit-animation-delay: 1.6s;
+    }
+    
+    h1 span:nth-child(10) {
+        -webkit-animation-delay: 1.8s;
+    }
+    h1 span:nth-child(11) {
+        -webkit-animation-delay: 2.0s;
+    }
+    
+    h1 span:nth-child(12) {
+        -webkit-animation-delay: 2.2s;
+    }
+    
+    h1 span:nth-child(13) {
+        -webkit-animation-delay: 2.4s;
+    }
+    
+    h1 span:nth-child(14) {
+        -webkit-animation-delay: 2.6s;
+    }
+    
+    h1 span:nth-child(15) {
+        -webkit-animation-delay: 2.8s;
+    }
+    
+    h1 span:nth-child(16) {
+        -webkit-animation-delay: 3.0s;
+    }
+    
+    h1 span:nth-child(17) {
+        -webkit-animation-delay: 3.2s;
+    }
+    h1 span:nth-child(18) {
+        -webkit-animation-delay: 3.4s;
+    }
+    @-webkit-keyframes bounce {
+        100%{
+        top: -20px;
+        text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #001573;
+            }
+    }
+    /*--DIV QUE CONTEM A FOTO--*/
+    div.foto{
+        background-color: black;
+        position: relative;
+        width: 150px;
+        height: 145px;
+        border-radius: 20%;
+        border: 2px solid #0000;
+    }
+    /*--A FOTO--*/
+    div.foto img{
+        position: relative;
+        width: 150px;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+    /*----------------------------------------------------MEIO---------------------------------------*/
+    div#meio{
+        display: grid;
+        background-color: #b8ff45;
+        padding: 2px;
+        gap: 5px;
+    }
+    div#SobreMim_HistADS{
+        display: flex;
+        gap: 10px;
+    }
+    /*TÍTULO "SOBRE MIM"*/
+    p#TituloSobreMim{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+    /*DIV FALANDO SOBRE MIM*/
+    div#SobreMim{
+        word-break: break-word;
+        width: 50%;
+        border: 2px solid #000;
+        border-radius: 15px;
+        border-top: none;
+    }
+    /*TEXTO SOBRE MIM*/
+    p#textoSobMim{
+        padding: 20px;
+        font-size: 12px;
+    }
+    /*TÍTULO HISTÓRIA ADS"*/
+    p#TituloHistoriaADS,
+    p#tituloFormacao,
+    p#tituloCursos,
+    p#TituloSobreMim,
+    p#tituloTecnologias,
+    p#tituloProjetos{
+        background-color: #001573;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        padding: 10px;
+        border-top: 2px solid rgba(95, 94, 94, 0.2);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        border-radius: 15px;
+        height: 50px;
+    }
+    /*DIV FALANDO SOBRE A MINHA HISTÓRIA COM ADS*/
+    div#HistoriaADS{
+        word-break: break-word;
+        width: 50%;
+        border: 2px solid #000;
+        border-radius: 15px;
+        border-top: none;
+    }
+    /*TEXTO SOBRE HITORIA ADS*/
+    p#textoHistoria{
+        padding: 20px;
+        font-size: 12px;
+    }
+    /*--------------------DIV SOBRE O CURSO DE GRADUAÇÃO E CURSOS MENORES-------------------*/
+    /*DIV COM  TÍTULO E AS INFORMAÇÕES DE FORMAÇÃO*/
+    div#tituloEinfoFormacao{
+        display: grid;
+        gap: 1vh;   
+    }
+    div#escolaridade{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    /*-------------DIV COM APENAS OS DADOS DA FACULDADE*/
+    div#dadosFormacao{
+        display: grid;
+        padding: 5px;
+        align-items: center;
+        border: 2px solid #000;
+        border-radius: 15px;
+        font-size: 10px;
+        word-break: break-word;
+        text-align: center;
+        height: 250px;
+    }
+    /*DIV COM O TÍTULO E OS CERTIFICADOS*/
+    div#tituloEinfoCurso{
+        display: grid;
+        gap: 1vh;
+    }
+    /*--------------DIV COM OS CURSOS DE EXTENÇÃO*/
+    div#cursos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        padding: 10px;
+        border: 2px solid #000;
+        border-radius: 15px;
+        height: 238px;
+    }
+    /*FOTOS DOS CERTIFICADOS*/
+    div#cursos img{
+        width: 150px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    /*-------AMPLIAR IMAGENS E MOSTRAR MAIS INFORMAÇÕES*/
+    dialog#imagemEinfoDoCurso{
+        position: fixed;
+        width: 500px;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -5%);
+    }
+    /*DIV ONDE AS INFORMAÇÕES APARECEM*/
+    div#modalInfo{
+        display: grid;
+    }
+    /*X PARA FECHAR O MODAL*/
+    div#modalInfo p{
+        width: 500px;
+        font-size: 30px;
+        position: fixed;
+        justify-content: flex-end;
+        display: flex;
+    }
+    /*FOTOS QUE APARECEM NO POPPUP*/
+    div#modalInfo p img{
+        width: 30px;
+        cursor: pointer;
+    }
+    /*IMAGEM MOSTRADA NO MODAL*/
+    div#modalInfo img{
+        width: 500px;
+    }
+    /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
+    div#modalInfo h6{
+        word-break: break-word;
+        font-size: 11px;
+        padding: 3px;
+        border-top: 2px solid #000;
+    }
+    /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
+    div#tecnologias{
+        background-color: #b8ff45;
+        border-top: 2px solid rgba(95, 94, 94, 0.2);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        color: #fff;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    /*IMAGEM DO HTML E DO CSS*/
+    div#tecnologias img{
+        width: 100px;
+    }
+    /*IMAGEM DO JS*/
+    div#tecnologias img#js{
+        width: 96px;
+    }
+    /*IMAGEM DO REACT*/
+    div#tecnologias img#react{
+        width: 105px;
+    }
+    /*IMAGEM DO GIT*/
+    div#tecnologias img#git{
+        width: 90px;
+    }
+    /*IMAGEM DO JAVA*/
+    div#tecnologias img#java{
+        width: 60px;
+    }
+    /*-----------------DIV PROJETOS---------------------------*/
+    div#projetos{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+    /*FOTO DAS CAPAS DO PROJETO NO SITE*/
+    div#projetos img{
+        width: 325px;
+        border-radius: 5px;
+        cursor: pointer;
+        border-bottom: 2px solid #000;
+    }
+    /*DIV CONTENDO OS BUTTONS E A FOTO DO PROJETO 1*/
+    div#container1,
+    div#container2,
+    div#container3,
+    div#container4{
+        display: grid;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 5px;
+        width: 325px;
+    }
+    /*BUTTON PARA A FOTO DO PRÓXIMO PROJETO*/
+    div#btnPoxPg1,
+    div#btnPoxPg2,
+    div#btnPoxPg3,
+    div#btnPoxPg4{
+        width: 500px;
+        background: linear-gradient(to bottom, rgb(253, 207, 0), rgb(102, 84, 1));
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        margin-top: -15px;
+        border-right: none;
+        border-left: none;
+    }
+    /*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+    div#btnPoxPg1:hover,
+    div#btnPoxPg2:hover,
+    div#btnPoxPg3:hover,
+    div#btnPoxPg4:hover{
+        background: linear-gradient(to bottom, rgb(253, 186, 0), rgb(102, 75, 1));
+    }
+    /*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+    div#btnPoxPg1:active,
+    div#btnPoxPg2:active,
+    div#btnPoxPg3:active,
+    div#btnPoxPg4:active{
+        background: linear-gradient(to bottom, #001573, #001573);
+        color: #fff;
+    }
+    
+    
+    /*----------------------------------------------------RODAPÉ---------------------------------------*/
+    div#footer{
+        display: flex;
+        background-color: #001573;
+        align-items: center;
+        padding: 2px;
+    }
+    /*--------------OS MEIOS DE CONTATO------------*/
+    div#redesSociais{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+    }
+    /*---------------IMAGEM DAS REDES SOCIAIS--------------*/
+    div#redesSociais img{
+        width: 50px;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+    /*---------------FRASE INTERESSANTE--------------*/
+    div#mensagem{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+    }
+    /*MENSAGEM DE REFLEXÃO DO SITE*/
+    div#mensagem p{
+        word-break: break-word;
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+    }
+    /*LINK PARA NO NOME DO AUTOR DA FRASE DE REFLEXÃO*/
+    div#mensagem p a{
+        color: #00eeff;
+    }
+
+}
+
+@media (min-width: 807px) and (max-width: 910px){
+
+    header.topo{
+        display: flex;
+        background-color: #001573;
+        height: 185px;
+        padding-left: 5px;
+        align-items: center;
+    }
+    div.nome{
+        position: relative;
+        text-align: center;
+        height: 50px;
+        width: 120vh;
+        padding-top: 17px;
+    }
+    header.topo h1.MeuNome{
+        position: relative;
+        color: #00eeff;
+        height: 80px;
+        font-size: 40px;
+    }
+    
+    h1 span{
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        overflow: hidden;
+    
+        -webkit-animation: bounce 0.9s ease infinite alternate;
+        text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
+    }
+    
+    h1 span:nth-child(2) {
+        -webkit-animation-delay: 0.2s;
+    }
+    
+    h1 span:nth-child(3) {
+        -webkit-animation-delay: 0.3s;
+    }
+    
+    h1 span:nth-child(4) {
+        -webkit-animation-delay: 0.6s;
+    }
+    
+    h1 span:nth-child(5) {
+        -webkit-animation-delay: 0.8s;
+    }
+    
+    h1 span:nth-child(6) {
+        -webkit-animation-delay: 1.0s;
+    }
+    
+    h1 span:nth-child(7) {
+        -webkit-animation-delay: 1.2s;
+    }
+    
+    h1 span:nth-child(8) {
+        -webkit-animation-delay: 1.4s;
+    }
+    
+    h1 span:nth-child(9) {
+        -webkit-animation-delay: 1.6s;
+    }
+    
+    h1 span:nth-child(10) {
+        -webkit-animation-delay: 1.8s;
+    }
+    h1 span:nth-child(11) {
+        -webkit-animation-delay: 2.0s;
+    }
+    
+    h1 span:nth-child(12) {
+        -webkit-animation-delay: 2.2s;
+    }
+    
+    h1 span:nth-child(13) {
+        -webkit-animation-delay: 2.4s;
+    }
+    
+    h1 span:nth-child(14) {
+        -webkit-animation-delay: 2.6s;
+    }
+    
+    h1 span:nth-child(15) {
+        -webkit-animation-delay: 2.8s;
+    }
+    
+    h1 span:nth-child(16) {
+        -webkit-animation-delay: 3.0s;
+    }
+    
+    h1 span:nth-child(17) {
+        -webkit-animation-delay: 3.2s;
+    }
+    h1 span:nth-child(18) {
+        -webkit-animation-delay: 3.4s;
+    }
+    @-webkit-keyframes bounce {
+        100%{
+        top: -20px;
+        text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #001573;
+            }
+    }
+    /*--DIV QUE CONTEM A FOTO--*/
+    div.foto{
+        background-color: black;
+        position: relative;
+        width: 150px;
+        height: 145px;
+        border-radius: 20%;
+        border: 2px solid #0000;
+    }
+    /*--A FOTO--*/
+    div.foto img{
+        position: relative;
+        width: 150px;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+    /*----------------------------------------------------MEIO---------------------------------------*/
+    div#meio{
+        display: grid;
+        background-color: #b8ff45;
+        padding: 2px;
+        gap: 5px;
+    }
+    div#SobreMim_HistADS{
+        display: flex;
+        gap: 10px;
+    }
+    /*TÍTULO "SOBRE MIM"*/
+    p#TituloSobreMim{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+    /*DIV FALANDO SOBRE MIM*/
+    div#SobreMim{
+        word-break: break-word;
+        width: 50%;
+        border: 2px solid #000;
+        border-radius: 15px;
+        border-top: none;
+    }
+    /*TEXTO SOBRE MIM*/
+    p#textoSobMim{
+        padding: 20px;
+        font-size: 12px;
+    }
+    /*TÍTULO HISTÓRIA ADS"*/
+    p#TituloHistoriaADS,
+    p#tituloFormacao,
+    p#tituloCursos,
+    p#TituloSobreMim,
+    p#tituloTecnologias,
+    p#tituloProjetos{
+        background-color: #001573;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        padding: 10px;
+        border-top: 2px solid rgba(95, 94, 94, 0.2);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        border-radius: 15px;
+    }
+    /*DIV FALANDO SOBRE A MINHA HISTÓRIA COM ADS*/
+    div#HistoriaADS{
+        word-break: break-word;
+        width: 50%;
+        border: 2px solid #000;
+        border-radius: 15px;
+        border-top: none;
+    }
+    /*TEXTO SOBRE HITORIA ADS*/
+    p#textoHistoria{
+        padding: 20px;
+        font-size: 12px;
+    }
+    /*--------------------DIV SOBRE O CURSO DE GRADUAÇÃO E CURSOS MENORES-------------------*/
+    /*DIV COM  TÍTULO E AS INFORMAÇÕES DE FORMAÇÃO*/
+    div#tituloEinfoFormacao{
+        display: grid;
+        gap: 1vh;   
+    }
+    div#escolaridade{
+        display: grid;
+        gap: 10px;
+        
+    }
+    /*-------------DIV COM APENAS OS DADOS DA FACULDADE*/
+    div#dadosFormacao{
+        display: grid;
+        padding: 5px;
+        border: 2px solid #000;
+        border-radius: 15px;
+        font-size: 15px;
+        word-break: break-word;
+        text-align: center;
+    }
+    /*DIV COM O TÍTULO E OS CERTIFICADOS*/
+    div#tituloEinfoCurso{
+        display: grid;
+        gap: 1vh;
+    }
+    /*--------------DIV COM OS CURSOS DE EXTENÇÃO*/
+    div#cursos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        padding: 10px;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    /*FOTOS DOS CERTIFICADOS*/
+    div#cursos img{
+        width: 150px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    /*-------AMPLIAR IMAGENS E MOSTRAR MAIS INFORMAÇÕES*/
+    dialog#imagemEinfoDoCurso{
+        position: fixed;
+        width: 500px;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -5%);
+    }
+    /*DIV ONDE AS INFORMAÇÕES APARECEM*/
+    div#modalInfo{
+        display: grid;
+    }
+    /*X PARA FECHAR O MODAL*/
+    div#modalInfo p{
+        width: 500px;
+        font-size: 30px;
+        position: fixed;
+        justify-content: flex-end;
+        display: flex;
+    }
+    /*FOTOS QUE APARECEM NO POPPUP*/
+    div#modalInfo p img{
+        width: 30px;
+        cursor: pointer;
+    }
+    /*IMAGEM MOSTRADA NO MODAL*/
+    div#modalInfo img{
+        width: 500px;
+    }
+    /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
+    div#modalInfo h6{
+        word-break: break-word;
+        font-size: 11px;
+        padding: 3px;
+        border-top: 2px solid #000;
+    }
+    /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
+    div#tecnologias{
+        background-color: #b8ff45;
+        border-top: 2px solid rgba(95, 94, 94, 0.2);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        color: #fff;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    /*IMAGEM DO HTML E DO CSS*/
+    div#tecnologias img{
+        width: 100px;
+    }
+    /*IMAGEM DO JS*/
+    div#tecnologias img#js{
+        width: 96px;
+    }
+    /*IMAGEM DO REACT*/
+    div#tecnologias img#react{
+        width: 105px;
+    }
+    /*IMAGEM DO GIT*/
+    div#tecnologias img#git{
+        width: 90px;
+    }
+    /*IMAGEM DO JAVA*/
+    div#tecnologias img#java{
+        width: 60px;
+    }
+    /*-----------------DIV PROJETOS---------------------------*/
+    div#projetos{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+    /*FOTO DAS CAPAS DO PROJETO NO SITE*/
+    div#projetos img{
+        width: 325px;
+        border-radius: 5px;
+        cursor: pointer;
+        border-bottom: 2px solid #000;
+    }
+    /*DIV CONTENDO OS BUTTONS E A FOTO DO PROJETO 1*/
+    div#container1,
+    div#container2,
+    div#container3,
+    div#container4{
+        display: grid;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 5px;
+        width: 325px;
+    }
+    /*BUTTON PARA A FOTO DO PRÓXIMO PROJETO*/
+    div#btnPoxPg1,
+    div#btnPoxPg2,
+    div#btnPoxPg3,
+    div#btnPoxPg4{
+        width: 500px;
+        background: linear-gradient(to bottom, rgb(253, 207, 0), rgb(102, 84, 1));
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        margin-top: -15px;
+        border-right: none;
+        border-left: none;
+    }
+    /*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+    div#btnPoxPg1:hover,
+    div#btnPoxPg2:hover,
+    div#btnPoxPg3:hover,
+    div#btnPoxPg4:hover{
+        background: linear-gradient(to bottom, rgb(253, 186, 0), rgb(102, 75, 1));
+    }
+    /*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+    div#btnPoxPg1:active,
+    div#btnPoxPg2:active,
+    div#btnPoxPg3:active,
+    div#btnPoxPg4:active{
+        background: linear-gradient(to bottom, #001573, #001573);
+        color: #fff;
+    }
+    
+    
+    /*----------------------------------------------------RODAPÉ---------------------------------------*/
+    div#footer{
+        display: flex;
+        background-color: #001573;
+        align-items: center;
+        padding: 2px;
+    }
+    /*--------------OS MEIOS DE CONTATO------------*/
+    div#redesSociais{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+    }
+    /*---------------IMAGEM DAS REDES SOCIAIS--------------*/
+    div#redesSociais img{
+        width: 50px;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+    /*---------------FRASE INTERESSANTE--------------*/
+    div#mensagem{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+    }
+    /*MENSAGEM DE REFLEXÃO DO SITE*/
+    div#mensagem p{
+        word-break: break-word;
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+    }
+    /*LINK PARA NO NOME DO AUTOR DA FRASE DE REFLEXÃO*/
+    div#mensagem p a{
+        color: #00eeff;
+    }
+
+}
+
+@media (min-width: 682px) and (max-width: 806px){
+
+    header.topo{
+        display: flex;
+        background-color: #001573;
+        height: 185px;
+        padding-left: 5px;
+        align-items: center;
+    }
+    div.nome{
+        position: relative;
+        text-align: center;
+        height: 50px;
+        width: 120vh;
+        padding-top: 17px;
+    }
+    header.topo h1.MeuNome{
+        position: relative;
+        color: #00eeff;
+        height: 80px;
+        font-size: 30px;
+    }
+    
+    h1 span{
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        overflow: hidden;
+    
+        -webkit-animation: bounce 0.9s ease infinite alternate;
+        text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
+    }
+    
+    h1 span:nth-child(2) {
+        -webkit-animation-delay: 0.2s;
+    }
+    
+    h1 span:nth-child(3) {
+        -webkit-animation-delay: 0.3s;
+    }
+    
+    h1 span:nth-child(4) {
+        -webkit-animation-delay: 0.6s;
+    }
+    
+    h1 span:nth-child(5) {
+        -webkit-animation-delay: 0.8s;
+    }
+    
+    h1 span:nth-child(6) {
+        -webkit-animation-delay: 1.0s;
+    }
+    
+    h1 span:nth-child(7) {
+        -webkit-animation-delay: 1.2s;
+    }
+    
+    h1 span:nth-child(8) {
+        -webkit-animation-delay: 1.4s;
+    }
+    
+    h1 span:nth-child(9) {
+        -webkit-animation-delay: 1.6s;
+    }
+    
+    h1 span:nth-child(10) {
+        -webkit-animation-delay: 1.8s;
+    }
+    h1 span:nth-child(11) {
+        -webkit-animation-delay: 2.0s;
+    }
+    
+    h1 span:nth-child(12) {
+        -webkit-animation-delay: 2.2s;
+    }
+    
+    h1 span:nth-child(13) {
+        -webkit-animation-delay: 2.4s;
+    }
+    
+    h1 span:nth-child(14) {
+        -webkit-animation-delay: 2.6s;
+    }
+    
+    h1 span:nth-child(15) {
+        -webkit-animation-delay: 2.8s;
+    }
+    
+    h1 span:nth-child(16) {
+        -webkit-animation-delay: 3.0s;
+    }
+    
+    h1 span:nth-child(17) {
+        -webkit-animation-delay: 3.2s;
+    }
+    h1 span:nth-child(18) {
+        -webkit-animation-delay: 3.4s;
+    }
+    @-webkit-keyframes bounce {
+        100%{
+        top: -20px;
+        text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #001573;
+            }
+    }
+    /*--DIV QUE CONTEM A FOTO--*/
+    div.foto{
+        background-color: black;
+        position: relative;
+        width: 150px;
+        height: 145px;
+        border-radius: 20%;
+        border: 2px solid #0000;
+    }
+    /*--A FOTO--*/
+    div.foto img{
+        position: relative;
+        width: 150px;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+    /*----------------------------------------------------MEIO---------------------------------------*/
+    div#meio{
+        display: grid;
+        background-color: #b8ff45;
+        padding: 2px;
+        gap: 5px;
+    }
+    div#SobreMim_HistADS{
+        display: grid;
+        gap: 10px;
+    }
+    /*TÍTULO "SOBRE MIM"*/
+    p#TituloSobreMim{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+    /*DIV FALANDO SOBRE MIM*/
+    div#SobreMim{
+        word-break: break-word;
+        border: 2px solid #000;
+        border-radius: 15px;
+        border-top: none;
+    }
+    /*TEXTO SOBRE MIM*/
+    p#textoSobMim{
+        padding: 20px;
+        font-size: 12px;
+    }
+    /*TÍTULO HISTÓRIA ADS"*/
+    p#TituloHistoriaADS,
+    p#tituloFormacao,
+    p#tituloCursos,
+    p#TituloSobreMim,
+    p#tituloTecnologias,
+    p#tituloProjetos{
+        background-color: #001573;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        padding: 10px;
+        border-top: 2px solid rgba(95, 94, 94, 0.2);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        border-radius: 15px;
+    }
+    /*DIV FALANDO SOBRE A MINHA HISTÓRIA COM ADS*/
+    div#HistoriaADS{
+        word-break: break-word;
+        border: 2px solid #000;
+        border-radius: 15px;
+        border-top: none;
+    }
+    /*TEXTO SOBRE HITORIA ADS*/
+    p#textoHistoria{
+        padding: 20px;
+        font-size: 12px;
+    }
+    /*--------------------DIV SOBRE O CURSO DE GRADUAÇÃO E CURSOS MENORES-------------------*/
+    /*DIV COM  TÍTULO E AS INFORMAÇÕES DE FORMAÇÃO*/
+    div#tituloEinfoFormacao{
+        display: grid;
+        gap: 1vh;   
+    }
+    div#escolaridade{
+        display: grid;
+        gap: 10px;
+        
+    }
+    /*-------------DIV COM APENAS OS DADOS DA FACULDADE*/
+    div#dadosFormacao{
+        display: grid;
+        padding: 5px;
+        border: 2px solid #000;
+        border-radius: 15px;
+        font-size: 15px;
+        word-break: break-word;
+        text-align: center;
+    }
+    /*DIV COM O TÍTULO E OS CERTIFICADOS*/
+    div#tituloEinfoCurso{
+        display: grid;
+        gap: 1vh;
+    }
+    /*--------------DIV COM OS CURSOS DE EXTENÇÃO*/
+    div#cursos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        padding: 10px;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    /*FOTOS DOS CERTIFICADOS*/
+    div#cursos img{
+        width: 150px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    /*-------AMPLIAR IMAGENS E MOSTRAR MAIS INFORMAÇÕES*/
+    dialog#imagemEinfoDoCurso{
+        position: fixed;
+        width: 500px;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -5%);
+    }
+    /*DIV ONDE AS INFORMAÇÕES APARECEM*/
+    div#modalInfo{
+        display: grid;
+    }
+    /*X PARA FECHAR O MODAL*/
+    div#modalInfo p{
+        width: 500px;
+        font-size: 30px;
+        position: fixed;
+        justify-content: flex-end;
+        display: flex;
+    }
+    /*FOTOS QUE APARECEM NO POPPUP*/
+    div#modalInfo p img{
+        width: 30px;
+        cursor: pointer;
+    }
+    /*IMAGEM MOSTRADA NO MODAL*/
+    div#modalInfo img{
+        width: 500px;
+    }
+    /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
+    div#modalInfo h6{
+        word-break: break-word;
+        font-size: 11px;
+        padding: 3px;
+        border-top: 2px solid #000;
+    }
+    /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
+    div#tecnologias{
+        background-color: #b8ff45;
+        border-top: 2px solid rgba(95, 94, 94, 0.2);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        color: #fff;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    /*IMAGEM DO HTML E DO CSS*/
+    div#tecnologias img{
+        width: 80px;
+    }
+    /*IMAGEM DO JS*/
+    div#tecnologias img#js{
+        width: 76px;
+    }
+    /*IMAGEM DO REACT*/
+    div#tecnologias img#react{
+        width: 85px;
+    }
+    /*IMAGEM DO GIT*/
+    div#tecnologias img#git{
+        width: 70px;
+    }
+    /*IMAGEM DO JAVA*/
+    div#tecnologias img#java{
+        width: 45px;
+    }
+    /*-----------------DIV PROJETOS---------------------------*/
+    div#projetos{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+    /*FOTO DAS CAPAS DO PROJETO NO SITE*/
+    div#projetos img{
+        width: 325px;
+        border-radius: 5px;
+        cursor: pointer;
+        border-bottom: 2px solid #000;
+    }
+    /*DIV CONTENDO OS BUTTONS E A FOTO DO PROJETO 1*/
+    div#container1,
+    div#container2,
+    div#container3,
+    div#container4{
+        display: grid;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 5px;
+        width: 325px;
+    }
+    /*BUTTON PARA A FOTO DO PRÓXIMO PROJETO*/
+    div#btnPoxPg1,
+    div#btnPoxPg2,
+    div#btnPoxPg3,
+    div#btnPoxPg4{
+        width: 500px;
+        background: linear-gradient(to bottom, rgb(253, 207, 0), rgb(102, 84, 1));
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        margin-top: -15px;
+        border-right: none;
+        border-left: none;
+    }
+    /*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+    div#btnPoxPg1:hover,
+    div#btnPoxPg2:hover,
+    div#btnPoxPg3:hover,
+    div#btnPoxPg4:hover{
+        background: linear-gradient(to bottom, rgb(253, 186, 0), rgb(102, 75, 1));
+    }
+    /*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+    div#btnPoxPg1:active,
+    div#btnPoxPg2:active,
+    div#btnPoxPg3:active,
+    div#btnPoxPg4:active{
+        background: linear-gradient(to bottom, #001573, #001573);
+        color: #fff;
+    }
+    
+    
+    /*----------------------------------------------------RODAPÉ---------------------------------------*/
+    div#footer{
+        display: flex;
+        background-color: #001573;
+        align-items: center;
+        padding: 2px;
+    }
+    /*--------------OS MEIOS DE CONTATO------------*/
+    div#redesSociais{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+    }
+    /*---------------IMAGEM DAS REDES SOCIAIS--------------*/
+    div#redesSociais img{
+        width: 50px;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+    /*---------------FRASE INTERESSANTE--------------*/
+    div#mensagem{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+    }
+    /*MENSAGEM DE REFLEXÃO DO SITE*/
+    div#mensagem p{
+        word-break: break-word;
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+    }
+    /*LINK PARA NO NOME DO AUTOR DA FRASE DE REFLEXÃO*/
+    div#mensagem p a{
+        color: #00eeff;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 681px){
+
+    header.topo{
+        display: flex;
+        background-color: #001573;
+        height: 185px;
+        padding-left: 5px;
+        align-items: center;
+    }
+    div.nome{
+        position: relative;
+        text-align: center;
+        height: 50px;
+        width: 120vh;
+        padding-top: 17px;
+    }
+    header.topo h1.MeuNome{
+        position: relative;
+        color: #00eeff;
+        height: 80px;
+        font-size: 4vw;
+    }
+    
+    h1 span{
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        overflow: hidden;
+    
+        -webkit-animation: bounce 0.9s ease infinite alternate;
+        text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
+    }
+    
+    h1 span:nth-child(2) {
+        -webkit-animation-delay: 0.2s;
+    }
+    
+    h1 span:nth-child(3) {
+        -webkit-animation-delay: 0.3s;
+    }
+    
+    h1 span:nth-child(4) {
+        -webkit-animation-delay: 0.6s;
+    }
+    
+    h1 span:nth-child(5) {
+        -webkit-animation-delay: 0.8s;
+    }
+    
+    h1 span:nth-child(6) {
+        -webkit-animation-delay: 1.0s;
+    }
+    
+    h1 span:nth-child(7) {
+        -webkit-animation-delay: 1.2s;
+    }
+    
+    h1 span:nth-child(8) {
+        -webkit-animation-delay: 1.4s;
+    }
+    
+    h1 span:nth-child(9) {
+        -webkit-animation-delay: 1.6s;
+    }
+    
+    h1 span:nth-child(10) {
+        -webkit-animation-delay: 1.8s;
+    }
+    h1 span:nth-child(11) {
+        -webkit-animation-delay: 2.0s;
+    }
+    
+    h1 span:nth-child(12) {
+        -webkit-animation-delay: 2.2s;
+    }
+    
+    h1 span:nth-child(13) {
+        -webkit-animation-delay: 2.4s;
+    }
+    
+    h1 span:nth-child(14) {
+        -webkit-animation-delay: 2.6s;
+    }
+    
+    h1 span:nth-child(15) {
+        -webkit-animation-delay: 2.8s;
+    }
+    
+    h1 span:nth-child(16) {
+        -webkit-animation-delay: 3.0s;
+    }
+    
+    h1 span:nth-child(17) {
+        -webkit-animation-delay: 3.2s;
+    }
+    h1 span:nth-child(18) {
+        -webkit-animation-delay: 3.4s;
+    }
+    @-webkit-keyframes bounce {
+        100%{
+        top: -20px;
+        text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #001573;
+            }
+    }
+    /*--DIV QUE CONTEM A FOTO--*/
+    div.foto{
+        background-color: black;
+        position: relative;
+        width: 150px;
+        height: 145px;
+        border-radius: 20%;
+        border: 2px solid #0000;
+    }
+    /*--A FOTO--*/
+    div.foto img{
+        position: relative;
+        width: 150px;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+    /*----------------------------------------------------MEIO---------------------------------------*/
+    div#meio{
+        display: grid;
+        background-color: #b8ff45;
+        padding: 2px;
+        gap: 5px;
+    }
+    div#SobreMim_HistADS{
+        display: grid;
+        gap: 10px;
+    }
+    /*TÍTULO "SOBRE MIM"*/
+    p#TituloSobreMim{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+    /*DIV FALANDO SOBRE MIM*/
+    div#SobreMim{
+        word-break: break-word;
+        border: 2px solid #000;
+        border-radius: 15px;
+        border-top: none;
+    }
+    /*TEXTO SOBRE MIM*/
+    p#textoSobMim{
+        padding: 20px;
+        font-size: 12px;
+    }
+    /*TÍTULO HISTÓRIA ADS"*/
+    p#TituloHistoriaADS,
+    p#tituloFormacao,
+    p#tituloCursos,
+    p#TituloSobreMim,
+    p#tituloTecnologias,
+    p#tituloProjetos{
+        background-color: #001573;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        padding: 10px;
+        border-top: 2px solid rgba(95, 94, 94, 0.2);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        border-radius: 15px;
+    }
+    /*DIV FALANDO SOBRE A MINHA HISTÓRIA COM ADS*/
+    div#HistoriaADS{
+        word-break: break-word;
+        border: 2px solid #000;
+        border-radius: 15px;
+        border-top: none;
+    }
+    /*TEXTO SOBRE HITORIA ADS*/
+    p#textoHistoria{
+        padding: 20px;
+        font-size: 12px;
+    }
+    /*--------------------DIV SOBRE O CURSO DE GRADUAÇÃO E CURSOS MENORES-------------------*/
+    /*DIV COM  TÍTULO E AS INFORMAÇÕES DE FORMAÇÃO*/
+    div#tituloEinfoFormacao{
+        display: grid;
+        gap: 1vh;   
+    }
+    div#escolaridade{
+        display: grid;
+        gap: 10px;
+        
+    }
+    /*-------------DIV COM APENAS OS DADOS DA FACULDADE*/
+    div#dadosFormacao{
+        display: grid;
+        padding: 5px;
+        border: 2px solid #000;
+        border-radius: 15px;
+        font-size: 15px;
+        word-break: break-word;
+        text-align: center;
+    }
+    /*DIV COM O TÍTULO E OS CERTIFICADOS*/
+    div#tituloEinfoCurso{
+        display: grid;
+        gap: 1vh;
+    }
+    /*--------------DIV COM OS CURSOS DE EXTENÇÃO*/
+    div#cursos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        padding: 10px;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    /*FOTOS DOS CERTIFICADOS*/
+    div#cursos img{
+        width: 100%;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    /*-------AMPLIAR IMAGENS E MOSTRAR MAIS INFORMAÇÕES*/
+    dialog#imagemEinfoDoCurso{
+        position: fixed;
+        width: 450px;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -5%);
+    }
+    /*DIV ONDE AS INFORMAÇÕES APARECEM*/
+    div#modalInfo{
+        display: grid;
+    }
+    /*X PARA FECHAR O MODAL*/
+    div#modalInfo p{
+        width: 450px;
+        font-size: 30px;
+        position: fixed;
+        justify-content: flex-end;
+        display: flex;
+    }
+    /*FOTOS QUE APARECEM NO POPPUP*/
+    div#modalInfo p img{
+        width: 30px;
+        cursor: pointer;
+    }
+    /*IMAGEM MOSTRADA NO MODAL*/
+    div#modalInfo img{
+        width: 450px;
+    }
+    /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
+    div#modalInfo h6{
+        word-break: break-word;
+        font-size: 11px;
+        padding: 3px;
+        border-top: 2px solid #000;
+    }
+    /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
+    div#tecnologias{
+        background-color: #b8ff45;
+        border-top: 2px solid rgba(95, 94, 94, 0.2);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        color: #fff;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    /*IMAGEM DO HTML E DO CSS*/
+    div#tecnologias img{
+        width: 80px;
+    }
+    /*IMAGEM DO JS*/
+    div#tecnologias img#js{
+        width: 76px;
+    }
+    /*IMAGEM DO REACT*/
+    div#tecnologias img#react{
+        width: 85px;
+    }
+    /*IMAGEM DO GIT*/
+    div#tecnologias img#git{
+        width: 70px;
+    }
+    /*IMAGEM DO JAVA*/
+    div#tecnologias img#java{
+        width: 45px;
+    }
+    /*-----------------DIV PROJETOS---------------------------*/
+    div#projetos{
+        display: grid;
+        justify-items: center;
+        gap: 5px;
+    }
+    /*FOTO DAS CAPAS DO PROJETO NO SITE*/
+    div#projetos img{
+        width: 100%;
+        border-radius: 5px;
+        cursor: pointer;
+        border-bottom: 2px solid #000;
+    }
+    /*DIV CONTENDO OS BUTTONS E A FOTO DO PROJETO 1*/
+    div#container1,
+    div#container2,
+    div#container3,
+    div#container4{
+        display: grid;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 5px;
+        width: 99%;
+    }
+    /*BUTTON PARA A FOTO DO PRÓXIMO PROJETO*/
+    div#btnPoxPg1,
+    div#btnPoxPg2,
+    div#btnPoxPg3,
+    div#btnPoxPg4{
+        width: 450px;
+        background: linear-gradient(to bottom, rgb(253, 207, 0), rgb(102, 84, 1));
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        margin-top: -15px;
+        border-right: none;
+        border-left: none;
+    }
+    /*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+    div#btnPoxPg1:hover,
+    div#btnPoxPg2:hover,
+    div#btnPoxPg3:hover,
+    div#btnPoxPg4:hover{
+        background: linear-gradient(to bottom, rgb(253, 186, 0), rgb(102, 75, 1));
+    }
+    /*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+    div#btnPoxPg1:active,
+    div#btnPoxPg2:active,
+    div#btnPoxPg3:active,
+    div#btnPoxPg4:active{
+        background: linear-gradient(to bottom, #001573, #001573);
+        color: #fff;
+    }
+    
+    
+    /*----------------------------------------------------RODAPÉ---------------------------------------*/
+    div#footer{
+        display: grid;
+        background-color: #001573;
+        align-items: center;
+        padding: 2px;
+    }
+    /*--------------OS MEIOS DE CONTATO------------*/
+    div#redesSociais{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+    }
+    /*---------------IMAGEM DAS REDES SOCIAIS--------------*/
+    div#redesSociais img{
+        width: 50px;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+    /*---------------FRASE INTERESSANTE--------------*/
+    div#mensagem{
+        display: flex;
+        justify-content: center;
+    }
+    /*MENSAGEM DE REFLEXÃO DO SITE*/
+    div#mensagem p{
+        word-break: break-word;
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+    }
+    /*LINK PARA NO NOME DO AUTOR DA FRASE DE REFLEXÃO*/
+    div#mensagem p a{
+        color: #00eeff;
+    }
+
+}
+
+@media (min-width: 100px) and (max-width: 499px){
+
+    header.topo{
+        display: grid;
+        background-color: #001573;
+        justify-content: center;
+        padding-bottom: 2vh;
+    }
+    div.nome{
+        position: relative;
+        text-align: center;
+        height: 50px;
+        padding-top: 17px;
+    }
+    header.topo h1.MeuNome{
+        position: relative;
+        color: #00eeff;
+        height: 50px;
+        font-size: 6vw;
+    }
+    
+    h1 span{
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        overflow: hidden;
+    
+        -webkit-animation: bounce 0.9s ease infinite alternate;
+        text-shadow: 0 1px 0 #fff, 0 2px 0 #fff, 0 3px 0 #fff, 0 4px 0 #fff, 0 5px 0 #fff, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px #001573;
+    }
+    
+    h1 span:nth-child(2) {
+        -webkit-animation-delay: 0.2s;
+    }
+    
+    h1 span:nth-child(3) {
+        -webkit-animation-delay: 0.3s;
+    }
+    
+    h1 span:nth-child(4) {
+        -webkit-animation-delay: 0.6s;
+    }
+    
+    h1 span:nth-child(5) {
+        -webkit-animation-delay: 0.8s;
+    }
+    
+    h1 span:nth-child(6) {
+        -webkit-animation-delay: 1.0s;
+    }
+    
+    h1 span:nth-child(7) {
+        -webkit-animation-delay: 1.2s;
+    }
+    
+    h1 span:nth-child(8) {
+        -webkit-animation-delay: 1.4s;
+    }
+    
+    h1 span:nth-child(9) {
+        -webkit-animation-delay: 1.6s;
+    }
+    
+    h1 span:nth-child(10) {
+        -webkit-animation-delay: 1.8s;
+    }
+    h1 span:nth-child(11) {
+        -webkit-animation-delay: 2.0s;
+    }
+    
+    h1 span:nth-child(12) {
+        -webkit-animation-delay: 2.2s;
+    }
+    
+    h1 span:nth-child(13) {
+        -webkit-animation-delay: 2.4s;
+    }
+    
+    h1 span:nth-child(14) {
+        -webkit-animation-delay: 2.6s;
+    }
+    
+    h1 span:nth-child(15) {
+        -webkit-animation-delay: 2.8s;
+    }
+    
+    h1 span:nth-child(16) {
+        -webkit-animation-delay: 3.0s;
+    }
+    
+    h1 span:nth-child(17) {
+        -webkit-animation-delay: 3.2s;
+    }
+    h1 span:nth-child(18) {
+        -webkit-animation-delay: 3.4s;
+    }
+    @-webkit-keyframes bounce {
+        100%{
+        top: -20px;
+        text-shadow: 0 1px 0 #001573, 0 2px 0 #001573, 0 3px 0 #001573, 0 4px 0 #001573, 0 5px 0 #001573, 0 6px 0 #001573, 0 7px 0 #001573, 0 8px 0 #001573, 0 9px 	0 #001573, 0 20px 10px #001573;
+            }
+    }
+    /*--DIV QUE CONTEM A FOTO--*/
+    div.foto{
+        position: relative;
+        height: 145px;
+        border-radius: 20%;
+        border: 2px solid #0000;
+        display: flex;
+        justify-content: center;
+    }
+    /*--A FOTO--*/
+    div.foto img{
+        position: relative;
+        width: 150px;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+    /*----------------------------------------------------MEIO---------------------------------------*/
+    div#meio{
+        display: grid;
+        background-color: #b8ff45;
+        padding: 2px;
+        gap: 5px;
+    }
+    div#SobreMim_HistADS{
+        display: grid;
+        gap: 10px;
+    }
+    /*TÍTULO "SOBRE MIM"*/
+    p#TituloSobreMim{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+    /*DIV FALANDO SOBRE MIM*/
+    div#SobreMim{
+        word-break: break-word;
+        border: 2px solid #000;
+        border-radius: 15px;
+        border-top: none;
+    }
+    /*TEXTO SOBRE MIM*/
+    p#textoSobMim{
+        padding: 20px;
+        font-size: 12px;
+    }
+    /*TÍTULO HISTÓRIA ADS"*/
+    p#TituloHistoriaADS,
+    p#tituloFormacao,
+    p#tituloCursos,
+    p#TituloSobreMim,
+    p#tituloTecnologias,
+    p#tituloProjetos{
+        background-color: #001573;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        padding: 10px;
+        border-top: 2px solid rgba(95, 94, 94, 0.2);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        border-radius: 15px;
+    }
+    /*DIV FALANDO SOBRE A MINHA HISTÓRIA COM ADS*/
+    div#HistoriaADS{
+        word-break: break-word;
+        border: 2px solid #000;
+        border-radius: 15px;
+        border-top: none;
+    }
+    /*TEXTO SOBRE HITORIA ADS*/
+    p#textoHistoria{
+        padding: 20px;
+        font-size: 12px;
+    }
+    /*--------------------DIV SOBRE O CURSO DE GRADUAÇÃO E CURSOS MENORES-------------------*/
+    /*DIV COM  TÍTULO E AS INFORMAÇÕES DE FORMAÇÃO*/
+    div#tituloEinfoFormacao{
+        display: grid;
+        gap: 1vh;   
+    }
+    div#escolaridade{
+        display: grid;
+        gap: 10px;
+        
+    }
+    /*-------------DIV COM APENAS OS DADOS DA FACULDADE*/
+    div#dadosFormacao{
+        display: grid;
+        padding: 5px;
+        border: 2px solid #000;
+        border-radius: 15px;
+        font-size: 15px;
+        word-break: break-word;
+        text-align: center;
+    }
+    /*DIV COM O TÍTULO E OS CERTIFICADOS*/
+    div#tituloEinfoCurso{
+        display: grid;
+        gap: 1vh;
+    }
+    /*--------------DIV COM OS CURSOS DE EXTENÇÃO*/
+    div#cursos{
+        display: grid;
+        gap: 5px;
+        padding: 10px;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    /*FOTOS DOS CERTIFICADOS*/
+    div#cursos img{
+        width: 100%;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    /*-------AMPLIAR IMAGENS E MOSTRAR MAIS INFORMAÇÕES*/
+    dialog#imagemEinfoDoCurso{
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -5%);
+        position: fixed;
+        width: 90%;
+    }
+    /*DIV ONDE AS INFORMAÇÕES APARECEM*/
+    div#modalInfo{
+        display: grid;
+    }
+    /*X PARA FECHAR O MODAL*/
+    div#modalInfo p{
+        width: 100%;
+        font-size: 30px;
+        position: fixed;
+        justify-content: flex-end;
+        display: flex;
+    }
+    /*FOTOS QUE APARECEM NO POPPUP*/
+    div#modalInfo p img{
+        width: 30px;
+        cursor: pointer;
+    }
+    /*IMAGEM MOSTRADA NO MODAL*/
+    div#modalInfo img{
+        width: 100%;
+    }
+    /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
+    div#modalInfo h6{
+        word-break: break-word;
+        font-size: 11px;
+        padding: 3px;
+        border-top: 2px solid #000;
+    }
+    /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
+    div#tecnologias{
+        background-color: #b8ff45;
+        border-top: 2px solid rgba(95, 94, 94, 0.2);
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        color: #fff;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 15px;
+    }
+    /*IMAGEM DO HTML E DO CSS*/
+    div#tecnologias img{
+        width: 80px;
+    }
+    /*IMAGEM DO JS*/
+    div#tecnologias img#js{
+        width: 76px;
+    }
+    /*IMAGEM DO REACT*/
+    div#tecnologias img#react{
+        width: 85px;
+    }
+    /*IMAGEM DO GIT*/
+    div#tecnologias img#git{
+        width: 70px;
+    }
+    /*IMAGEM DO JAVA*/
+    div#tecnologias img#java{
+        width: 45px;
+    }
+    /*-----------------DIV PROJETOS---------------------------*/
+    div#projetos{
+        display: grid;
+        justify-items: center;
+        gap: 5px;
+    }
+    /*FOTO DAS CAPAS DO PROJETO NO SITE*/
+    div#projetos img{
+        width: 100%;
+        border-radius: 5px;
+        cursor: pointer;
+        border-bottom: 2px solid #000;
+    }
+    /*DIV CONTENDO OS BUTTONS E A FOTO DO PROJETO 1*/
+    div#container1,
+    div#container2,
+    div#container3,
+    div#container4{
+        display: grid;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 5px;
+        width: 99%;
+    }
+    /*BUTTON PARA A FOTO DO PRÓXIMO PROJETO*/
+    div#btnPoxPg1,
+    div#btnPoxPg2,
+    div#btnPoxPg3,
+    div#btnPoxPg4{
+        width: 500px;
+        background: linear-gradient(to bottom, rgb(253, 207, 0), rgb(102, 84, 1));
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        margin-top: -15px;
+        border-right: none;
+        border-left: none;
+    }
+    /*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+    div#btnPoxPg1:hover,
+    div#btnPoxPg2:hover,
+    div#btnPoxPg3:hover,
+    div#btnPoxPg4:hover{
+        background: linear-gradient(to bottom, rgb(253, 186, 0), rgb(102, 75, 1));
+    }
+    /*INTERAÇÃO DO BUTTON AO PASSAR O MOUSE*/
+    div#btnPoxPg1:active,
+    div#btnPoxPg2:active,
+    div#btnPoxPg3:active,
+    div#btnPoxPg4:active{
+        background: linear-gradient(to bottom, #001573, #001573);
+        color: #fff;
+    }
+    
+    
+    /*----------------------------------------------------RODAPÉ---------------------------------------*/
+    div#footer{
+        display: grid;
+        background-color: #001573;
+        align-items: center;
+        padding: 2px;
+    }
+    /*--------------OS MEIOS DE CONTATO------------*/
+    div#redesSociais{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+    }
+    /*---------------IMAGEM DAS REDES SOCIAIS--------------*/
+    div#redesSociais img{
+        width: 50px;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+    /*---------------FRASE INTERESSANTE--------------*/
+    div#mensagem{
+        display: flex;
+        justify-content: center;
+    }
+    /*MENSAGEM DE REFLEXÃO DO SITE*/
+    div#mensagem p{
+        word-break: break-word;
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+    }
+    /*LINK PARA NO NOME DO AUTOR DA FRASE DE REFLEXÃO*/
+    div#mensagem p a{
+        color: #00eeff;
+    }
+
 }

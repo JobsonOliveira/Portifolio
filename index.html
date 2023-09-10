@@ -7,143 +7,150 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Roboto+Mono:wght@700&family=Vina+Sans&display=swap" rel="stylesheet">
-    <title>Portifólio de Jobson Oliveira.</title>
-	<link rel="stylesheet" href="style.css">
+    <title>Portifólio de Jobson</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<!---------------------------------PÁGINA INTEIRA-------------------------------->
 <body class="pagina">
-    <header class="topo">
-        <!--IMAGENS DE REDES SOCIÁIS-->
-        <div class="contato">
-           <img src="imagens/GitHub2.png" class="GitHub" id="GitHub" alt="FotoDoGitHub" >
-           <img src="imagens/linkedin.png" class="linkedin" id="Linkedin" alt="Foto do linkedin">
-           <img src="imagens/gmail.png" class="Gmail" id="Gmail" alt="Foto do Gmail">
-           <img src="imagens/instagram.png" class="Instagram" id="Instagram" alt="Foto do Instagram">
-       </div>
+    <!-----------------------------TOPO DO SITE---------------------------------->
+	<header class="topo">
+	    <!--MINHA FOTO-->
+        <div class="foto">
+           <img src="imagens/minhafoto.png" alt="Foto de Jobson Oliveira" onclick="info(1)">
+        </div>
         <div class="nome">
             <!--MEU NOME-->
             <h1 class="MeuNome">
-            <span>J</span>
-            <span>O</span>
-            <span>B</span>
-            <span>S</span>
-            <span>O</span>
-            <span>N</span>
-            <span>&nbsp;</span>
-            <span>D</span>
-            <span>E</span>
-            <span>&nbsp;</span>
-            <span>O</span>
-            <span>L</span>
-            <span>I</span>
-            <span>V</span>
-            <span>E</span>
-            <span>I</span>
-            <span>R</span>
-            <span>A</span>
+                <span>J</span>
+                <span>O</span>
+                <span>B</span>
+                <span>S</span>
+                <span>O</span>
+                <span>N</span>
+                <span>&nbsp</span>
+                <span>D</span>
+                <span>E</span>
+                <span>&nbsp</span>
+                <span>O</span>
+                <span>L</span>
+                <span>I</span>
+                <span>V</span>
+                <span>E</span>
+                <span>I</span>
+                <span>R</span>
+                <span>A</span>
             </h1>
         </div>
-        <!--MINHA FOTO-->
-        <div class="foto">
-           <img src="imagens/minhafoto.png" alt="Foto de Jobson Oliveira" id="minhaFoto">
-       </div>
-   </header>
-   <!--MEIO DO SITE-->
-   <main class="meio">
-            <!--BREVE APRESENTAÇÃO-->
-            <div class="apresentacao">
-                <div class="Titulo">
-                    <h1>Sobre mim:</h1>
-                </div>
-                <div class="texto">
-                    <p>Sou um rapaz calmo, esforçado e amante da tecnologia, procuro sempre aplicar meus conhecimentos da melhor forma possível em tudo que faço, para poder fornecer o melhor resultado possível e superar até minhas próprias expectativas.<br> &nbsp;&nbsp;Conheci o mundo da programação durante o ensino médio, onde iniciei um curso de lógica de programação, em Janeiro de 2022 comecei meus estudos de Análise e desenvolvimento de sistemas na UNIBRA-Centro Universitário Brasileiro, onde passei a amar ainda mais o mundo da programação.
-                    </p>
-                </div>
-            </div>
-        <!--INFORMAÇÕES-->
-        <div class="informacoes">
-           <!--escolaridade-->
-           <div class="escolaridade">
-               <div class="utilizo">
-                   <div class="Titulo_Utilizo">
-                   	<h1>UTILIZO:</h1>
-                   </div>
-                   <img src="https://cdn.iconscout.com/icon/free/png-256/free-java-2038875-1720088.png" class="java" alt="Logo do Java">
-                   <img src="imagens/html5.png" alt="Logo HTML5">
-                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" class= "css" alt="Logo CSS3">
-                   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Javascript-shield.svg" class="js" alt="Logo JavaScript">
-                   <img src="https://upload.wikimedia.org/wikipedia/hy/a/a9/MySQL.png" class="sql" alt="Logo MySQL">
-                   <img src="https://cdn.iconscout.com/icon/free/png-256/free-git-225996.png" class="git" alt="Logo Git">
-               </div>
-               <div class="info_escolaridade">
-               	    <div class="Titulo_Escolaridade">
-                   		<h1 class="titulo_escolaridade">ESCOLARIDADE:</h1>
-               	    </div>
-               	    <div class="sobre_a_escolaridade">
-                        <p><strong>Curso:</strong>&nbsp;&nbsp;Análise e desenvolvimento de sistemas<br>
-                        <strong>Institução:</strong>&nbsp;&nbsp;UNIBRA- Centro Universitário Brasileiro.<br>
-                        <strong>Semestre atual:</strong>&nbsp;&nbsp;Terceiro. <br>
-                        <strong>Conclusão:</strong>&nbsp;&nbsp;12/2024 <br><br>
-                        <strong>Cursos de extenção:</strong>&nbsp;&nbsp;<br> Intencivo em lógica de programação em Java - 20h - 09/2022. <br> Introdução a programação com Python - 20h - 10/2022. <br> Programação Orientada a Objetos com Java - 20h - 12/2022.
-                        </p>
-                    </div>
-               </div>
-           </div>
-           <!--projetos-->
-            <div class="projetos">
-                <!--TITULO DA AREA DOS PROJETOS-->
-                <div class="Titulo_Proj">
-                    <h1>PROJETOS:</h1>
-                </div>
-                <div class="foto_e_texto_proj1">
-                    <!--AONDE FICAM AS IMEGENS DO PROJETO E OS BOTÕES-->
-                    <div id="container1">
-                        <button class="btnImgP1" id="ImgAntP1">&#10094;</button>
-                        <div id="imagensP1"></div>
-                        <button class="btnImgP1" id="ProxImgP1">&#10095;</button>
-                    </div>
-                    <div class="sobre_o_projeto1">
-                        <p>Quando eu iniciei este projeto o meu objetivo era testar e adquirir novos conhecimentos, tanto de HTML5 e CSS3, quanto de JavaScript, ele se trata de um site para registrar os pagamentos realizados pelos clientes de uma empresa, através dele o usuário poderá realizar consultas de pagamentos que já foram registrados, podendo filtrar a busca pelo nome do cliente, pelo valor do pagamento, por uma data específica, etc.
-                        <p>Acesse este <a href="https://customer-payment-record.netlify.app/" target="_blank">link</a> para visualizar o site.</p>
-                        </p>
-                    </div>
-                </div>
-                <hr>
-                <div class="foto_e_texto_proj2">
-                    <!--AONDE FICAM AS IMEGENS DO PROJETO E OS BOTÕES-->
-                    <div id="container2">
-                        <button class="btnImgP2" id="ImgAntP2">&#10094;</button>
-                        <div id="imagensP2"></div>
-                        <button class="btnImgP2" id="ProxImgP2">&#10095;</button>
-                    </div>
-                    <div class="sobre_o_projeto2">
-                        <p>Este é um projeto referente a uma calculadora, através dele eu adquiri muito conhecimento em relação a JavaScript, HTML5, CSS3 e a lógica de programaão. <br>
-                        Através desta calculadora o usuário poderá realizar contas simples, como a soma, a subtração, a divisão e a multiplicação. <br>
-                        Ela também siponibiliza a utilização de números decimais, um botão para apagar o número ou operador atual e um botão para apagar toda a conta que está sendo feita.
-                        <p>Acesse este <a href="https://calculadora-proj.netlify.app/" target="_blank">link</a> para visualizar a calculadora.</p>
-                        </p>
-                    </div>
-                </div>
-                <hr>
-                <div class="foto_e_texto_proj3">
-                    <!--AONDE FICAM AS IMEGENS DO PROJETO E OS BOTÕES-->
-                    <div id="container3">
-                        <button class="btnImgP3" id="ImgAntP3">&#10094;</button>
-                        <div id="imagensP3"></div>
-                        <button class="btnImgP3" id="ProxImgP3">&#10095;</button>
-                    </div>
-                    <div class="sobre_o_projeto3">
-                        <p>O objetivo desse projeto era e ainda é aprender mais sobre banco de dados e php, nele é possível fornecer informações como: Nome do usuário, Cpf e Senha, essas informações são registradas no banco de dados local, após registrar, o usuário é redirecionado para a tela de histórico de registros, onde ele pode clicar no butão para atualizar a página e assim ele irá visualizar os dados do novo usuário que foi registrado.&nbsp;Este projeto foi feito utilizando HTML5, CSS3, JavaScript, PHP e o banco de dados phpMyAdmin.<br>
-                        Foi minha primeira experiência de vinculação de banco de dados com um site, tive algumas dificuldades, mas nada me impediu de procurar mais conehecimento e aplica-los neste projeto.
-                    </div>
+    </header>
+
+    <!--DIALOG PARA MOSTRAR AS IMAGENS-->
+	<dialog id="imagemEinfoDoCurso"></dialog>
+    <!-----------------------------MEIO DO SITE---------------------------------->
+    <div id="meio">
+   	    <!--------------------DIV FALANDO SOBRE MIM E DIV CONTENDO MINHA HISTÓRIA COM ADS-->
+	    <div id="SobreMim_HistADS">
+		    <!--DIV COM O TITULO E O TEXTO, SOBRE MIM-->
+		    <div id="SobreMim">
+			    <p id="TituloSobreMim">Sobre Mim</p>
+			    <p id="textoSobMim">&nbsp&nbsp Sou um rapaz calmo, esforçado e amante da tecnologia, procuro sempre aplicar meus conhecimentos da melhor forma possível em tudo que faço, para poder fornecer o melhor resultado possível e superar até minhas próprias expectativas.<br>
+			    &nbsp&nbsp Conheci o mundo da programação durante o ensino médio, onde iniciei um curso de lógica de programação, em Janeiro de 2022 comecei meus estudos de Análise e desenvolvimento de sistemas na UNIBRA-Centro Universitário Brasileiro, onde passei a amar ainda mais o mundo da programação.</p>
+		    </div>
+		    <!--DIV COM O TITULO E O TEXTO, HISTÓRIA ADS-->
+		    <div id="HistoriaADS">
+			    <p id="TituloHistoriaADS">História com a programação</p>
+			    <p id="textoHistoria">&nbsp&nbsp Iniciei no mundo da programação durante o ensino médio, onde eu tive o primeiro contato com a lógica de programação, junto com alguns colegas de equipe eu criei um jogo para incentivar as crianças a colocar o lixo na lixeira ao invés de jogar na rua.<br>
+			    &nbsp&nbsp Após concluir o ensino médio, eu busquei estudar por conta própria, mas não obtive muito sucesso, em 2021 eu recebi a oportunidade de iniciar a faculdade em 2022 no Centro Universitário Brasileiro em Recife, ao entrar na faculdade passei a adquirir mais conhecimento sobre o mundo, não só da programação mas também tudo que engloba o processo de criação de um aplicativo, site, sistema, etc.<br>
+&nbsp&nbsp Hoje estou cada vez mais fascinado pela programação, espero poder iniciar na minha área para solidificar ainda mais os conhecimentos que já possuo e adquirir ainda mais conhecimento, para poder aplicar da melhor forma possível no que for necessário.</p>
+		    </div>
+	    </div>
+	    <!-----------------------DIV COM INFORMAÇÕES SOBRE MINHA ESCOLARIDADE-->
+	    <div id="escolaridade">
+		    <div id="tituloEinfoFormacao">
+                <!--TITULO "FORMAÇÃO"-->
+                <p id="tituloFormacao">FORMAÇÃO</p>
+                <!--INFORMAÇÃO DE ESCOLARIDADE-->
+                <div id="dadosFormacao">
+                    <p>Graduação: Análise e Desenvolvimento de Sistemas</p>
+                    <p>Instituição: <a href="https://www.grupounibra.com/" target="_blank">UNIBRA</a>-Centro Universitário Brasileiro</p>
+                    <p>Condição: Cursando</p>
+                    <p>Previsão de conclusão: 12/2024</p>
                 </div>
             </div>
+
+		    <div id="tituloEinfoCurso">
+                <!--TITULO "CURSO"-->
+                <p id="tituloFormacao">ALGUNS CERTIFICADOS</p>
+                <!--INFORMAÇÃO DE CURSOS FEITOS-->
+                <div id="cursos">
+                    <img src="imagens/certificados/IntroducaoAoPython.png" alt="foto do certificado do curso de redes" onclick="info(2)">
+                
+                    <img src="imagens/certificados/LogicProgJava.png" alt="foto do certificado do curso de redes" onclick="info(3)">
+                
+                    <img src="imagens/certificados/projProgOrientObj.png" alt="foto do certificado do curso de redes" onclick="info(4)">
+                
+                    <img src="imagens/certificados/IntroJavaScript.png" alt="foto do certificado do curso de redes" onclick="info(5)">
+                
+                    <img src="imagens/certificados/ImplementBancoDeDados.png" alt="foto do certificado do curso de redes" onclick="info(6)">
+                
+                    <img src="imagens/certificados/AdmBD.png" alt="foto do certificado do curso de redes" onclick="info(7)">
+                
+                    <img src="imagens/certificados/HTML_Avancado.png" alt="foto do certificado do curso de redes" onclick="info(8)">
+                
+                    <img src="imagens/certificados/IntroRedes.png" alt="foto do certificado do curso de redes" onclick="info(9)">
+                </div>
+            </div>
+	    </div>
+	    <!-----------------------DIV INFORMANDO AS TECNOLOGIAS QUE EU UTILIZO-->
+        <p id="tituloTecnologias">Tecnologias que eu utilizo</p>
+	    <div id="tecnologias">
+            <p>
+                <img src="imagens/fotoTecnologias/html.png" alt="Imagem html" onclick="openHTML()">
+                <img src="imagens/fotoTecnologias/css.png" alt="Imagem css">
+                <img id="js" src="imagens/fotoTecnologias/javascipt.png" alt="Imagem javascript">
+                <img id="react" src="imagens/fotoTecnologias/react.png" alt="Imagem react">
+                <img id="java" src="imagens/fotoTecnologias/java.png" alt="Imagem java">
+                <img id="git" src="imagens/fotoTecnologias/git.png" alt="Imagem git">
+                <img src="imagens/fotoTecnologias/mysql.png" alt="Imagem mySql">
+            </p>
+	    </div>
+	    <!-----------------------DIV CONTENDO MEUS PROJETOS-->
+        <p id="tituloProjetos">Meus projetos</p>
+	    <div id="projetos">
+            <!--PROJETO 1-->
+            <div id="container1">
+                <div id="imagensP1"></div>
+                <p>HTML5, CSS3, javascipt</p>
+            </div>
+            <!--PROJETO 2-->
+            <div id="container2">
+                <div id="imagensP2"></div>
+                <p>HTML5, CSS3, javascipt</p>
+            </div>
+           	<!--PROJETO 3-->
+            <div id="container3">
+                <div id="imagensP3"></div>
+                <p>HTML5, CSS3, javascipt, PHP, phpMyAdmin</p>
+           	</div>
+            <!--PROJETO 4-->
+            <div id="container4">
+               	<div id="imagensP4"></div>
+                <p>Java</p>
+	        </div>  
         </div>
-    </main>
-    <footer class="rodape">
-    <div class="agradecimento">
-        <p>Muito obrigado por vizualizar o meu portifólio</p>
+
+    <!-----------------------------RODAPÉ DO SITE---------------------------------->
+    <div id="footer">
+        <div id="redesSociais">
+   		    <p>CONTATOS:</p>
+   		        <img id="linkedin" src="imagens/RedesSociais/linkedin.png" alt="Imagem do Linkedin">
+   		        <img id="github" src="imagens/RedesSociais/GitHub.png" alt="Imagem do GitHub">
+   		        <img id="email" src="imagens/RedesSociais/gmail.png" alt="Imagem do E-Mail">
+   		        <img id="instagram" src="imagens/RedesSociais/instagram.png" alt="Imagem do Instagram">
+   	    </div>
+   	    <div id="mensagem">
+   		    <p>"Sucesso é o acúmulo de pequenos esforços, repetidos dia a dia."<br><a href="https://www.pensador.com/motivacao_para_estudar/" target="_blank">Robert Collier</a></p>
+   	    </div>
     </div>
-    </footer>
-    <script type="text/JavaScript" src="sistem.js" defer></script>
+    <script type="text/javascript" src="sistem.js"></script>
 </body>
 </html>
