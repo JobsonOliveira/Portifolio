@@ -2721,7 +2721,7 @@ div#mensagem p a{
 
 }
 
-@media (min-width: 100px) and (max-width: 499px){
+@media (min-width: 10px) and (max-width: 499px){
 
     header.topo{
         display: grid;
