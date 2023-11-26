@@ -238,6 +238,7 @@ dialog#imagemEinfoDoCurso{
     left: 50%;
     transform: translate(-50%, -5%);
     background-color: #b8ff45;
+    outline: none;
 }
 /*DIV ONDE AS INFORMAÇÕES APARECEM*/
 div#modalInfo{
@@ -255,6 +256,8 @@ div#modalInfo p{
 div#modalInfo p img{
     width: 30px;
     cursor: pointer;
+    background-color: white;
+    border-radius: 100%;
 }
 div#modalInfo img{
     width: 100%;
@@ -266,9 +269,10 @@ div#imagem img{
 /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
 div#modalInfo h6{
     word-break: break-word;
-    font-size: 1.7vh;
+    font-size: 2.1vh;
     padding: 3px;
     border-top: 2px solid #000;
+    background-color: #fff;
 }
 /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
 div#tecnologias{
@@ -626,6 +630,7 @@ div#mensagem p a{
         left: 50%;
         transform: translate(-50%, -5%);
         background-color: #b8ff45;
+        outline: none;
     }
     /*DIV ONDE AS INFORMAÇÕES APARECEM*/
     div#modalInfo{
@@ -643,6 +648,8 @@ div#mensagem p a{
     div#modalInfo p img{
         width: 30px;
         cursor: pointer;
+        background-color: white;
+        border-radius: 100%;
     }
     div#modalInfo img{
         width: 100%;
@@ -654,9 +661,10 @@ div#mensagem p a{
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
         word-break: break-word;
-        font-size: 1.7vh;
+        font-size: 2vh;
         padding: 3px;
         border-top: 2px solid #000;
+        background-color: #fff;
     }
     /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
     div#tecnologias{
@@ -1026,6 +1034,7 @@ div#mensagem p a{
         left: 50%;
         transform: translate(-50%, -5%);
         background-color: #b8ff45;
+        outline: none;
     }
     /*DIV ONDE AS INFORMAÇÕES APARECEM*/
     div#modalInfo{
@@ -1043,6 +1052,8 @@ div#mensagem p a{
     div#modalInfo p img{
         width: 30px;
         cursor: pointer;
+        background-color: white;
+        border-radius: 100%;
     }
     div#modalInfo img{
         width: 100%;
@@ -1054,9 +1065,10 @@ div#mensagem p a{
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
         word-break: break-word;
-        font-size: 1.7vh;
+        font-size: 2vh;
         padding: 3px;
         border-top: 2px solid #000;
+        background-color: #fff;
     }
     /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
     div#tecnologias{
@@ -1420,6 +1432,7 @@ div#mensagem p a{
         left: 50%;
         transform: translate(-50%, -5%);
         background-color: #b8ff45;
+        outline: none;
     }
     /*DIV ONDE AS INFORMAÇÕES APARECEM*/
     div#modalInfo{
@@ -1437,6 +1450,8 @@ div#mensagem p a{
     div#modalInfo p img{
         width: 30px;
         cursor: pointer;
+        background-color: white;
+        border-radius: 100%;
     }
     div#modalInfo img{
         width: 100%;
@@ -1448,9 +1463,10 @@ div#mensagem p a{
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
         word-break: break-word;
-        font-size: 1.7vh;
+        font-size: 2vh;
         padding: 3px;
         border-top: 2px solid #000;
+        background-color: #fff;
     }
     /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
     div#tecnologias{
@@ -1810,6 +1826,7 @@ div#mensagem p a{
         left: 50%;
         transform: translate(-50%, -5%);
         background-color: #b8ff45;
+        outline: none;
     }
     /*DIV ONDE AS INFORMAÇÕES APARECEM*/
     div#modalInfo{
@@ -1827,6 +1844,8 @@ div#mensagem p a{
     div#modalInfo p img{
         width: 30px;
         cursor: pointer;
+        background-color: white;
+        border-radius: 100%;
     }
     div#modalInfo img{
         width: 100%;
@@ -1838,9 +1857,10 @@ div#mensagem p a{
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
         word-break: break-word;
-        font-size: 1.7vh;
+        font-size: 2vh;
         padding: 3px;
         border-top: 2px solid #000;
+        background-color: #fff;
     }
     /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
     div#tecnologias{
@@ -2198,6 +2218,7 @@ div#mensagem p a{
         left: 50%;
         transform: translate(-50%, -5%);
         background-color: #b8ff45;
+        outline: none;
     }
     /*DIV ONDE AS INFORMAÇÕES APARECEM*/
     div#modalInfo{
@@ -2215,6 +2236,8 @@ div#mensagem p a{
     div#modalInfo p img{
         width: 30px;
         cursor: pointer;
+        background-color: white;
+        border-radius: 100%;
     }
     div#modalInfo img{
         width: 100%;
@@ -2226,9 +2249,10 @@ div#mensagem p a{
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
         word-break: break-word;
-        font-size: 1.7vh;
+        font-size: 2vh;
         padding: 3px;
         border-top: 2px solid #000;
+        background-color: #fff;
     }
     /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
     div#tecnologias{
@@ -2586,6 +2610,7 @@ div#mensagem p a{
         left: 50%;
         transform: translate(-50%, -5%);
         background-color: #b8ff45;
+        outline: none;
     }
     /*DIV ONDE AS INFORMAÇÕES APARECEM*/
     div#modalInfo{
@@ -2603,6 +2628,8 @@ div#mensagem p a{
     div#modalInfo p img{
         width: 30px;
         cursor: pointer;
+        background-color: white;
+        border-radius: 100%;
     }
     div#modalInfo img{
         width: 100%;
@@ -2614,9 +2641,10 @@ div#mensagem p a{
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
         word-break: break-word;
-        font-size: 1.7vh;
+        font-size: 2vh;
         padding: 3px;
         border-top: 2px solid #000;
+        background-color: #fff;
     }
     /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
     div#tecnologias{
@@ -2966,6 +2994,7 @@ div#mensagem p a{
         position: fixed;
         width: 90%;
         background-color: #b8ff45;
+        outline: none;
     }
     /*DIV ONDE AS INFORMAÇÕES APARECEM*/
     div#modalInfo{
@@ -2983,6 +3012,8 @@ div#mensagem p a{
     div#modalInfo p img{
         width: 30px;
         cursor: pointer;
+        background-color: white;
+        border-radius: 100%;
     }
     div#modalInfo img{
         width: 100%;
@@ -2994,9 +3025,10 @@ div#mensagem p a{
     /*TEXTO DE INFORMAÇÃO DENTRO DO DIALOG*/
     div#modalInfo h6{
         word-break: break-word;
-        font-size: 1.7vh;
+        font-size: 2vh;
         padding: 3px;
         border-top: 2px solid #000;
+        background-color: #fff;
     }
     /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
     div#tecnologias{
