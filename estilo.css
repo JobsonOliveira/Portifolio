@@ -7,6 +7,7 @@
 
  body a{
     color: blue;
+    outline: none;
  }
 
 @media (min-width: 1360px) and (max-width: 1700px){        
@@ -270,6 +271,14 @@ div#imagem img{
 div#modalInfo h6{
     word-break: break-word;
     font-size: 2.1vh;
+    padding: 3px;
+    border-top: 2px solid #000;
+    background-color: #fff;
+}
+/*TEXTO SOBRE OS PROJETOS*/
+div#modalInfo h1{
+    word-break: break-word;
+    font-size: 70%;
     padding: 3px;
     border-top: 2px solid #000;
     background-color: #fff;
@@ -662,6 +671,14 @@ div#mensagem p a{
     div#modalInfo h6{
         word-break: break-word;
         font-size: 2vh;
+        padding: 3px;
+        border-top: 2px solid #000;
+        background-color: #fff;
+    }
+    /*TEXTO SOBRE OS PROJETOS*/
+    div#modalInfo h1{
+        word-break: break-word;
+        font-size: 70%;
         padding: 3px;
         border-top: 2px solid #000;
         background-color: #fff;
@@ -1070,6 +1087,14 @@ div#mensagem p a{
         border-top: 2px solid #000;
         background-color: #fff;
     }
+    /*TEXTO SOBRE OS PROJETOS*/
+    div#modalInfo h1{
+        word-break: break-word;
+        font-size: 70%;
+        padding: 3px;
+        border-top: 2px solid #000;
+        background-color: #fff;
+    }
     /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
     div#tecnologias{
         background-color: #b8ff45;
@@ -1468,6 +1493,14 @@ div#mensagem p a{
         border-top: 2px solid #000;
         background-color: #fff;
     }
+    /*TEXTO SOBRE OS PROJETOS*/
+    div#modalInfo h1{
+        word-break: break-word;
+        font-size: 70%;
+        padding: 3px;
+        border-top: 2px solid #000;
+        background-color: #fff;
+    }
     /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
     div#tecnologias{
         background-color: #b8ff45;
@@ -1858,6 +1891,14 @@ div#mensagem p a{
     div#modalInfo h6{
         word-break: break-word;
         font-size: 2vh;
+        padding: 3px;
+        border-top: 2px solid #000;
+        background-color: #fff;
+    }
+    /*TEXTO SOBRE OS PROJETOS*/
+    div#modalInfo h1{
+        word-break: break-word;
+        font-size: 70%;
         padding: 3px;
         border-top: 2px solid #000;
         background-color: #fff;
@@ -2254,6 +2295,14 @@ div#mensagem p a{
         border-top: 2px solid #000;
         background-color: #fff;
     }
+    /*TEXTO SOBRE OS PROJETOS*/
+    div#modalInfo h1{
+        word-break: break-word;
+        font-size: 70%;
+        padding: 3px;
+        border-top: 2px solid #000;
+        background-color: #fff;
+    }
     /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
     div#tecnologias{
         background-color: #b8ff45;
@@ -2646,6 +2695,14 @@ div#mensagem p a{
         border-top: 2px solid #000;
         background-color: #fff;
     }
+    /*TEXTO SOBRE OS PROJETOS*/
+    div#modalInfo h1{
+        word-break: break-word;
+        font-size: 70%;
+        padding: 3px;
+        border-top: 2px solid #000;
+        background-color: #fff;
+    }
     /*DIV COM AS TECNOLOGIAS QUE EU UTILIZO*/
     div#tecnologias{
         background-color: #b8ff45;
@@ -3026,6 +3083,14 @@ div#mensagem p a{
     div#modalInfo h6{
         word-break: break-word;
         font-size: 2vh;
+        padding: 3px;
+        border-top: 2px solid #000;
+        background-color: #fff;
+    }
+    /*TEXTO SOBRE OS PROJETOS*/
+    div#modalInfo h1{
+        word-break: break-word;
+        font-size: 70%;
         padding: 3px;
         border-top: 2px solid #000;
         background-color: #fff;
